@@ -1,0 +1,170 @@
+#home{
+    font-family: "indivisible", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+#main-screen{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tuana-sketch{
+    width: 40%;
+}
+
+#intro{
+    max-width: 50%;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*#game-design{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    padding: 2rem 0;*/
+/*    gap:2rem;*/
+
+
+/*}*/
+
+/*!*.container::-webkit-scrollbar{*!*/
+/*!*    display: none;*!*/
+/*!*}*!*/
+
+/*.container{*/
+/*    display:flex ;*/
+/*    overflow: scroll;*/
+/*    scroll-behavior: smooth;*/
+/*    overflow-y:hidden ;*/
+/*    !*-ms-overflow-style: none;  !* IE and Edge *!*!*/
+/*    !*scrollbar-width: none;  !* Firefox *!*!*/
+/*}*/
+
+/*.container a{*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.wrapper button{*/
+/*    color: #729b79;*/
+/*    font-size: 3rem;*/
+/*    background: #ffffff;*/
+/*    border: none;*/
+/*    padding: .5rem;*/
+/*    border-radius: 3rem;*/
+/*    margin: 1rem;*/
+/*}*/
+
+/*.wrapper button:hover{*/
+
+/*    background: #729b79;*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*.wrapper{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    padding-bottom: 3rem;*/
+/*}*/
+
+/*#thumbnail{*/
+/*    width: 35rem;*/
+/*    height: 30rem;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    background: rgba(114, 155, 121, 0.2);*/
+/*    border-radius: 1rem;*/
+/*    padding: 1rem;*/
+/*    color: #333333;*/
+
+/*}*/
+
+/*#thumbnail:hover{*/
+/*    background: rgba(255,255,255,0.5);*/
+/*}*/
+
+/*.thumbnail-images{*/
+/*    width: 100%;*/
+/*    padding: .5rem;*/
+/*    object-fit: cover;*/
+/*}*/
+/*.thumbnail-wrapper{*/
+/*    height: 90%;*/
+/*    display: flex;*/
+/*    gap: 20px;*/
+
+/*}*/
+
+/*.description{*/
+/*    font-weight: normal;*/
+/*    font-size: 1.3rem;*/
+/*    padding: .5rem;*/
+/*}*/
+
+/*.popUp-images-wrapper{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*.popUp-images-container{*/
+/*    width:50%;*/
+/*    padding: .5rem;*/
+
+/*}*/
+
+/*.popup-images{*/
+/*    width: 100%;*/
+/*}*/
+
+
+
+/*.skills-container{*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*    gap: 1rem;*/
+/*    font-size: 1.2rem;*/
+/*    font-weight: normal;*/
+/*}*/
+
+/*.skills{*/
+/*    background: #729b79;*/
+/*    color: white;*/
+/*    padding: .5rem;*/
+/*    border-radius: .5rem;*/
+/*}*/
+
+/*.popup-description{*/
+/*    text-wrap: inherit;*/
+/*    display: flex;*/
+/*    font-family: "indivisible", sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    font-size: 1.3rem;*/
+/*    margin-top: 1rem;*/
+/*}*/
+
+
+/*.popup-title{*/
+/*    font-size: 2rem;*/
+/*}*/
+@media only screen and (max-width: 1200px) {
+    #main-screen {
+        min-height: auto;
+    }
+
+    #tuana-sketch{
+        width: 60%;
+        padding: 5rem;
+    }
+}
