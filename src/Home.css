@@ -20,10 +20,43 @@
 }
 
 #intro{
-    max-width: 50%;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3vw;
     padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#buttons > a{
+    text-decoration: none;
+    background: #729b79;
+    color: #E8EBEA;
+    padding: 1rem;
+    border-radius: .3rem;
+    font-size: 1.5vw;
+}
+
+#buttons > a:hover{
+    background: #fff;
+    color: #729b79;
+}
+
+#buttons-wrapper{
+    font-size: 3vw;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /*#game-design{*/
@@ -166,5 +199,9 @@
     #tuana-sketch{
         width: 60%;
         padding: 5rem;
+    }
+
+    #intro{
+        margin-top: 3rem;
     }
 }

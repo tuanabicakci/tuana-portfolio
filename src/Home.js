@@ -1,9 +1,10 @@
-import Tuana from "./Images/tuanasketch.png";
+import TuanaSketch from "./Images/tuanasketch.png";
 import "./Home.css";
 import {GameDesign, GraphicDesign, UnpublishedWork, WebDesign} from "./Components/Work";
 import {Link} from "react-router-dom";
 import {useRef, useState,useEffect} from "react";
 import PopUp from "./Components/PopUp";
+import Tuana from "./Images/IMG_0734.JPG";
 
 const ITEM_WIDTH=200;
 function Home() {
@@ -22,14 +23,28 @@ function Home() {
     return (
         <div id={"home"}>
             <div id={"main-screen"}>
-                <img id={"tuana-sketch"} src={Tuana} alt={"a skecth of Tuana"}/>
+                <img id={"tuana-sketch"} src={TuanaSketch} alt={"a skecth of Tuana"}/>
                 <div>game dev & multimedia artist based in Montreal</div>
             </div>
-            <div id={"intro"}>Hi,my name is <span style={{color: '#729b79'}}>Tuana</span>!
-                <br/>
-                I am a Computer Science and Computation Arts student who flew overseas from Turkey to Montreal to chase
-                her dreams of becoming a game developer.
+            <div id={"intro"}>
+                <img style={{width:"45%"}} src={Tuana} alt={"a skecth of Tuana"}/>
+                <div>
+                    Hi,my name is <span style={{color: '#729b79'}}>Tuana</span>!
+                    <br/>
+                    I am a Computer Science and Computation Arts student in <span  style={{color: '#729b79'}}>Concordia University</span>.
+                    Fueled by a fervor for pixels and lines of code, I've embarked on a thrilling journey to sculpt my dreams into immersive digital experiences.
+                    <br/>
+                </div>
             </div>
+            <div id={"buttons-wrapper"}>
+                <div  style={{color: '#729b79'}}>Explore my work!</div>
+                <div id="buttons">
+                    <Link to={"/art"}>ART</Link>
+                    <Link to={"/code"}>CODE</Link>
+                    <Link to={"/other"}>OTHER</Link>
+                </div>
+            </div>
+
             {/*<span style={{color: '#729b79',fontSize:"2rem"}}>GAME DESIGN</span>*/}
             {/*<div className="wrapper">*/}
             {/*    /!*<button onClick={()=>{handleScroll(-ITEM_WIDTH)}}>*!/*/}
