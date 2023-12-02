@@ -1,27 +1,24 @@
-import React, {useState, useEffect} from 'react';
-import "./Art.css"
+import React, {useState} from 'react';
+import YoutubeEmbed from "./Components/YoutubeEmbed";
+import {Carousel} from "react-responsive-carousel";
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import {styled, css} from '@mui/system';
 import {Modal as BaseModal} from '@mui/base/Modal';
-import {Carousel} from 'react-responsive-carousel';
-import {GraphicDesign, Music, ThreeD, VideoEdit} from "./Components/Work";
-import YoutubeEmbed from "./Components/YoutubeEmbed";
+import {GameDesign,WebDesign} from "./Components/Work";
 
-export default function Art() {
-
+function Code() {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
     const [work, setWork] = useState(0);
-
     return (
         <div className={"page"}>
-            <span style={{color: '#729b79', fontSize: "2rem"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
+            <span style={{color: '#729b79', fontSize: "2rem"}}>GAME DESIGN</span>
             <div className="wrapper">
                 <div className="container">
-                    {GraphicDesign.map((item, i) => (
+                    {GameDesign.map((item, i) => (
                         <TriggerButton onClick={() => {
                             setWork(item);
                             handleOpen();
@@ -58,11 +55,11 @@ export default function Art() {
                     {/*        <img className={"popup-images"} src={work.photo} alt=""/>*/}
                     {/*    </div>*/}
                     {/*)}*/}
-                    {work.link?(
+                    {work.link ? (
                         <div>
-                            <YoutubeEmbed embedId={work.link} />
+                            <YoutubeEmbed embedId={work.link}/>
                         </div>
-                    ):(
+                    ) : (
                         <div>
                             {work.a ? (
                                 <Carousel className={"carousel"}>
@@ -96,60 +93,27 @@ export default function Art() {
                     <pre className={"popup-description"}>{work.description}</pre>
                 </ModalContent>
             </Modal>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>3D MODELLING/TEXTURING</span>
-            <div className="wrapper">
-                <div className="container">
-                    {ThreeD.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
+            <div className={"page"}>
+                <span style={{color: '#729b79', fontSize: "2rem"}}>WEB DESIGN</span>
+                <div className="wrapper">
+                    <div className="container">
+                        {WebDesign.map((item, i) => (
+                            <TriggerButton onClick={() => {
+                                setWork(item);
+                                handleOpen();
+                            }} type="button" key={i}>
+                                <div className="thumbnail-wrapper">
+                                    <img className={"thumbnail-images"} src={item.photo} alt=""/>
+                                    <h3>{item.name}</h3>
+                                </div>
+                            </TriggerButton>
+                        ))}
+                    </div>
                 </div>
             </div>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>VIDEO EDITING</span>
-            <div className="wrapper">
-                <div className="container">
-                    {VideoEdit.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
-                </div>
-            </div>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>SOUND DESIGN/MUSIC</span>
-            <div className="wrapper">
-                <div className="container">
-                    {Music.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
-                </div>
-            </div>
-
         </div>
     );
-
 }
-
 
 const Backdrop = React.forwardRef((props, ref) => {
     const {open, className, ...other} = props;
@@ -276,3 +240,4 @@ const TriggerButton = styled('button')(
       }
     `,
 );
+export default Code;
