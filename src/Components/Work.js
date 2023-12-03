@@ -55,7 +55,7 @@ export const GameDesign = [
         name: "Freddy's Cafe(2023)",
         photo: freddysCafe,
         description: "Make a cup of Turkish coffee here at cozy Freddys Cafe!",
-        link: "freddys-cafe"
+        link: "/freddys-cafe"
     },
     {name: "Felt Alone, So I went For a Walk(2022)",
         photo: feltAlone,

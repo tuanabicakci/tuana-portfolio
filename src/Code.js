@@ -6,6 +6,7 @@ import clsx from 'clsx';
 import {styled, css} from '@mui/system';
 import {Modal as BaseModal} from '@mui/base/Modal';
 import {GameDesign,WebDesign} from "./Components/Work";
+import {Link} from "react-router-dom";
 
 function Code() {
     const [open, setOpen] = React.useState(false);
@@ -23,10 +24,11 @@ function Code() {
                             setWork(item);
                             handleOpen();
                         }} type="button" key={i}>
+                            <Link to={item.link}>
                             <div className="thumbnail-wrapper">
                                 <img className={"thumbnail-images"} src={item.photo} alt=""/>
                                 <h3>{item.name}</h3>
-                            </div>
+                            </div></Link>
                         </TriggerButton>
                     ))}
                 </div>
