@@ -244,9 +244,7 @@ export const Music=[
         link:"M60mQxlDhd4",
         photo:RTR,
         skills:["Ableton"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        description:" ",
 
     },
     {
@@ -254,9 +252,7 @@ export const Music=[
         link:"-3reMUs_g5g",
         photo:TM,
         skills:["Ableton"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        description:" ",
 
     },
     {
@@ -264,9 +260,7 @@ export const Music=[
         link:"KbL71e1tG5c",
         photo:PLU,
         skills:["Ableton"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        description:"",
 
     },
 ]
