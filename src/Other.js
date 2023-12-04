@@ -19,48 +19,6 @@ function Other(props) {
     return (
 
             <div className={"page"}>
-                <Modal
-                    open={open}
-                    onClose={handleClose}
-                    slots={{backdrop: StyledBackdrop}}
-                >
-                    <ModalContent>
-                        {work.link ? (
-                            <div>
-                                <YoutubeEmbed embedId={work.link}/>
-                            </div>
-                        ) : (
-                            <div>
-                                {work.a ? (
-                                    <Carousel className={"carousel"}>
-                                        {work.a && work.a.map((item, i) => (
-                                            <div className={"popUp-images-container"} key={i}>
-                                                <img className={"popup-images"} src={item} alt=""/>
-                                            </div>
-                                        ))}
-                                    </Carousel>
-                                ) : (
-                                    <div className={"popUp-images-container"}>
-                                        <img className={"popup-images"} src={work.photo} alt=""/>
-                                    </div>
-                                )}
-                            </div>
-                        )
-                        }
-                        <h3 className={"popup-title"}>{work.name}</h3>
-                        <div className={"skills-container"}>
-                            Skills:
-                            {work.skills && work.skills.map((item, i) => (
-                                <h4 className={"skills"} key={i}>
-                                    {item}
-                                </h4>
-                            ))}
-                        </div>
-                        <pre className={"popup-description"}>{work.description}
-                            <br/><a href={work.web && work.web}>Check it out!</a>
-                    </pre>
-                    </ModalContent>
-                </Modal>
                 <div className={"page"}>
                     <span style={{color: '#729b79', fontSize: "2rem"}}>UNPUBLISHED WORK</span>
                     <div className="wrapper">
@@ -131,58 +89,6 @@ const grey = {
     800: '#303740',
     900: '#1C2025',
 };
-
-const Modal = styled(BaseModal)`
-  position: fixed;
-  z-index: 1300;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 50%;
-  max-height: 50%;
-  margin: auto;
-`;
-
-const StyledBackdrop = styled(Backdrop)`
-  z-index: -1;
-  position: fixed;
-  inset: 0;
-  background-color: rgb(0 0 0 / 0.5);
-  -webkit-tap-highlight-color: transparent;
-`;
-
-const ModalContent = styled('div')(
-    ({theme}) => css`
-      font-family: "indivisible", sans-serif;
-      font-weight: bold;
-      font-style: normal;
-      text-align: start;
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      overflow: hidden;
-      background-color: ${theme.palette.mode === 'dark' ? grey[900] : '#fff'};
-      border-radius: 8px;
-      border: 1px solid ${theme.palette.mode === 'dark' ? grey[700] : grey[200]};
-      box-shadow: 0 4px 12px ${theme.palette.mode === 'dark' ? 'rgb(0 0 0 / 0.5)' : 'rgb(0 0 0 / 0.2)'};
-      padding: 24px;
-      color: ${theme.palette.mode === 'dark' ? grey[50] : grey[900]};
-
-      & .modal-title {
-        line-height: 1.5rem;
-        margin: 0 0 8px;
-      }
-
-      & .modal-description {
-        line-height: 1.5rem;
-        font-weight: 400;
-        color: ${theme.palette.mode === 'dark' ? grey[400] : grey[800]};
-        margin: 0 0 4px;
-      }
-    `,
-);
 
 const TriggerButton = styled('button')(
     ({theme}) => css`
