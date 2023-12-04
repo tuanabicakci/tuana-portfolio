@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import  "./Navbar.css";
 import {FaBars, FaTimes} from "react-icons/fa";
 import {useRef} from "react";
-
+import resume from "../PDFs/TuanaBicakciResume.pdf"
 function NavBar(){
     const navRef = useRef();
     const showNavbar=()=>{
@@ -15,7 +15,7 @@ function NavBar(){
                 <Link to={"/code"}>CODE</Link>
                 <Link to={"/art"}>ART</Link>
                 <Link to={"/other"}>OTHER</Link>
-                <Link to={"/"}>ABOUT ME</Link>
+                <a href={resume}>ABOUT ME</a>
                 <button className={"nav-btn nav-close-btn"} onClick={showNavbar}>
                     <FaTimes/>
                 </button>

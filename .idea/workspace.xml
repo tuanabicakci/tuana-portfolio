@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Images/freddy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PDFs/TuanaBicakciResume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Other.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Other.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +76,8 @@
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src\Images" />
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src\PDFs" />
+      <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src\Images" />
       <recent name="C:\Users\bicak\WebstormProjects\portfolio\src\Images" />
       <recent name="C:\Users\bicak\WebstormProjects\portfolio\portfolio-website\src\Images" />
       <recent name="C:\Users\bicak\WebstormProjects\portfolio" />
@@ -119,7 +117,7 @@
       <workItem from="1701541112224" duration="101000" />
       <workItem from="1701553121463" duration="15877000" />
       <workItem from="1701627177598" duration="19047000" />
-      <workItem from="1701651549626" duration="14231000" />
+      <workItem from="1701651549626" duration="15005000" />
     </task>
     <servers />
   </component>
