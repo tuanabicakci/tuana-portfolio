@@ -39,10 +39,11 @@ import RTR from "../Images/RTR.JPG";
 import OFF from "../Images/OFFICE.png"
 export const GameDesign = [
     {
-        name: "Miracle Daycare(In Development)",
+        name: "Miracle Daycare",
         photo: MD,
         description:"Discover a trail of sinister secrets inside boxes.",
-        link: "/miracle-daycare"
+        link: "/miracle-daycare",
+        tag:"indev"
     },
 
     {
@@ -50,12 +51,16 @@ export const GameDesign = [
         photo: Prisma,
         description: "Dive into the chromatic realm of Prisma, solving puzzles, unveiling hidden paths, and activating " +
             "prism statues for a vivid escape!",
-        link: "/prisma"},
+        link: "/prisma" ,
+        tag:"recent"
+    },
+
     {
         name: "Freddy's Cafe(2023)",
         photo: freddysCafe,
         description: "Make a cup of Turkish coffee here at cozy Freddys Cafe!",
-        link: "/freddys-cafe"
+        link: "/freddys-cafe",
+        tag:"recent"
     },
     {name: "Felt Alone, So I went For a Walk(2022)",
         photo: feltAlone,
