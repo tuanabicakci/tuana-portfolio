@@ -5,32 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FreddysCafe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FreddysCafe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/KT1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/KT2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/KT3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/KT4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/camera-setup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/change-camera-views.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/conceptartArtboard 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/grinder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/level blueprint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/measure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/populating-recipe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/screenshot1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/screenshot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/turkish coffee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/turkish-coffee-initialization.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/view.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prisma.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prisma.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/process.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/red-bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Art.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Art.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Art.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Art.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FreddysCafe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FreddysCafe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prisma.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prisma.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,11 +129,36 @@
       <workItem from="1701474907759" duration="4174000" />
       <workItem from="1701525284259" duration="14779000" />
       <workItem from="1701541112224" duration="101000" />
-      <workItem from="1701553121463" duration="11708000" />
+      <workItem from="1701553121463" duration="15877000" />
+      <workItem from="1701627177598" duration="19047000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Components/Navbar.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Art.js</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Art.js</url>
+          <line>86</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

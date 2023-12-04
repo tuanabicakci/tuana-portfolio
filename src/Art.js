@@ -18,10 +18,60 @@ export default function Art() {
 
     return (
         <div className={"page"}>
-            <span style={{color: '#729b79', fontSize: "2rem"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
+
             <div className="wrapper">
+                <span className={"title"}
+                      style={{color: '#729b79', fontSize: "2rem"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
                 <div className="container">
                     {GraphicDesign.map((item, i) => (
+                        <TriggerButton onClick={() => {
+                            setWork(item);
+                            handleOpen();
+                        }} type="button" key={i}>
+                            <div className="thumbnail-wrapper">
+                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
+                                <h3>{item.name}</h3>
+                            </div>
+                        </TriggerButton>
+                    ))}
+                </div>
+            </div>
+            <span style={{color: '#729b79', fontSize: "2rem", marginTop: "5rem"}}>3D MODELLING/TEXTURING</span>
+            <div className="wrapper">
+                <div className="container">
+                    {ThreeD.map((item, i) => (
+                        <TriggerButton onClick={() => {
+                            setWork(item);
+                            handleOpen();
+                        }} type="button" key={i}>
+                            <div className="thumbnail-wrapper">
+                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
+                                <h3>{item.name}</h3>
+                            </div>
+                        </TriggerButton>
+                    ))}
+                </div>
+            </div>
+            <span style={{color: '#729b79', fontSize: "2rem", marginTop: "5rem"}}>VIDEO EDITING</span>
+            <div className="wrapper">
+                <div className="container">
+                    {VideoEdit.map((item, i) => (
+                        <TriggerButton onClick={() => {
+                            setWork(item);
+                            handleOpen();
+                        }} type="button" key={i}>
+                            <div className="thumbnail-wrapper">
+                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
+                                <h3>{item.name}</h3>
+                            </div>
+                        </TriggerButton>
+                    ))}
+                </div>
+            </div>
+            <span style={{color: '#729b79', fontSize: "2rem", marginTop: "5rem"}}>SOUND DESIGN/MUSIC</span>
+            <div className="wrapper">
+                <div className="container">
+                    {Music.map((item, i) => (
                         <TriggerButton onClick={() => {
                             setWork(item);
                             handleOpen();
@@ -40,110 +90,50 @@ export default function Art() {
                 slots={{backdrop: StyledBackdrop}}
             >
                 <ModalContent>
-                    {/*{work.a && work.a.map((item,i)=>(*/}
-                    {/*    <div className={"popUp-images-container"} key={i}>*/}
-                    {/*        <img className={"popup-images"} src={item} alt=""/>*/}
-                    {/*    </div>*/}
-                    {/*))}*/}
-                    {/*{work.a ? (*/}
-                    {/*    <Carousel className={"carousel"}>*/}
-                    {/*        {work.a && work.a.map((item, i) => (*/}
-                    {/*            <div className={"popUp-images-container"} key={i}>*/}
-                    {/*                <img className={"popup-images"} src={item} alt=""/>*/}
-                    {/*            </div>*/}
-                    {/*        ))}*/}
-                    {/*    </Carousel>*/}
-                    {/*) : (*/}
-                    {/*    <div className={"popUp-images-container"}>*/}
-                    {/*        <img className={"popup-images"} src={work.photo} alt=""/>*/}
-                    {/*    </div>*/}
-                    {/*)}*/}
-                    {work.link?(
-                        <div>
-                            <YoutubeEmbed embedId={work.link} />
-                        </div>
-                    ):(
-                        <div>
-                            {work.a ? (
-                                <Carousel className={"carousel"}>
-                                    {work.a && work.a.map((item, i) => (
-                                        <div className={"popUp-images-container"} key={i}>
-                                            <img className={"popup-images"} src={item} alt=""/>
-                                        </div>
-                                    ))}
-                                </Carousel>
-                            ) : (
-                                <div className={"popUp-images-container"}>
-                                    <img className={"popup-images"} src={work.photo} alt=""/>
-                                </div>
-                            )}
-                        </div>
-                    )
-                    }
+                    <div>
+                        {work.link ? (
+                            <div className={"popUp-images-container"}>
+                                <YoutubeEmbed embedId={work.link}/>
+                            </div>
+                        ) : (
+                            <div className={"carousel-container"}>
+                                {work.a ? (
+                                    <Carousel className={"car"}>
+                                        {work.a && work.a.map((item, i) => (
+                                            <div className={"popUp-images-container"} key={i}>
+                                                <img className={"popup-images"} src={item} alt=""/>
+                                            </div>
+                                        ))}
+                                    </Carousel>
+                                ) : (
+                                    <div className={"popUp-images-container"}>
+                                        <img className={"popup-images"} src={work.photo} alt=""/>
+                                    </div>
+                                )}
+                            </div>
+                        )
+                        }
+                    </div>
+
 
                     {/*<div className={"popUp-images-container"}>*/}
                     {/*    <img className={"popup-images"} src={work.photo} alt=""/>*/}
                     {/*</div>*/}
-                    <h3 className={"popup-title"}>{work.name}</h3>
-                    <div className={"skills-container"}>
-                        Skills:
-                        {work.skills && work.skills.map((item, i) => (
-                            <h4 className={"skills"} key={i}>
-                                {item}
-                            </h4>
-                        ))}
+                    <div>
+                        <h3 className={"popup-title"}>{work.name}</h3>
+                        <div className={"skills-container"}>
+                            Skills:
+                            {work.skills && work.skills.map((item, i) => (
+                                <h4 className={"skills"} key={i}>
+                                    {item}
+                                </h4>
+                            ))}
+                        </div>
+                        <pre className={"popup-description"}>{work.description}</pre>
                     </div>
-                    <pre className={"popup-description"}>{work.description}</pre>
+
                 </ModalContent>
             </Modal>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>3D MODELLING/TEXTURING</span>
-            <div className="wrapper">
-                <div className="container">
-                    {ThreeD.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
-                </div>
-            </div>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>VIDEO EDITING</span>
-            <div className="wrapper">
-                <div className="container">
-                    {VideoEdit.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
-                </div>
-            </div>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>SOUND DESIGN/MUSIC</span>
-            <div className="wrapper">
-                <div className="container">
-                    {Music.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
-                </div>
-            </div>
 
         </div>
     );
@@ -196,9 +186,7 @@ const Modal = styled(BaseModal)`
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 50%;
-  max-height: 50%;
-  margin: auto;
+  
 `;
 
 const StyledBackdrop = styled(Backdrop)`
@@ -211,9 +199,8 @@ const StyledBackdrop = styled(Backdrop)`
 
 const ModalContent = styled('div')(
     ({theme}) => css`
-      font-family: "indivisible", sans-serif;
-      font-weight: bold;
-      font-style: normal;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 500;
       text-align: start;
       position: relative;
       display: flex;
@@ -226,43 +213,45 @@ const ModalContent = styled('div')(
       box-shadow: 0 4px 12px ${theme.palette.mode === 'dark' ? 'rgb(0 0 0 / 0.5)' : 'rgb(0 0 0 / 0.2)'};
       padding: 24px;
       color: ${theme.palette.mode === 'dark' ? grey[50] : grey[900]};
-
+      max-width: 90%;
+      max-height: 90%;
+      
       & .modal-title {
+        margin: 0;
         line-height: 1.5rem;
-        margin: 0 0 8px;
+        margin-bottom: 8px;
       }
 
       & .modal-description {
+        margin: 0;
         line-height: 1.5rem;
         font-weight: 400;
         color: ${theme.palette.mode === 'dark' ? grey[400] : grey[800]};
-        margin: 0 0 4px;
+        margin-bottom: 4px;
       }
     `,
 );
 
 const TriggerButton = styled('button')(
     ({theme}) => css`
-      font-family: "indivisible", sans-serif;
-      font-weight: bold;
-      font-style: normal;
-      padding: .7rem;
-      width: 25rem;
-      height: 23rem;
-      background: rgba(255, 255, 255, 0.7);
-      border-radius: .3rem;
-      color: #333333;
-      margin: 1rem;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 600;
+      font-size: 0.5rem;
+      line-height: 1.5;
+      padding: 8px 8px;
+      border-radius: 8px;
       transition: all 150ms ease;
       cursor: pointer;
       background: ${theme.palette.mode === 'dark' ? grey[900] : '#fff'};
       border: 1px solid ${theme.palette.mode === 'dark' ? grey[700] : grey[200]};
-        // color: ${theme.palette.mode === 'dark' ? grey[200] : grey[900]};
+      color: ${theme.palette.mode === 'dark' ? grey[200] : grey[900]};
       box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-
+      width: 20rem;
+      height: 20rem;
+      margin: .2rem;
 
       &:hover {
-        background: #729b79;;
+        background: ${theme.palette.mode === 'dark' ? grey[800] : grey[50]};
         border-color: ${theme.palette.mode === 'dark' ? grey[600] : grey[300]};
       }
 

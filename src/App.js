@@ -5,7 +5,6 @@ import Home from "./Home.js"
 import Art from "./Art";
 import Code from "./Code";
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import Test from "./Images/Test";
 import ScrollToTop from "./ScrollToTop";
 import Prisma from "./Prisma";
 import FreddysCafe from "./FreddysCafe";
