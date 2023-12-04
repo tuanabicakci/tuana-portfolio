@@ -43,7 +43,7 @@ import PC1 from "../Images/PC1.png";
 import PC2 from "../Images/PC2.png";
 import PORT from "../Images/PORT.png"
 import engl255 from "../PDFs/engl255.pdf"
-import fnaf from "../Images/fnaf.jpg"
+import fnaf from "../Images/freddy.jpg"
 import cart210 from "../Images/cart210.png"
 import pdf210 from "../PDFs/cart210.pdf"
 import ffar250 from "../PDFs/Restoring Astera.pdf"

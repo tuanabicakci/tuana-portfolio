@@ -24,9 +24,15 @@
     grid-template-columns: repeat(5,auto);
     grid-gap: 1rem;
 }
+.navbar a:hover{
+    background: #729b79;
+    color: white;
+    border-radius:1rem ;
+}
 
 .navbar a{
     color: #729b79;
+    padding: 8px;
 }
 
 .nav-btn{
@@ -65,7 +71,9 @@
         color: #729b79;
     }
     .navbar a{
-        color: #729b79;
+        background: #729b79;
+        color: white;
+        border-radius:1rem ;
     }
     header .responsive-nav{
         transform: none;
