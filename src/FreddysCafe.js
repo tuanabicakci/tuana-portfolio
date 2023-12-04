@@ -52,8 +52,6 @@ function FreddysCafe(props) {
                     </ul>
                 </div>
             </div>
-            <iframe frameBorder="0" src="https://itch.io/embed/2364546" width="552" height="167"><a href="https://tuanabicakci.itch.io/freddys-cafe"></a></iframe>
-            <br/><br/>
             <YoutubeEmbed embedId={"B4lJhGOMk4E"}/>
             <br/>
             <b>Development Process</b>
@@ -63,7 +61,7 @@ function FreddysCafe(props) {
             inspiration from the setup of the game Order Up (2008).
             <br/>
             <br/>
-            <Carousel>
+            <Carousel className={"carousel"}>
                 <div className={"popUp-images-container"} >
                     <img className={"popup-images"} src={conceptArt}/>
                 </div>
@@ -91,8 +89,12 @@ function FreddysCafe(props) {
             kitchen setting bathed in warm light.
             <br/>
             <br/>
-            We focused on the fluidity of gameplay and smooth camera transitions to provide a calm experience for players without frustration.
-
+            As we navigated the delicate task of enhancing the user experience, we focused on the fluidity of gameplay
+            and
+            smooth camera transitions. It's our modest aspiration to craft not just a game but an immersive and tranquil
+            escape.
+            We prioritized smooth camera transitions and gameplay flow to provide a calm experience for players without
+            frustration.
             <div className={"two-pictures"}>
                 <img src={camera1} alt=""/>
                 <img src={camera2} alt=""/>
@@ -178,7 +180,7 @@ function FreddysCafe(props) {
                 <br/><br/>
                 <span style={{color: "#E394B6  "}}><b>Thank you for reading!-Kira & Tuana</b></span>
                 <br/><br/>
-                <Carousel>
+                <Carousel className={"carousel"}>
                     <div className={"popUp-images-container"} >
                         <img className={"popup-images"} src={KT1}/>
                     </div>

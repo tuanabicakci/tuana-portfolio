@@ -11,20 +11,21 @@
     text-align: center;
     height: 100%;
 }
-/*.wrapper{*/
-/*    display: inline-block;*/
-/*}*/
-/*.container{*/
-/*   gap: 1rem;*/
-/*}*/
-/*.title{*/
-/*    color: #729b79;*/
-/*}*/
+
+.wrapper{
+    display: flex;
+}
+
+.container{
+    display: inline-block;
+}
 
 .thumbnail-wrapper{
     height: 100%;
     width: 100%;
 }
+
+
 .thumbnail-images{
     width: 100%;
     height: 95%;
@@ -41,47 +42,37 @@
     height: 100%;
     object-fit: contain;
 }
-/*.car{*/
-/*    width: 100%;*/
 
-/*}*/
-/*.car-images-container{*/
-/*    width: 100%;*/
-/*    height: 70vh;*/
-/*}*/
-/*.car-images{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*     object-fit: contain;*/
-/*}*/
+.description-container{
+    padding: 2rem;
+}
+.carousel{
 
+}
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
 
+.thumbnail{
+    gap: 40px;
+}
 
-/*.skills-container{*/
-/*    position: relative;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    align-items: center;*/
-/*    gap: .5rem;*/
-/*}*/
+.skills{
+    background: #729b79;
+    color: #fff;
+    padding: .2rem;
+    border-radius: .2rem;
+}
 
-/*.thumbnail{*/
-/*    gap: 40px;*/
-/*}*/
-
-/*.skills{*/
-/*    background: #729b79;*/
-/*    color: #fff;*/
-/*    padding: .2rem;*/
-/*    border-radius: .2rem;*/
-/*}*/
-
-/*.popup-description{*/
-/*    flex-wrap: wrap;*/
-/*    display: flex;*/
-/*    font-family: "indivisible", sans-serif;*/
-/*    font-weight: normal;*/
-/*    font-style: normal;*/
-/*    text-align: start;*/
-/*    font-size: 1rem;*/
-/*}*/
+.popup-description{
+    flex-wrap: wrap;
+    display: flex;
+    font-family: "indivisible", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    font-size: 1rem;
+}
