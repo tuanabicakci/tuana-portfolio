@@ -198,7 +198,7 @@ export const ThreeD=[
         photo:MR6,
         a:[MR1,MR2,MR3,MR4,MR5,MR6],
         skills:["Blender", "Substance Painter"],
-        description:"Modeled by Stephen Rabattu, Texturized/Painted by Tuana Bicakci"
+        description:"Modeled by Stephane Rabattu, Texturized/Painted by Tuana Bicakci"
 
     },
     {
