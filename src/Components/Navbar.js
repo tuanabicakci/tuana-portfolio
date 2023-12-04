@@ -15,7 +15,7 @@ function NavBar(){
                 <Link to={"/code"}>CODE</Link>
                 <Link to={"/art"}>ART</Link>
                 <Link to={"/other"}>OTHER</Link>
-                <Link to={"/about-me"}>ABOUT ME</Link>
+                <Link to={"/"}>ABOUT ME</Link>
                 <button className={"nav-btn nav-close-btn"} onClick={showNavbar}>
                     <FaTimes/>
                 </button>
