@@ -93,7 +93,10 @@ export default function Art() {
                             </h4>
                         ))}
                     </div>
-                    <pre className={"popup-description"}>{work.description}</pre>
+                    <div className="description-container">
+                        <pre className={"popup-description"}>{work.description}</pre>
+                    </div>
+
                 </ModalContent>
             </Modal>
             <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>3D MODELLING/TEXTURING</span>

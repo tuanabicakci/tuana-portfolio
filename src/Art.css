@@ -44,7 +44,8 @@
 }
 
 .description-container{
-    padding: 2rem;
+    display: inline-block;
+
 }
 .carousel{
 
@@ -68,11 +69,10 @@
 }
 
 .popup-description{
-    flex-wrap: wrap;
-    display: flex;
     font-family: "indivisible", sans-serif;
     font-weight: normal;
     font-style: normal;
     text-align: start;
     font-size: 1rem;
+    white-space: normal;
 }

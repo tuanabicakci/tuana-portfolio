@@ -141,7 +141,7 @@
     width: 100%;
     display: block;
     grid-template-rows:repeat(2,60%) ;
-    background: rgba(114, 155, 121, 0.2);
+    background: #ffff;
     border-radius: 1rem;
     padding: .8rem;
     color: #333333;

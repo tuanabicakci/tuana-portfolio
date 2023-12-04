@@ -172,6 +172,10 @@ function FreddysCafe(props) {
                 loop.
                 <br/>
                 <br/>
+                <b>Play!</b>
+                <br/><br/>
+                <iframe frameBorder="0" src="https://itch.io/embed/2364546" width="552" height="167"><a href="https://tuanabicakci.itch.io/freddys-cafe">Freddy's Cafe by tuanabicakci</a></iframe>
+               <br/><br/>
                 <b>Impact and Takeaways</b>
                 <br/><br/>
                 This project pushed us into uncharted territory with its heavy reliance on UI, a departure from our
@@ -179,6 +183,7 @@ function FreddysCafe(props) {
                 experiment and expand our horizons in UI design.
                 <br/><br/>
                 <span style={{color: "#E394B6  "}}><b>Thank you for reading!-Kira & Tuana</b></span>
+                <br/><br/>
                 <br/><br/>
                 <Carousel className={"carousel"}>
                     <div className={"popUp-images-container"} >

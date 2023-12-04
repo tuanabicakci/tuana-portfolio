@@ -24,7 +24,7 @@ function Code() {
                             setWork(item);
                             handleOpen();
                         }} type="button" key={i}>
-                            <Link to={item.link}>
+                            <Link style={{textDecoration:"none",color:"#000"}} to={item.link}>
                             <div className="thumbnail-wrapper">
                                 <img className={"thumbnail-images"} src={item.photo} alt=""/>
                                 <h3>{item.name}</h3>
@@ -39,24 +39,6 @@ function Code() {
                 slots={{backdrop: StyledBackdrop}}
             >
                 <ModalContent>
-                    {/*{work.a && work.a.map((item,i)=>(*/}
-                    {/*    <div className={"popUp-images-container"} key={i}>*/}
-                    {/*        <img className={"popup-images"} src={item} alt=""/>*/}
-                    {/*    </div>*/}
-                    {/*))}*/}
-                    {/*{work.a ? (*/}
-                    {/*    <Carousel className={"carousel"}>*/}
-                    {/*        {work.a && work.a.map((item, i) => (*/}
-                    {/*            <div className={"popUp-images-container"} key={i}>*/}
-                    {/*                <img className={"popup-images"} src={item} alt=""/>*/}
-                    {/*            </div>*/}
-                    {/*        ))}*/}
-                    {/*    </Carousel>*/}
-                    {/*) : (*/}
-                    {/*    <div className={"popUp-images-container"}>*/}
-                    {/*        <img className={"popup-images"} src={work.photo} alt=""/>*/}
-                    {/*    </div>*/}
-                    {/*)}*/}
                     {work.link ? (
                         <div>
                             <YoutubeEmbed embedId={work.link}/>
@@ -79,10 +61,6 @@ function Code() {
                         </div>
                     )
                     }
-
-                    {/*<div className={"popUp-images-container"}>*/}
-                    {/*    <img className={"popup-images"} src={work.photo} alt=""/>*/}
-                    {/*</div>*/}
                     <h3 className={"popup-title"}>{work.name}</h3>
                     <div className={"skills-container"}>
                         Skills:
@@ -92,7 +70,9 @@ function Code() {
                             </h4>
                         ))}
                     </div>
-                    <pre className={"popup-description"}>{work.description}</pre>
+                    <pre className={"popup-description"}>{work.description}
+                        <br/><a href={work.web && work.web}>Check it out!</a>
+                    </pre>
                 </ModalContent>
             </Modal>
             <div className={"page"}>

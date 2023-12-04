@@ -37,6 +37,21 @@ import TM from "../Images/TM.JPG";
 import SNOW from "../Images/SNOW.JPG";
 import RTR from "../Images/RTR.JPG";
 import OFF from "../Images/OFFICE.png"
+import STK from "../Images/Brown Doodle Company profile Presentation.png";
+import RDA from "../Images/RD.A.png"
+import PC1 from "../Images/PC1.png";
+import PC2 from "../Images/PC2.png";
+import PORT from "../Images/PORT.png"
+import engl255 from "../PDFs/engl255.pdf"
+import fnaf from "../Images/fnaf.jpg"
+import cart210 from "../Images/cart210.png"
+import pdf210 from "../PDFs/cart210.pdf"
+import ffar250 from "../PDFs/Restoring Astera.pdf"
+import RA from "../Images/RA.png"
+import cart215 from "../PDFs/cart215.pdf"
+import LL from "../Images/LL.png"
+import Cali from "../PDFs/CART215-Calinferno (1).pdf"
+import CAL from "../Images/cali.png"
 export const GameDesign = [
     {
         name: "Miracle Daycare",
@@ -71,10 +86,10 @@ export const GameDesign = [
 export const WebDesign=[
     {
         name:"Errors In Thinking(2022)",
-        thumbnailPhoto:errors,
+        photo:errors,
         summary:"This website aims to help you identify, challenge, and minimize your errors in thinking while " +
             "listening to music+rain and petting a virtual cat to relax!",
-        photos:[EIT1,EIT2,EIT3,errors],
+        a:[EIT1,EIT2,EIT3,errors],
         skills:["JavaScript","HTML","CSS","ProCreate"],
         description: "Cognitive distortions, alias errors in thinking, are thoughts we base on our feelings about ourselves and our surroundings. They are irrational beliefs that we reinforce on ourselves as facts.\n\n"+
             "It is important to recognize and know the types of cognitive distortions because they can be really damaging to mental health and sabotage daily life." +
@@ -82,14 +97,24 @@ export const WebDesign=[
             "\n" +
             "Note: Optimized for desktops only.\n" +
             "\n" +
-            "Final Project for CART 211 : Creative Computing and Network Culture"
+            "\nFinal Project for CART 211 : Creative Computing and Network Culture",
+        web:"https://hybrid.concordia.ca/t_bicakc/finalproject/"
 
     },
     {
-        name:"How to Build A PC",
+        name:"How to Build A PC(2022)",
         photo: pc,
+        a:[pc,PC1,PC2],
+        skills:["React.js","JavaScript","HTML","CSS"],
         description: "This website aims to inform users how to properly assemble a desktop PC. It features instructions " +
-            "on how to install each part properly as well as how to do it safely. ",
+            "on how to install each part properly as well as how to do it safely. Website Content written by Benjamin Nera, Programmed & Designed by Tuana Bicakci",
+        web:" https://instructions-8b8a8.web.app/"
+    },
+    {
+        name:"My Portfolio(2023)",
+        photo: PORT,
+        skills:["React.js","JavaScript","HTML","CSS"],
+        description: "My portfolio is coded and designed by me!",
         link:""
     }
 
@@ -131,7 +156,7 @@ export const GraphicDesign=[
     {
         name:"Concordia Game Jam Poster(2023)",
         photo:CGD1,
-        a:[CGD1,CGD,CGD2,CGD3],
+        a:[CGD1,CGD,CGD2,CGD3,RDA,STK],
         skills:["Procreate"],
         description:"As the lead artist, I proudly designed the mascot, R.DIA, for the Concordia Game Dev Club. Unveiling its debut during\n" +
             "the CGD Game Jam, I depicted R.DIA poised on the moon, gazing at constellations formed like beloved classic " +
@@ -173,9 +198,7 @@ export const ThreeD=[
         photo:MR6,
         a:[MR1,MR2,MR3,MR4,MR5,MR6],
         skills:["Blender", "Substance Painter"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        description:"Modeled by Stephen Rabattu, Texturized/Painted by Tuana Bicakci"
 
     },
     {
@@ -183,9 +206,7 @@ export const ThreeD=[
         photo:ELF4,
         a:[ELF3,ELF1,ELF2,ELF4],
         skills:["Blender", "Substance Painter"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        description:"Sculpted by Tuana Bicakci",
 
     },
 ]
@@ -196,9 +217,7 @@ export const VideoEdit=[
         link:"UNizDoyx93Y",
         photo:WK,
         skills:["PremierePro", "After Effects"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        description:"Midterm submission for CART 212: Wunderkammer, cabinet of curiosities. My theme was my home, Turkey.",
 
     }
 ]
@@ -209,9 +228,7 @@ export const Music=[
         link:"Z2UUICTML0o",
         photo:OFF,
         skills:["Premiere Pro"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        description:"Exercise for CART 212: Making an immersive office soundscape captured with an iPhone and fine-tuned in Premiere Pro.",
 
     },
     {
@@ -219,9 +236,7 @@ export const Music=[
         link:"RB2r0Kio1-o",
         photo:SNOW,
         skills:["Ableton"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        description:"",
 
     },
     {
@@ -258,32 +273,45 @@ export const Music=[
 
 export const UnpublishedWork=[
     {
-        name:"Restoring Astera",
-        photo:"",
-        description:"",
-        link:"",
+        name:"Time and Space in Five Nights at Freddys(2023)",
+        photo: fnaf,
+        skills:["Game Design Research","Narrative Design Research"],
+        description:"In this essay, the goal is to discuss FNAF’s narrative style and game design. Using Wei et al. " +
+            "(2010) ’s ideas we will characterize FNAF's mysterious, ambiguous, non-linear narrative style with the concept of \"fuzzy temporality\" and analyze how Cawthon utilizes time and space to enhance his story and gives the player an immersive experience. With this analysis, we can understand how its unique narrative and gameplay elements of FNAF make it a fan favorite, as well as a hit in the gaming world.",
+        pdf:engl255,
 
     },
     {
-        name:"Time and Space in Five Nights at Freddys",
-        photo: "",
-        description:"",
-        link:"",
+        name:"Restoring Astera(2023)",
+        photo:RA,
+        skills:["Game Design Research","Narrative Design Research"],
+        description:"This paper delves into the emotional attachment humans develop towards sentimental objects during " +
+            "life transitions, exploring restoration as a means of engaging with an object's history. Drawing inspiration from the Japanese art of Kintsugi and video games like Stardew Valley, the proposed game features a protagonist reconnecting with their roots through restoration, encouraging players to appreciate the history of their sentimental items and memories. Ultimately,highlights the therapeutic potential of interactive storytelling.",
+        pdf:ffar250,
 
     },
     {
-        name:"Beautifully tragic, tragically funny : Depression memes on TikTok",
-        photo: "",
-        description:"",
-        link:"",
+        name:"Lords & Leases : Board Game Prototype(2023)",
+        photo:LL,
+        description:"A board game prototype based on the current events on renters' strikes in Montreal. The report lays out the prototype's design intentions, materials, and rules while including an in-depth analysis of its playtest conducted at Concordia University. ",
+        skills:["Game Design Research","Game Prototyping","Playtest Analyzing"],
+        pdf:cart215
 
     },
     {
-        name:"Lords & Leases : Board Game Prototype",
-        photo: "",
-        description:"",
-        link:"",
+        name:"Calinferno : Board Game Prototype(2023)",
+        photo: CAL,
+        description:"A card game prototype created with a team based on wildfires. The report lays out the prototype's design intentions, materials, and rules while including an in-depth analysis of its playtest conducted at Concordia University. ",
+        skills:["Game Design Research","Game Prototyping","Playtest Analyzing"],
+        pdf:Cali,
 
-    }
+    }, {
+        name:"Beautifully tragic, tragically funny : Depression memes on TikTok(2023)",
+        photo: cart210,
+        skills:["New Media Studies","Media Psychology"],
+        description:"Why do people communicate their feelings with humourized, aestheticized, and sometimes personal online posts? This essay discusses and explores the depression meme subculture on TikTok and justifies the reason behind the emergence of this subculture as well as its potential consequences.",
+        pdf:pdf210,
+
+    },
 
 ]

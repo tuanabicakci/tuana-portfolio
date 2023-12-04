@@ -6,7 +6,9 @@ import {Carousel} from 'react-responsive-carousel';
 import process from "./Images/process.png"
 import banner from "./Images/prisma.png"
 import red from "./Images/red-bg.png"
-
+import PL from "./Images/LVLPL.png";
+import LVL from "./Images/level layout.png"
+import SW from "./Images/colour-switching.png"
 function Prisma(props) {
     return (
         <div className="page" id={"prisma"}>
@@ -105,7 +107,60 @@ function Prisma(props) {
                 perfectly ironed out after 48 hours.
 
             </div>
-            
+            <div className="two-pictures">
+                <div>
+                    <img style={{
+                        width: "28vw",
+                        margin: "1rem"
+                    }} src={PL} alt=""/>
+                </div>
+                <div>
+                    <img style={{
+                        width: "28vw",
+                        margin: "1rem"
+                    }} src={LVL} alt=""/>
+                </div>
+            </div>
+            <br/><br/>
+            In the end, because of the time constraints we weren’t able to fully realize the potential of the system.
+            The puzzles probably felt a bit easy for players. We also received criticism on the jump feeling hard to
+            control and character not being fixed on the Z axis, which we certainly anticipated would not have been
+            perfectly ironed out after 48 hours.
+            <br/><br/>
+            <div>
+                <b>Technical Aspects</b>
+                <br/><br/>
+                We used Unreal Engine blueprints to make this game, because blueprinting can yield a prototype very quickly, which is perfect for a game jam.
+                <br/><br/><i>Mechanic highlight: Colour Switching</i>
+                In the BP_ThirdPersonCharacter:
+                <ul>
+                    <li> On right mouse button click-></li>
+                    <li>Get the first index of the colours array, set it to the temporary variable</li>
+                    <li> Pop the first index out of the array and add it to the end of the array, while shifting other values</li>
+                    <li> Then update the material of the back wall to be the new first index and the material of the handheld light to be the second index</li>
+                    <li> Then trigger updating the widget to switch the colours visually</li>
+                </ul>
+
+            </div>
+            <br/><br/>
+            <img src={SW} alt=""/>
+            <br/><br/>
+            <div>
+                <b>Play!</b>
+                <br/><br/>
+                <iframe frameBorder="0" src="https://itch.io/embed/2353137" width="552" height="167"><a href="https://tuanabicakci.itch.io/prisma">PRISMA by tuanabicakci, kira</a></iframe>
+            </div>
+            <br/><br/>
+            <div>
+                <b>Takeaways</b>
+                <br/><br/>
+                Overall it was fun to try something new and out of our comfort zones, since my partner and I tend to
+                make games that are heavy on narrative and physical mechanics are not a priority. If I were to do this
+                game again, I would pay particular attention to the jumping mechanic and making that feel better to play.
+            </div>
+            <br/><br/>
+            <span style={{color: "#6D96D5"}}><b>Thank you for reading!-Kira & Tuana</b></span>
+            <br/><br/>
         </div>
     );
 }

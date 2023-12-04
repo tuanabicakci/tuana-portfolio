@@ -9,6 +9,9 @@ import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 import Prisma from "./Prisma";
 import FreddysCafe from "./FreddysCafe";
+import MiracleDaycare from "./MiracleDaycare";
+import Other from "./Other";
+import FeltAlone from "./FeltAlone";
 
 function App() {
   return (
@@ -18,9 +21,12 @@ function App() {
               <Routes>
                   <Route exact path="/" element={<Home/>}/>
                   <Route path={"/art"} element={<Art/>}/>
+                  <Route path={"/other"} element={<Other/>}/>
                   <Route path={"/code"} element={<Code/>}/>
                     <Route path={"/prisma"} element={<Prisma/>}/>
                     <Route path={"/freddys-cafe"} element={<FreddysCafe/>}/>
+                    <Route path={"/miracle-daycare"} element={<MiracleDaycare/>}/>
+                    <Route path={"/felt-alone"} element={<FeltAlone/>}/>
               </Routes>
 
       </Router>
