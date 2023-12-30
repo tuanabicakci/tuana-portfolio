@@ -10,20 +10,18 @@ function NavBar(){
     }
     return(
         <header className={"navbar-wrapper"}>
-            <Link to={"/"}><h1>Tuana Bicakci</h1></Link>
+            <Link to={"/"}>Tuana Bicakci</Link>
             <nav className={"navbar"} ref={navRef}>
                 <Link to={"/code"}>CODE</Link>
                 <Link to={"/art"}>ART</Link>
                 <Link to={"/other"}>OTHER</Link>
                 <a href={resume}>ABOUT ME</a>
-                <button className={"nav-btn nav-close-btn"} onClick={showNavbar}>
-                    <FaTimes/>
-                </button>
             </nav>
             <button className={"nav-btn"} onClick={showNavbar}>
                 <FaBars/>
             </button>
         </header>
+
     );
 }
 

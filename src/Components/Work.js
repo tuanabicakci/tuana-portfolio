@@ -58,7 +58,7 @@ export const GameDesign = [
         photo: MD,
         description:"Discover a trail of sinister secrets inside boxes.",
         link: "/miracle-daycare",
-        tag:"indev"
+        tag:"recent"
     },
 
     {

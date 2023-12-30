@@ -115,38 +115,6 @@ export default function Art() {
                     ))}
                 </div>
             </div>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>VIDEO EDITING</span>
-            <div className="wrapper">
-                <div className="container">
-                    {VideoEdit.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
-                </div>
-            </div>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>SOUND DESIGN/MUSIC</span>
-            <div className="wrapper">
-                <div className="container">
-                    {Music.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
-                </div>
-            </div>
 
         </div>
     );
