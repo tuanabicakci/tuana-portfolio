@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Art.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Art.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Art.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Art.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +137,7 @@
       <workItem from="1703929452817" duration="15276000" />
       <workItem from="1703961684552" duration="1374000" />
       <workItem from="1703966541681" duration="10664000" />
-      <workItem from="1704013354964" duration="607000" />
+      <workItem from="1704013354964" duration="976000" />
     </task>
     <servers />
   </component>

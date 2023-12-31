@@ -27,6 +27,7 @@ function FreddysCafe(props) {
             <span style={{color: "#E394B6  "}} className={"title"}>FREDDY'S CAFE</span>
             <b>November 2023</b>
             <br/>
+            <br/>
             <div>
                 The theme for this game jam was “Extraction”, and immediately we thought of making coffee. We didn’t
                 waste time and chose to make a barista simulator. We laid out what was needed to make that happen,
@@ -53,12 +54,6 @@ function FreddysCafe(props) {
                 </div>
             </div>
             <YoutubeEmbed embedId={"B4lJhGOMk4E"}/>
-            <br/>
-            <b>Development Process</b>
-            <br/>
-            The theme for this game jam was “Extraction”, and immediately we thought of making coffee. We didn’t waste
-            time and chose to make a barista simulator. We laid out what was needed to make that happen, and took
-            inspiration from the setup of the game Order Up (2008).
             <br/>
             <br/>
             <Carousel className={"carousel"}>
