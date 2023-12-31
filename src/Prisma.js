@@ -14,7 +14,7 @@ function Prisma(props) {
         <div className="page" id={"prisma"}>
             <img src={banner} alt=""/>
             <br/>
-            <span style={{color: "#6D96D5"}} className={"title"}>PRISMA</span>
+            <span style={{color: "#6D96D5"}} className={"titles"}>PRISMA</span>
             <b>November 2023</b>
             <br/>
             <div>

@@ -18,7 +18,7 @@ function FeltAlone(props) {
         <div className="page" id={"prisma"}>
             <img src={feltAlone} alt=""/>
             <br/>
-            <span style={{color:"#7B6BAA"}} className={"title"}>FELT ALONE, SO I WENT FOR A WALK</span>
+            <span style={{color:"#7B6BAA"}} className={"titles"}>FELT ALONE, SO I WENT FOR A WALK</span>
             <b>September 2022</b>
             <br/>
             <div>

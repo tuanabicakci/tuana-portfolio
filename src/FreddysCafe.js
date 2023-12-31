@@ -24,7 +24,7 @@ function FreddysCafe(props) {
         <div className="page" id={"prisma"}>
             <img src={banner} alt=""/>
             <br/>
-            <span style={{color: "#E394B6  "}} className={"title"}>FREDDY'S CAFE</span>
+            <span style={{color: "#E394B6  "}} className={"titles"}>FREDDY'S CAFE</span>
             <b>November 2023</b>
             <br/>
             <br/>

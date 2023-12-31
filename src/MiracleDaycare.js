@@ -14,7 +14,7 @@ function MiracleDaycare(props) {
         <div className="page" id={"prisma"}>
             <img src={MD} alt=""/>
             <br/>
-            <span style={{color:"#93333E"}} className={"title"}>MIRACLE DAYCARE</span>
+            <span style={{color:"#93333E"}} className={"titles"}>MIRACLE DAYCARE</span>
             <b>July 2023-Present</b>
             <br/>
             <b>CURRENTLY IN DEVELOPMENT</b>
