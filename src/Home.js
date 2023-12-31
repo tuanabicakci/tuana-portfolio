@@ -29,13 +29,13 @@ function Home() {
             <div>
                 <div className="home-container">
                     <span style={{color: '#565a75', fontSize: "3vw"}}>Recent Projects</span>
-                    <div id="recent-projects">
+                    <div className="recent-projects">
                         {GameDesign.map((item, i) => (
                             <Link to={item.link} key={i}
-                                  id={item.tag === "recent" ? "home-thumbnail" : "hidden"}
+                                  className={item.tag === "recent" ? "home-thumbnail" : "hidden"}
                             >
                                 <img src={item.photo} alt=""/>
-                                <div id="thumbnail-text-wrapper">
+                                <div className="thumbnail-text-wrapper">
                                     <h3>{item.name}</h3>
                                     <div className={"thumbnail-description"}>{item.description}</div>
                                 </div>

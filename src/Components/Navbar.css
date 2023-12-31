@@ -1,5 +1,5 @@
 .navbar-wrapper{
-    z-index: 20000;
+    z-index: 20;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Home.js"
 import Art from "./Art";
 import Code from "./Code";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 import ScrollToTop from "./ScrollToTop";

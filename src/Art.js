@@ -18,21 +18,29 @@ export default function Art() {
 
     return (
         <div className={"page"}>
-            <span style={{color: '#729b79', fontSize: "2rem"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
-            <div className="wrapper">
+            <span style={{color: '#565a75', fontSize: "2rem"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
                 <div className="container">
                     {GraphicDesign.map((item, i) => (
                         <TriggerButton onClick={() => {
                             setWork(item);
                             handleOpen();
                         }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
+                                <img style={{width:"100%",height:"100%",objectFit:"cover"}} className={"thumbnail-images"} src={item.photo} alt=""/>
+                                <h3 className={"thumbnail-text-wrapper"}>{item.name}</h3>
                         </TriggerButton>
                     ))}
                 </div>
+            <span style={{color: '#565a75',fontSize:"2rem",marginTop:"5rem"}}>3D MODELLING/TEXTURING</span>
+            <div className="container">
+                {ThreeD.map((item, i) => (
+                    <TriggerButton onClick={() => {
+                        setWork(item);
+                        handleOpen();
+                    }} type="button" key={i}>
+                        <img style={{width:"100%",height:"100%",objectFit:"cover"}} className={"thumbnail-images"} src={item.photo} alt=""/>
+                        <h3 className={"thumbnail-text-wrapper"}>{item.name}</h3>
+                    </TriggerButton>
+                ))}
             </div>
             <Modal
                 open={open}
@@ -40,29 +48,6 @@ export default function Art() {
                 slots={{backdrop: StyledBackdrop}}
             >
                 <ModalContent>
-                    {/*{work.a && work.a.map((item,i)=>(*/}
-                    {/*    <div className={"popUp-images-container"} key={i}>*/}
-                    {/*        <img className={"popup-images"} src={item} alt=""/>*/}
-                    {/*    </div>*/}
-                    {/*))}*/}
-                    {/*{work.a ? (*/}
-                    {/*    <Carousel className={"carousel"}>*/}
-                    {/*        {work.a && work.a.map((item, i) => (*/}
-                    {/*            <div className={"popUp-images-container"} key={i}>*/}
-                    {/*                <img className={"popup-images"} src={item} alt=""/>*/}
-                    {/*            </div>*/}
-                    {/*        ))}*/}
-                    {/*    </Carousel>*/}
-                    {/*) : (*/}
-                    {/*    <div className={"popUp-images-container"}>*/}
-                    {/*        <img className={"popup-images"} src={work.photo} alt=""/>*/}
-                    {/*    </div>*/}
-                    {/*)}*/}
-                    {work.link?(
-                        <div>
-                            <YoutubeEmbed embedId={work.link} />
-                        </div>
-                    ):(
                         <div>
                             {work.a ? (
                                 <Carousel className={"carousel"}>
@@ -78,8 +63,6 @@ export default function Art() {
                                 </div>
                             )}
                         </div>
-                    )
-                    }
 
                     {/*<div className={"popUp-images-container"}>*/}
                     {/*    <img className={"popup-images"} src={work.photo} alt=""/>*/}
@@ -96,25 +79,10 @@ export default function Art() {
                     <div className="description-container">
                         <pre className={"popup-description"}>{work.description}</pre>
                     </div>
-
                 </ModalContent>
             </Modal>
-            <span style={{color: '#729b79',fontSize:"2rem",marginTop:"5rem"}}>3D MODELLING/TEXTURING</span>
-            <div className="wrapper">
-                <div className="container">
-                    {ThreeD.map((item, i) => (
-                        <TriggerButton onClick={() => {
-                            setWork(item);
-                            handleOpen();
-                        }} type="button" key={i}>
-                            <div className="thumbnail-wrapper">
-                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
-                                <h3>{item.name}</h3>
-                            </div>
-                        </TriggerButton>
-                    ))}
-                </div>
-            </div>
+
+
 
         </div>
     );
@@ -176,7 +144,7 @@ const StyledBackdrop = styled(Backdrop)`
   z-index: -1;
   position: fixed;
   inset: 0;
-  background-color: rgb(0 0 0 / 0.5);
+  background-color: rgb(0 0 0 / 0.7);
   -webkit-tap-highlight-color: transparent;
 `;
 
@@ -190,13 +158,12 @@ const ModalContent = styled('div')(
       display: flex;
       flex-direction: column;
       gap: 8px;
-      overflow: hidden;
-      background-color: ${theme.palette.mode === 'dark' ? grey[900] : '#fff'};
-      border-radius: 8px;
-      border: 1px solid ${theme.palette.mode === 'dark' ? grey[700] : grey[200]};
-      box-shadow: 0 4px 12px ${theme.palette.mode === 'dark' ? 'rgb(0 0 0 / 0.5)' : 'rgb(0 0 0 / 0.2)'};
+      overflow-y: scroll;
+      background: rgb(86,90,117);
+      background: linear-gradient(180deg, #E8EBEA 50%, #565a75 80%);
       padding: 24px;
-      color: ${theme.palette.mode === 'dark' ? grey[50] : grey[900]};
+      color: #E8EBEA;
+      height: 90vh;
 
       & .modal-title {
         line-height: 1.5rem;
@@ -214,36 +181,27 @@ const ModalContent = styled('div')(
 
 const TriggerButton = styled('button')(
     ({theme}) => css`
-      font-family: "indivisible", sans-serif;
-      font-weight: bold;
-      font-style: normal;
-      padding: .7rem;
       width: 25rem;
       height: 23rem;
+      background-size: contain;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      color: #E8EBEA;
+      transition: ease-in 0.3s;
       background: rgba(255, 255, 255, 0.7);
-      border-radius: .3rem;
-      color: #333333;
       margin: 1rem;
-      transition: all 150ms ease;
       cursor: pointer;
       background: ${theme.palette.mode === 'dark' ? grey[900] : '#fff'};
-      border: 1px solid ${theme.palette.mode === 'dark' ? grey[700] : grey[200]};
-        // color: ${theme.palette.mode === 'dark' ? grey[200] : grey[900]};
-      box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-
+      border: none;
 
       &:hover {
-        background: #729b79;;
-        border-color: ${theme.palette.mode === 'dark' ? grey[600] : grey[300]};
+        -webkit-box-shadow: 0px 0px 39px -6px rgba(246,145,151,1);
+        -moz-box-shadow: 0px 0px 39px -6px rgba(246,145,151,1);
+        box-shadow: 0px 0px 39px -6px rgba(246,145,151,1);
       }
 
-      &:active {
-        background: ${theme.palette.mode === 'dark' ? grey[700] : grey[100]};
-      }
-
-      &:focus-visible {
-        box-shadow: 0 0 0 4px ${theme.palette.mode === 'dark' ? blue[300] : blue[200]};
-        outline: none;
-      }
+   
+    
     `,
 );

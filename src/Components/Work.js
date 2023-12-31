@@ -130,24 +130,9 @@ export const GraphicDesign=[
 
     },
     {
-        name:"Say No To Media Censorship-Free(2023)",
-        photo:SNM1,
-        skills:["Illustrator","PhotoShop","Procreate"],
-        description:"Midterm submission for CART 214: A thematic exploration on media \ncensorship through the creation " +
-            "of three distinct posters,each employing \ndiverse grids while preserving essential elements. ",
-
-    },
-    {
-        name:"Say No To Media Censorship-Orthogonal(2023)",
-        photo:SNM2,
-        skills:["Illustrator","PhotoShop","Procreate"],
-        description:"Midterm submission for CART 214: A thematic exploration on media \ncensorship through the creation " +
-            "of three distinct posters,each employing \ndiverse grids while preserving essential elements. ",
-
-    },
-    {
-        name:"Say No To Media Censorship-Diagonal(2023)",
+        name:"Say No To Media Censorship(2023)",
         photo:SNM3,
+        a:[SNM3,SNM1,SNM2],
         skills:["Illustrator","PhotoShop","Procreate"],
         description:"Midterm submission for CART 214: A thematic exploration on media \ncensorship through the creation " +
             "of three distinct posters,each employing \ndiverse grids while preserving essential elements. ",
