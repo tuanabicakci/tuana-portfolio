@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import {styled, css} from '@mui/system';
 import {Modal as BaseModal} from '@mui/base/Modal';
-import {GameDesign, GraphicDesign, WebDesign} from "./Components/Work";
+import {GameDesign, WebDesign} from "./Components/Work";
 import {Link} from "react-router-dom";
 
 function Code() {
@@ -16,7 +16,7 @@ function Code() {
     const [work, setWork] = useState(0);
     return (
         <div className={"page"}>
-            <span style={{color: '#565a75', fontSize: "2rem"}}>GAME DEVELOPMENT</span>
+            <span style={{color: '#565a75', fontSize: "2.5vw"}}>GAME DEVELOPMENT</span>
             <div className="container">
                 {GameDesign.map((item, i) => (
                     <TriggerButton> <Link style={{textDecoration:"none",color:"#E8EBEA"}} to={item.link}>
@@ -26,7 +26,7 @@ function Code() {
 
                 ))}
             </div>
-            <span style={{color: '#565a75', fontSize: "2rem"}}>WEB DESIGN</span>
+            <span style={{color: '#565a75', fontSize: "2.5vw"}}>WEB DESIGN</span>
             <div className="container">
                 {WebDesign.map((item, i) => (
                     <TriggerButton onClick={() => {
@@ -162,6 +162,9 @@ const ModalContent = styled('div')(
         color: ${theme.palette.mode === 'dark' ? grey[400] : grey[800]};
         margin: 0 0 4px;
       }
+      @media only screen and (max-width: 800px){
+        min-width: 80vw;
+      }
     `,
 );
 
@@ -182,10 +185,17 @@ const TriggerButton = styled('button')(
       border: none;
 
       &:hover {
-        -webkit-box-shadow: 0px 0px 39px -6px rgba(246,145,151,1);
-        -moz-box-shadow: 0px 0px 39px -6px rgba(246,145,151,1);
-        box-shadow: 0px 0px 39px -6px rgba(246,145,151,1);
+        -webkit-box-shadow: 0 0 39px -6px rgba(246,145,151,1);
+        -moz-box-shadow: 0 0 39px -6px rgba(246,145,151,1);
+        box-shadow: 0 0 39px -6px rgba(246,145,151,1);
       }
+      @media only screen and (max-width: 965px){
+        width: 10rem;
+        height: 10rem;
+      } @media only screen and (max-width: 550px){
+      width: 7rem;
+      height: 7rem;
+    }
 
     `,
 );

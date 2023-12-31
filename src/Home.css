@@ -192,14 +192,14 @@
     #buttons>a{
         font-size: 3vw; ;
     }
-    #recent-projects {
+    .recent-projects {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
     }
-    #home-thumbnail{
+    .home-thumbnail{
         width: 70vw;
         height: 30vh;
 

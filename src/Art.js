@@ -18,26 +18,26 @@ export default function Art() {
 
     return (
         <div className={"page"}>
-            <span style={{color: '#565a75', fontSize: "2rem"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
+            <span style={{color: '#565a75', fontSize: "2.5vw"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
                 <div className="container">
                     {GraphicDesign.map((item, i) => (
                         <TriggerButton onClick={() => {
                             setWork(item);
                             handleOpen();
                         }} type="button" key={i}>
-                                <img style={{width:"100%",height:"100%",objectFit:"cover"}} className={"thumbnail-images"} src={item.photo} alt=""/>
+                                <img className={"thumbnail-images"} src={item.photo} alt=""/>
                                 <h3 className={"thumbnail-text-wrapper"}>{item.name}</h3>
                         </TriggerButton>
                     ))}
                 </div>
-            <span style={{color: '#565a75',fontSize:"2rem",marginTop:"5rem"}}>3D MODELLING/TEXTURING</span>
+            <span style={{color: '#565a75',fontSize:"2.5vw",marginTop:"1rem"}}>3D MODELLING/TEXTURING</span>
             <div className="container">
                 {ThreeD.map((item, i) => (
                     <TriggerButton onClick={() => {
                         setWork(item);
                         handleOpen();
                     }} type="button" key={i}>
-                        <img style={{width:"100%",height:"100%",objectFit:"cover"}} className={"thumbnail-images"} src={item.photo} alt=""/>
+                        <img className={"thumbnail-images"} src={item.photo} alt=""/>
                         <h3 className={"thumbnail-text-wrapper"}>{item.name}</h3>
                     </TriggerButton>
                 ))}
@@ -176,6 +176,10 @@ const ModalContent = styled('div')(
         color: ${theme.palette.mode === 'dark' ? grey[400] : grey[800]};
         margin: 0 0 4px;
       }
+
+      @media only screen and (max-width: 800px){
+        min-width: 80vw;
+      }
     `,
 );
 
@@ -200,8 +204,18 @@ const TriggerButton = styled('button')(
         -moz-box-shadow: 0px 0px 39px -6px rgba(246,145,151,1);
         box-shadow: 0px 0px 39px -6px rgba(246,145,151,1);
       }
+      
+      @media only screen and (max-width: 965px){
+      width: 10rem;
+        height: 10rem;
+    } @media only screen and (max-width: 550px){
+      width: 7rem;
+        height: 7rem;
+    }
 
-   
-    
+
+
+
+
     `,
 );
