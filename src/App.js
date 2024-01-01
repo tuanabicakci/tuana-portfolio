@@ -22,7 +22,6 @@ function App() {
               <Routes>
                   <Route exact path="/" element={<Home/>}/>
                   <Route path={"/art"} element={<Art/>}/>
-                  <Route path={"/other"} element={<Other/>}/>
                   <Route path={"/code"} element={<Code/>}/>
                     <Route path={"/prisma"} element={<Prisma/>}/>
                     <Route path={"/freddys-cafe"} element={<FreddysCafe/>}/>

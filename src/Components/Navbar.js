@@ -14,7 +14,6 @@ function NavBar(){
             <nav className={"navbar"} ref={navRef}>
                 <Link to={"/code"}>CODE</Link>
                 <Link to={"/art"}>ART</Link>
-                <Link to={"/other"}>OTHER</Link>
                 <a href={resume}>ABOUT ME</a>
             </nav>
             <button className={"nav-btn"} onClick={showNavbar}>

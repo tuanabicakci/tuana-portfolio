@@ -1,4 +1,3 @@
-import Rat from "../Images/images.jpg";
 import feltAlone from "../Images/feltalone.png"
 import freddysCafe from "../Images/freddyscafe.png";
 import Prisma from "../Images/prisma.png";

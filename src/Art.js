@@ -159,8 +159,8 @@ const ModalContent = styled('div')(
       flex-direction: column;
       gap: 8px;
       overflow-y: scroll;
-      background: rgb(86,90,117);
-      background: linear-gradient(180deg, #E8EBEA 50%, #565a75 80%);
+      background: rgb(86, 90, 117);
+      background: linear-gradient(180deg, #282d3c 50%, rgb(2, 6, 12) 80%);
       padding: 24px;
       color: #E8EBEA;
       height: 90vh;
@@ -177,7 +177,7 @@ const ModalContent = styled('div')(
         margin: 0 0 4px;
       }
 
-      @media only screen and (max-width: 800px){
+      @media only screen and (max-width: 800px) {
         min-width: 80vw;
       }
     `,
