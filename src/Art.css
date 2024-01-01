@@ -39,6 +39,7 @@
 .skills-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     gap: .5rem;
 }
@@ -48,10 +49,11 @@
 }
 
 .skills{
-    background: #729b79;
+    background: #f69197;
     color: #fff;
     padding: .2rem;
     border-radius: .2rem;
+
 }
 
 .popup-description{

@@ -13,7 +13,7 @@ import FreddysCafe from "./FreddysCafe";
 import MiracleDaycare from "./MiracleDaycare";
 import Other from "./Other";
 import FeltAlone from "./FeltAlone";
-
+import Footer from "./Components/Footer"
 function App() {
   return (
       <Router>
@@ -28,7 +28,7 @@ function App() {
                     <Route path={"/miracle-daycare"} element={<MiracleDaycare/>}/>
                     <Route path={"/felt-alone"} element={<FeltAlone/>}/>
               </Routes>
-
+          <Footer/>
       </Router>
   );
 }

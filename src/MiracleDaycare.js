@@ -24,7 +24,8 @@ function MiracleDaycare(props) {
                 and was a way for my dev partner and I to learn Unreal Engine 5. The game was programmed using blueprints.
                 The game is still in development!
             </div>
-            <div className={"credits"}>
+            <br/>
+            <div className={"two-pictures"}>
                 <div>
                     <b style={{color: "#93333E "}}>Credits</b>
                     <ul>

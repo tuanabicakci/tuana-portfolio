@@ -16,6 +16,8 @@ function Code() {
     const [work, setWork] = useState(0);
     return (
         <div className={"page"}>
+            <div style={{color: '#E8EBEA', fontSize: "1.5vw"}} > Check out my  <a style={{color:"#f69197"}}  href="https://tuanabicakci.itch.io/"><i className="fa-brands fa-itch-io"></i>Itch.io</a> page to play the games!</div>
+            <br/>
             <span style={{color: '#565a75', fontSize: "2.5vw"}}>GAME DEVELOPMENT</span>
             <div className="container">
                 {GameDesign.map((item, i) => (
@@ -146,11 +148,12 @@ const ModalContent = styled('div')(
       flex-direction: column;
       gap: 8px;
       overflow-y: scroll;
-      background: rgb(86,90,117);
-      background: linear-gradient(180deg, #E8EBEA 50%, #565a75 80%);
+      background: rgb(86, 90, 117);
+      background: linear-gradient(180deg, #282d3c 50%, rgb(2, 6, 12) 80%);
       padding: 24px;
       color: #E8EBEA;
       height: 90vh;
+
       & .modal-title {
         line-height: 1.5rem;
         margin: 0 0 8px;

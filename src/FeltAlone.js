@@ -26,7 +26,8 @@ function FeltAlone(props) {
                 forest, discover your past and keep your flame close!  Take the time to explore and ponder what there
                 once was and was not in this narrative (short & unfinished) game.
             </div>
-            <div className={"credits"}>
+            <br/>
+            <div className={"two-pictures"}>
                 <div>
                     <b style={{color: "#7B6BAA "}}>Credits</b>
                     <ul>
@@ -65,7 +66,7 @@ function FeltAlone(props) {
             </Carousel>
             <b>Play!</b>
             <br/>
-            <iframe frameBorder="0" src="https://itch.io/embed/1748918" width="552" height="167"><a href="https://shinykiwi.itch.io/felt-alone-so-i-went-for-a-walk">Felt alone, so I went for a walk by kira, PipeFlowWizard, tuanabicakci</a></iframe>
+            <iframe frameBorder="0" src="https://itch.io/embed/1748918" width="100%" height="167"><a href="https://shinykiwi.itch.io/felt-alone-so-i-went-for-a-walk">Felt alone, so I went for a walk by kira, PipeFlowWizard, tuanabicakci</a></iframe>
         </div>
     );
 }

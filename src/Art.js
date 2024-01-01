@@ -18,7 +18,8 @@ export default function Art() {
 
     return (
         <div className={"page"}>
-            Check out my <a href="">ArtStation</a> account to see my work in high quality!
+            <div style={{color: '#E8EBEA', fontSize: "1.5vw"}} > Check out my <a style={{color:"#f69197"}} href="https://www.artstation.com/tuanabicakci"><i className="fa-brands fa-artstation"></i> ArtStation</a> account to see my work in high quality!</div>
+            <br/>
             <span style={{color: '#565a75', fontSize: "2.5vw"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
                 <div className="container">
                     {GraphicDesign.map((item, i) => (

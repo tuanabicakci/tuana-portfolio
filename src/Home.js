@@ -46,15 +46,6 @@ function Home() {
             </div>
             <br/><br/>
             <br/><br/>
-            <div id={"footer"}>
-                Lets get in touch!
-                <br/>
-                <nav id={"socials"}>
-                    <a href={`mailto:bicakcitauan@gmail.com`}><i className="fa-solid fa-envelope"></i></a>
-                    <a href="https://github.com/tuanabicakci"><i className="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/tuana-bicakci/"><i className="fa-brands fa-linkedin"></i></a>
-                </nav>
-            </div>
         </div>
     );
 }

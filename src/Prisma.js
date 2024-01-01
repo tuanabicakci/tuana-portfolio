@@ -23,8 +23,8 @@ function Prisma(props) {
                 48 hours given. The theme was "Space in Between". All assets and code were made within the duration of
                 the jam (except for the music).
             </div>
-
-            <div className={"credits"}>
+            <br/>
+            <div className={"two-pictures"} style={{gap:"2rem"}}>
                 <div>
                     <b style={{color: "#6D96D5"}}>Credits</b>
                     <ul>
@@ -43,13 +43,13 @@ function Prisma(props) {
                     </ul>
                 </div>
             </div>
+            <br/>
             <YoutubeEmbed embedId={"NjrTsQlXuV4"}/>
             <br/><br/>
             <div className={"two-pictures"}>
                 <div>
                     <img style={{
-                        width: "28vw",
-                        margin: "2rem"
+                        width: "100%"
                     }} src={process} alt=""/>
                 </div>
                 <div>
@@ -110,15 +110,13 @@ function Prisma(props) {
             <div className="two-pictures">
                 <div>
                     <img style={{
-                        width: "28vw",
-                        margin: "1rem"
+                        width: "100%"
                     }} src={PL} alt=""/>
                 </div>
                 <div>
                     <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={LVL} alt=""/>
+                        width: "100%"
+                    }}  src={LVL} alt=""/>
                 </div>
             </div>
             <br/><br/>
@@ -143,12 +141,14 @@ function Prisma(props) {
 
             </div>
             <br/><br/>
-            <img src={SW} alt=""/>
+            <img style={{
+                width: "100%"
+            }} src={SW} alt=""/>
             <br/><br/>
-            <div>
+            <div style={{width:"100%"}}>
                 <b>Play!</b>
                 <br/><br/>
-                <iframe frameBorder="0" src="https://itch.io/embed/2353137" width="552" height="167"><a href="https://tuanabicakci.itch.io/prisma">PRISMA by tuanabicakci, kira</a></iframe>
+                <iframe frameBorder="0" src="https://itch.io/embed/2353137" width="100%" height="167"><a href="https://tuanabicakci.itch.io/prisma">PRISMA by tuanabicakci, kira</a></iframe>
             </div>
             <br/><br/>
             <div>

@@ -18,6 +18,8 @@ import S2 from "./Images/screenshot2.png"
 import turkishCoffee from "./Images/turkish coffee.png";
 import grinder from "./Images/grinder.png";
 import measure from "./Images/measure.png";
+import PL from "./Images/LVLPL.png";
+import LVL from "./Images/level layout.png";
 
 function FreddysCafe(props) {
     return (
@@ -33,8 +35,8 @@ function FreddysCafe(props) {
                 waste time and chose to make a barista simulator. We laid out what was needed to make that happen,
                 and took inspiration from the setup of the game Order Up (2008).
             </div>
-
-            <div className={"credits"}>
+            <br/>
+            <div className={"two-pictures"}>
                 <div>
                     <b style={{color: "#E394B6 "}}>Credits</b>
                     <ul>
@@ -53,6 +55,7 @@ function FreddysCafe(props) {
                     </ul>
                 </div>
             </div>
+            <br/>
             <YoutubeEmbed embedId={"B4lJhGOMk4E"}/>
             <br/>
             <br/>
@@ -90,9 +93,18 @@ function FreddysCafe(props) {
             escape.
             We prioritized smooth camera transitions and gameplay flow to provide a calm experience for players without
             frustration.
-            <div className={"two-pictures"}>
-                <img src={camera1} alt=""/>
-                <img src={camera2} alt=""/>
+            <br/><br/>
+            <div className="two-pictures">
+                <div>
+                    <img style={{
+                        width: "100%"
+                    }} src={camera2} alt=""/>
+                </div>
+                <div>
+                    <img style={{
+                        width: "100%"
+                    }}  src={camera2} alt=""/>
+                </div>
             </div>
             <br/>
             <br/>
@@ -169,7 +181,7 @@ function FreddysCafe(props) {
                 <br/>
                 <b>Play!</b>
                 <br/><br/>
-                <iframe frameBorder="0" src="https://itch.io/embed/2364546" width="552" height="167"><a href="https://tuanabicakci.itch.io/freddys-cafe">Freddy's Cafe by tuanabicakci</a></iframe>
+                <iframe frameBorder="0" src="https://itch.io/embed/2364546" width="100%" height="167"><a href="https://tuanabicakci.itch.io/freddys-cafe">Freddy's Cafe by tuanabicakci</a></iframe>
                <br/><br/>
                 <b>Impact and Takeaways</b>
                 <br/><br/>
