@@ -18,6 +18,7 @@ export default function Art() {
 
     return (
         <div className={"page"}>
+            Check out my <a href="">ArtStation</a> account to see my work in high quality!
             <span style={{color: '#565a75', fontSize: "2.5vw"}}>GRAPHIC DESIGN/ILLUSTRATION</span>
                 <div className="container">
                     {GraphicDesign.map((item, i) => (

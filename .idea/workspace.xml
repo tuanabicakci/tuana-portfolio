@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="" />
+    <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Art.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Art.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/ALBB.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ALBB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/ALBF.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/ALBF.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/CGD.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/CGD.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/CGD1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/CGD1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/CGD2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/CGD2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/CGD3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/CGD3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/FA4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/FA4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/GGJ.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/GGJ.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/GGJC.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/GGJC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/MD2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/MD2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/OFFICE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/RD.A.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/RD.A.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/Shot3_SubstancePainter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/Shot3_SubstancePainter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/Shot4_SubstancePainter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/Shot4_SubstancePainter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/Shot5_SubstancePainter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/Shot5_SubstancePainter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/TUI.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/TUI.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/feltalone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/feltalone.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +155,7 @@
       <workItem from="1703929452817" duration="15276000" />
       <workItem from="1703961684552" duration="1374000" />
       <workItem from="1703966541681" duration="10664000" />
-      <workItem from="1704013354964" duration="6518000" />
+      <workItem from="1704013354964" duration="7326000" />
     </task>
     <servers />
   </component>
@@ -162,24 +183,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Art.js</url>
-          <line>91</line>
+          <line>92</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Art.js</url>
-          <line>162</line>
+          <line>163</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Art.js</url>
-          <line>164</line>
+          <line>165</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Art.js</url>
-          <line>143</line>
+          <line>144</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>

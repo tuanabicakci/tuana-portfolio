@@ -30,12 +30,6 @@ import ELF1 from "../Images/shot1.png";
 import ELF2 from "../Images/shot2.png";
 import ELF3 from "../Images/shot3.png";
 import ELF4 from "../Images/shot4.png";
-import WK from "../Images/WK.png"
-import PLU from "../Images/PLU.JPG"
-import TM from "../Images/TM.JPG";
-import SNOW from "../Images/SNOW.JPG";
-import RTR from "../Images/RTR.JPG";
-import OFF from "../Images/OFFICE.png"
 import STK from "../Images/Brown Doodle Company profile Presentation.png";
 import RDA from "../Images/RD.A.png"
 import PC1 from "../Images/PC1.png";
@@ -195,59 +189,9 @@ export const ThreeD=[
     },
 ]
 
-export const VideoEdit=[
-    {
-        name:"Home(2023)",
-        link:"UNizDoyx93Y",
-        photo:WK,
-        skills:["PremierePro", "After Effects"],
-        description:"Midterm submission for CART 212: Wunderkammer, cabinet of curiosities. My theme was my home, Turkey.",
 
-    }
-]
 
-export const Music=[
-    {
-        name:"The Office(2023)",
-        link:"Z2UUICTML0o",
-        photo:OFF,
-        skills:["Premiere Pro"],
-        description:"Exercise for CART 212: Making an immersive office soundscape captured with an iPhone and fine-tuned in Premiere Pro.",
 
-    },
-    {
-        name:"Snow(2023)",
-        link:"RB2r0Kio1-o",
-        photo:SNOW,
-        skills:["Ableton"],
-        description:"",
-
-    },
-    {
-        name:"Retrograde(2020)",
-        link:"M60mQxlDhd4",
-        photo:RTR,
-        skills:["Ableton"],
-        description:" ",
-
-    },
-    {
-        name:"Time Machine(2020)",
-        link:"-3reMUs_g5g",
-        photo:TM,
-        skills:["Ableton"],
-        description:" ",
-
-    },
-    {
-        name:"Pluviophile(2020)",
-        link:"KbL71e1tG5c",
-        photo:PLU,
-        skills:["Ableton"],
-        description:"",
-
-    },
-]
 
 export const UnpublishedWork=[
     {
