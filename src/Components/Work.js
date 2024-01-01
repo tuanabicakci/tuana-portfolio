@@ -45,6 +45,8 @@ import cart215 from "../PDFs/cart215.pdf"
 import LL from "../Images/LL.png"
 import Cali from "../PDFs/CART215-Calinferno (1).pdf"
 import CAL from "../Images/cali.png"
+import SH from "../Images/SH.png"
+import AST from "../Images/AST.png"
 export const GameDesign = [
     {
         name: "Miracle Daycare",
@@ -115,7 +117,19 @@ export const WebDesign=[
 
 export const GraphicDesign=[
     {
-        name:"A Fever You Can't Sweat Out-(2023)",
+        name:"Astarion(2023)",
+        photo:AST,
+        skills:["Procreate"],
+        description:"Fanart of Astarion from Baldur's Gate 3"
+    },
+    {
+        name:"Shadowheart(2023)",
+        photo:SH,
+        skills:["Procreate"],
+        description:"Fanart of Shadowheart from Baldur's Gate 3"
+    },
+    {
+        name:"A Fever You Can't Sweat Out(2023)",
         photo:ALBF,
         a:[ALBF,ALBB],
         skills:["Illustrator","PhotoShop","Procreate"],

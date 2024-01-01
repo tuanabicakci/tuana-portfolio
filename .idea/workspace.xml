@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="" />
+    <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Images/AST.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/SH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/PORT.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/PORT.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,11 +81,11 @@
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bicak\Desktop\tuana-portfolio\src\Images" />
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src\PDFs" />
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src\Images" />
       <recent name="C:\Users\bicak\WebstormProjects\portfolio\src\Images" />
       <recent name="C:\Users\bicak\WebstormProjects\portfolio\portfolio-website\src\Images" />
-      <recent name="C:\Users\bicak\WebstormProjects\portfolio" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Work.js">
@@ -134,7 +140,7 @@
       <workItem from="1703929452817" duration="15276000" />
       <workItem from="1703961684552" duration="1374000" />
       <workItem from="1703966541681" duration="10664000" />
-      <workItem from="1704013354964" duration="11929000" />
+      <workItem from="1704013354964" duration="12966000" />
     </task>
     <servers />
   </component>
