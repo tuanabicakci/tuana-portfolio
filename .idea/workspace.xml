@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Art.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Art.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Art.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Art.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FeltAlone.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FeltAlone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FreddysCafe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/FreddysCafe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FreddysCafe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FreddysCafe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiracleDaycare.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiracleDaycare.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prisma.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prisma.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prisma.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prisma.js" afterDir="false" />
-    </list>
+    <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +134,7 @@
       <workItem from="1703929452817" duration="15276000" />
       <workItem from="1703961684552" duration="1374000" />
       <workItem from="1703966541681" duration="10664000" />
-      <workItem from="1704013354964" duration="11597000" />
+      <workItem from="1704013354964" duration="11929000" />
     </task>
     <servers />
   </component>
