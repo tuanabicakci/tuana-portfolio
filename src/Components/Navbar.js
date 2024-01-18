@@ -14,7 +14,7 @@ function NavBar(){
             <nav className={"navbar"} ref={navRef}>
                 <Link to={"/code"}>CODE</Link>
                 <Link to={"/art"}>ART</Link>
-                <a href={resume}>ABOUT ME</a>
+                <a href={"https://www.linkedin.com/in/tuana-bicakci/"}>ABOUT ME</a>
             </nav>
             <button className={"nav-btn"} onClick={showNavbar}>
                 <FaBars/>

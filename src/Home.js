@@ -22,7 +22,7 @@ function Home() {
                 <div id="buttons">
                     <Link to={"/art"}>ART</Link>
                     <Link to={"/code"}>CODE</Link>
-                    <Link to={"/other"}>OTHER</Link>
+                    <Link to={"https://www.linkedin.com/in/tuana-bicakci/"}>ABOUT ME</Link>
                 </div>
             </div>
             <br/><br/>
