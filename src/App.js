@@ -14,6 +14,7 @@ import MiracleDaycare from "./MiracleDaycare";
 import Other from "./Other";
 import FeltAlone from "./FeltAlone";
 import Footer from "./Components/Footer"
+import DreamTeam from "./DreamTeam";
 function App() {
   return (
       <Router>
@@ -27,6 +28,7 @@ function App() {
                     <Route path={"/freddys-cafe"} element={<FreddysCafe/>}/>
                     <Route path={"/miracle-daycare"} element={<MiracleDaycare/>}/>
                     <Route path={"/felt-alone"} element={<FeltAlone/>}/>
+                    <Route path={"/dream-team"} element={<DreamTeam/>}/>
               </Routes>
           <Footer/>
       </Router>

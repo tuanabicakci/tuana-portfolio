@@ -5,7 +5,7 @@ function Footer(props) {
     return (
         <div id={"footer"}>
             Lets get in touch!
-            <br/>
+            <br/><br/>
             <nav id={"socials"}>
                 <a href={`mailto:bicakcitauan@gmail.com`}><i className="fa-solid fa-envelope"></i></a>
                 <a href="https://github.com/tuanabicakci"><i className="fa-brands fa-github"></i></a>

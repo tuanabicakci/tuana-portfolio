@@ -47,7 +47,15 @@ import Cali from "../PDFs/CART215-Calinferno (1).pdf"
 import CAL from "../Images/cali.png"
 import SH from "../Images/SH.png"
 import AST from "../Images/AST.png"
+import dtBanner from "../Images/dtbanner.png"
 export const GameDesign = [
+    {
+        name: "Dream Team(Ubisoft Gamelab 2024)",
+        photo: dtBanner,
+        description: "Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt it and reach its core.",
+        link: "/dream-team",
+        tag:"recent"
+    },
     {
         name: "Miracle Daycare",
         photo: MD,
@@ -75,7 +83,10 @@ export const GameDesign = [
     {name: "Felt Alone, So I went For a Walk(2022)",
         photo: feltAlone,
         description: "Embark on a soul-soothing journey through a forest, unraveling memories and embracing solitude ",
-        link: "/felt-alone"}
+        link: "/felt-alone",
+    },
+
+
 ]
 
 export const WebDesign=[
@@ -110,7 +121,8 @@ export const WebDesign=[
         photo: PORT,
         skills:["React.js","JavaScript","HTML","CSS"],
         description: "My portfolio is coded and designed by me!",
-        link:""
+        link:"",
+        tag:"recent"
     }
 
 ]
