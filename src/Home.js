@@ -45,6 +45,9 @@ function Home() {
                     className={`background-div ${fade ? 'fade-in' : 'fade-out'}`}
                     style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
                 />
+                <div
+                className={`background-div`}
+                style={{ backgroundImage: `linear-gradient(0deg, rgba(15,15,27,1) 0%, rgba(0,212,255,0) 100%)` }}/>
                 <div className="content">
                     <h2 id={"name"}>TUANA BICAKCI</h2>
                     <h3 id={"title"}>GAME DEVELOPER / WEB DEVELOPER / 3D GENERALIST</h3>

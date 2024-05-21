@@ -81,7 +81,7 @@
         transition: 1s;
         transform: translateY(-100vh);
         color: #729b79;
-        background: rgb(86, 90, 117);
+        background:#000;
     }
     .navbar a{
         color: white;
@@ -98,6 +98,11 @@
         position: absolute;
         bottom: 0;
         left: 0;
+    }
+
+    .navbar-wrapper{
+        align-items: flex-end;
+        justify-content: flex-end;
     }
 
 }

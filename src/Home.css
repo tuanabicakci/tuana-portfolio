@@ -1,8 +1,5 @@
 /*MAIN PAGE*/
 #home{
-    font-family: "indivisible", sans-serif;
-    font-weight: bold;
-    font-style: normal;
     color: #fafbf6;
     display: flex;
     flex-direction: column;
@@ -138,6 +135,8 @@
     color: #f69197;
 }
 .recent-projects {
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
     display: grid;
     grid-template-columns: repeat(10,auto);
     gap: 1vw;
@@ -149,8 +148,11 @@
 }
 
 .thumbnail-description{
-    font-weight: normal;
     font-size: 1vw;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .home-container{
@@ -197,7 +199,7 @@
     bottom: 0;
     text-align: left;
     padding: 5vh 3vh;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(15, 15, 27, 1) 60%);
 }
@@ -277,7 +279,7 @@
     font-style: normal;
     color: #fafbf6;
     margin-bottom: 0.5rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #cv-button{
@@ -295,7 +297,7 @@
     cursor: pointer;
     background: #A53551;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
     #intro{
         display: flex;
         flex-direction: column;
@@ -329,11 +331,16 @@
         font-size: 2vw;
 
     }
+    #buttons-wrapper{
+        font-size: 7vw;
+        gap: 2vw 5vw;
+    }
+
 
 
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 768px) {
     #intro{
         margin-top: 4rem;
         min-height: 50vh;
