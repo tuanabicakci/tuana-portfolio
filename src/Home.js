@@ -2,7 +2,6 @@ import "./Home.css";
 import {GameDesign, WebDesign} from "./Components/Work";
 import {Link} from "react-router-dom";
 import Tuana from "./Images/IMG_0734.JPG";
-import PT from "./Images/substance-3d-painter.png";
 import video from "./Images/videoplayback.mp4"
 import {useEffect, useState} from "react";
 import DT1 from "./Images/DT1.png";
@@ -16,13 +15,16 @@ import DT9 from "./Images/DT9.png";
 import red from "./Images/red-bg.png"
 import S2 from "./Images/screenshot2.png"
 import resume from "./PDFs/TuanaBicakci_CV05.pdf"
+import FieldSummary from "./Components/FieldSummary";
+import substancePainterIcon from "./Images/substance-3d-painter.svg";
 
 const images = [
     DT1,DT2,DT3,DT5,red,S2,DT6,DT7,DT8,DT9
 ];
 
-function Home() {
 
+
+function Home() {
     const [currentImageIndex, setCurrentImageIndex]=useState(0);
     const [fade, setFade] = useState(true);
     useEffect(() => {
@@ -37,71 +39,54 @@ function Home() {
 
         return () => clearInterval(intervalId);
     }, []);
-
         return (
-        <div id={"home"}>
-            <div className="outer-div">
+        <div>
+            <div className="hero">
                 <div
                     className={`background-div ${fade ? 'fade-in' : 'fade-out'}`}
                     style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
                 />
                 <div
-                className={`background-div`}
-                style={{ backgroundImage: `linear-gradient(0deg, rgba(15,15,27,1) 0%, rgba(0,212,255,0) 100%)` }}/>
+                    className={`background-div`}
+                    style={{ backgroundImage: `linear-gradient(0deg, rgba(15,15,27,1) 0%, rgba(0,212,255,0) 100%)` }}/>
                 <div className="content">
-                    <h2 id={"name"}>TUANA BICAKCI</h2>
-                    <h3 id={"title"}>GAME DEVELOPER / WEB DEVELOPER / 3D GENERALIST</h3>
-                </div>
-            </div>
-            <h2 className={"section-titles"}>SKILLS</h2>
-            <hr className={'line'}/>
-            <ul id={"buttons-wrapper"}>
-                <li><i className="devicon-unrealengine-original-wordmark"></i></li>
-                <li><i className="devicon-unity-plain-wordmark"/></li>
-                <li><i className="devicon-csharp-line"/></li>
-                <li><i className="devicon-blender-original-wordmark"/></li>
-                <li><img src={PT} alt=""/></li>
-                <li><i className="devicon-java-plain"/></li>
-                <li><i className="devicon-javascript-plain"/></li>
-                <li><i className="devicon-typescript-plain"/></li>
-                <li><i className="devicon-css3-plain"/></li>
-                <li><i className="devicon-html5-plain"/></li>
-                <li><i className="devicon-tailwindcss-plain-wordmark"/></li>
-                <li><i className="devicon-figma-plain"/></li>
-                <li></li>
-                <li><i className="devicon-react-original"/></li>
-                <li><i className="devicon-nextjs-original-wordmark"/></li>
-                <li><i className="devicon-nodejs-plain-wordmark"/></li>
-                <li><i className="devicon-mongodb-plain-wordmark"/></li>
-            </ul>
-            <h2 className={"section-titles"}>RECENT PROJECTS</h2>
-            <hr className={'line'} />
-                <div className="home-container">
-                    <div className="recent-projects">
-                        {GameDesign.map((item, i) => (
-                            <Link to={item.link} key={i}
-                                  className={item.tag === "recent" ? "home-thumbnail" : "hidden"}
-                            >
-                                <img src={item.photo} alt=""/>
-                                <div className="thumbnail-text-wrapper">
-                                    <h3>{item.name}</h3>
-                                    <div className={"thumbnail-description"}>{item.description}</div>
-                                </div>
-                            </Link>
-                        ))}
-                        {WebDesign.map((item, i) => (
-                            <Link to={item.link} key={i}
-                                  className={item.tag === "recent" ? "home-thumbnail" : "hidden"}
-                            >
-                                <img src={item.photo} alt=""/>
-                                <div className="thumbnail-text-wrapper">
-                                    <h3>{item.name}</h3>
-                                    <div className={"thumbnail-description"}>{item.description}</div>
-                                </div>
-                            </Link>
-                        ))}
+                    <h2 id={"name"}>TUANA BIÇAKCI</h2>
+                    <h3 id={"title"}>DEVELOPER & 3D GENERALIST</h3>
+                    <a id={"resume-btn"} href={""}>MY RESUME</a>
+                    <div>
+
                     </div>
                 </div>
+            </div>
+            <div className="outer-div">
+
+            </div>
+            <FieldSummary
+                mainIcon={""}
+                heading="SOFTWARE DEVELOPMENT"
+                icons={["devicon-java-plain",
+                "devicon-javascript-plain",
+                "devicon-typescript-plain",
+                "devicon-css3-plain",
+                "devicon-html5-plain",
+                "devicon-tailwindcss-plain-wordmark",
+                "devicon-figma-plain",
+                "devicon-react-original",
+                "devicon-nextjs-original-wordmark",
+                 "devicon-nodejs-plain-wordmark",
+                    "devicon-mongodb-plain-wordmark"
+                ]}
+                children={WebDesign}/>
+            <FieldSummary
+                mainIcon={""}
+                heading="GAME DEVELOPMENT"
+                icons={["devicon-unrealengine-original",
+                    "devicon-unity-plain",
+                    "devicon-csharp-line",
+                    "devicon-blender-original",
+                    substancePainterIcon
+                ]}
+                children={GameDesign}/>
             <h2 className={"section-titles"}>ABOUT ME</h2>
             <hr className={'line'}/>
             <div className="about-me-container">

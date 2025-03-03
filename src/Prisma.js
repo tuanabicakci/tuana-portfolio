@@ -4,15 +4,26 @@ import YoutubeEmbed from "./Components/YoutubeEmbed";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import {Carousel} from 'react-responsive-carousel';
 import process from "./Images/process.png"
-import banner from "./Images/prisma.png"
+import prismaBanner from "./Images/prisma.png"
 import red from "./Images/red-bg.png"
 import PL from "./Images/LVLPL.png";
 import LVL from "./Images/level layout.png"
 import SW from "./Images/colour-switching.png"
+import freddysCafeBanner from "./Images/freddyscafe.png";
+import substancePainterIcon from "./Images/substance-3d-painter.svg";
+import ProjectBanner from "./Components/ProjectBanner";
 function Prisma(props) {
     return (
-        <div className="page" id={"prisma"}>
-            <img src={banner} alt=""/>
+        <div>
+            <ProjectBanner
+                image={prismaBanner}
+                name={"PRISMA"}
+                date={"NOVEMBER 2023"}
+                link={"https://tuanabicakci.itch.io/prisma"}
+                icons={["devicon-unrealengine-original",
+                    "devicon-blender-original",
+                    substancePainterIcon,]}
+            />
             <br/>
             <span style={{color: "#6D96D5"}} className={"titles"}>PRISMA</span>
             <b>November 2023</b>

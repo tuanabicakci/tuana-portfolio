@@ -48,7 +48,25 @@ import CAL from "../Images/cali.png"
 import SH from "../Images/SH.png"
 import AST from "../Images/AST.png"
 import dtBanner from "../Images/dtbanner.png"
+import academicWeaponThumbnail from "../Images/academic-weapon-banner.png"
+import starlitCatchThumbnail from "../Images/Starlit_Catch/starlit-catch-banner.jpg"
 export const GameDesign = [
+    {
+        name: "Starlit Catch(2024)",
+        photo:starlitCatchThumbnail,
+        description: "Relax in your cottage and enjoy a peaceful fishing adventure.",
+        link: "/starlit-catch",
+        tag:"recent"
+
+    },
+    {
+        name: "Academic Weapon(2024)",
+        photo:academicWeaponThumbnail ,
+        description: "Outsmart your classmates, dodge the teacher, and survive the exam with your disappearing powers!",
+        link: "/academic-weapon",
+        tag:"recent"
+
+    },
     {
         name: "Dream Team(Ubisoft Gamelab 2024)",
         photo: dtBanner,
@@ -61,7 +79,7 @@ export const GameDesign = [
         photo: MD,
         description:"Discover a trail of sinister secrets inside boxes.",
         link: "/miracle-daycare",
-        tag:"recent"
+
     },
 
     {
@@ -70,7 +88,7 @@ export const GameDesign = [
         description: "Dive into the chromatic realm of Prisma, solving puzzles, unveiling hidden paths, and activating " +
             "prism statues for a vivid escape!",
         link: "/prisma" ,
-        tag:"recent"
+
     },
 
     {
@@ -78,13 +96,15 @@ export const GameDesign = [
         photo: freddysCafe,
         description: "Make a cup of Turkish coffee here at cozy Freddys Cafe!",
         link: "/freddys-cafe",
-        tag:"recent"
+
     },
     {name: "Felt Alone, So I went For a Walk(2022)",
         photo: feltAlone,
         description: "Embark on a soul-soothing journey through a forest, unraveling memories and embracing solitude ",
         link: "/felt-alone",
     },
+
+
 
 
 ]
@@ -104,7 +124,8 @@ export const WebDesign=[
             "Note: Optimized for desktops only.\n" +
             "\n" +
             "\nFinal Project for CART 211 : Creative Computing and Network Culture",
-        web:"https://hybrid.concordia.ca/t_bicakc/finalproject/"
+        web:"https://hybrid.concordia.ca/t_bicakc/finalproject/",
+        tag:"recent"
 
     },
     {
@@ -114,7 +135,8 @@ export const WebDesign=[
         skills:["React.js","JavaScript","HTML","CSS"],
         description: "This website aims to inform users how to properly assemble a desktop PC. It features instructions " +
             "on how to install each part properly as well as how to do it safely. Website Content written by Benjamin Nera, Programmed & Designed by Tuana Bicakci",
-        web:" https://instructions-8b8a8.web.app/"
+        web:" https://instructions-8b8a8.web.app/",
+        tag:"recent"
     },
     {
         name:"My Portfolio(2023)",

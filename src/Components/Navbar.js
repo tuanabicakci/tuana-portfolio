@@ -20,8 +20,8 @@ function NavBar(){
                 <Link to={'/'} style={{color:"#5F737B"}}>HOME</Link>
                 <Link to={'/code'} style={{color:"#A2B3B2"}}>CODE</Link>
                 <Link to={'/art'} style={{color:"#A53551"}}>ART</Link>
-                {/*<Link style={{color:"#E18F89"}}>ABOUT ME</Link>
-                <Link style={{color:"#E1C0A9"}}>CONTACTS & LINKS</Link>*/}
+                <Link style={{color:"#E18F89"}}>ABOUT ME</Link>
+                {/*<Link style={{color:"#E1C0A9"}}>CONTACTS & LINKS</Link>*/}
             </nav>
             <button className={"nav-btn"} onClick={showNavbar}>
                 <FaBars/>

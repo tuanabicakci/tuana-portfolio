@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 ::-webkit-scrollbar{
-    width: 1vw;
+    width: 8px;
+    height: 8px;
 }
 
 /* Track */
@@ -15,15 +16,55 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #5F737B;
+  border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #A2B3B2;
 }
+
+
 #root{
-  background: #0f0f1b;
+  /*colour palette*/
+  --gray-000:#ffffff;
+  --gray-100:#d4d4d4;
+  --gray-200:#b4b4b4;
+  --gray-300:#909090;
+  --gray-400:#636363;
+  --gray-500:#494848;
+  --color-primary: #8393ED;
+  --color-secondary: #B684E7;
+  --color-tertiary: #28B4B2;
+  --color-secondary-variant:#FAA8F6 ;
+  --color-tertiary-variant: #97ECC7;
+
+
+  /*transitions*/
+  --bg-transition: 0.3s ease;
+
+  /*spacing*/
+  --space-s-100:0.5rem;
+  --space-s-200:1rem;
+  --space-s-300:1.5rem;
+  --space-m-400:2rem;
+  --space-m-500:2.5rem;
+  --space-m-600:3rem;
+  --space-l-700:3.5rem;
+  --space-l-800:4rem;
+  --space-l-900:4.5rem;
+
+  /*border radius*/
+  --border-radius:4px;
+  
+
+
   min-height: 100vh;
   overflow: hidden;
+}
+
+.block{
+  max-width: 1440px;
+  padding: var(--space-m-500) 0;
 }
 

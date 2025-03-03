@@ -5,16 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    ;
 }
-
+/*-----------------------*/
 /*INTRO*/
 
-.outer-div {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
 
 .background-div {
     position: absolute;
@@ -54,11 +49,18 @@
     }
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
 .content {
     position: relative;
     z-index: 1;
     display: flex;
     flex-direction: column;
+    gap: var(--space-s-200);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -71,7 +73,7 @@
 
 }
 #name{
-    font-family: "Russo One", sans-serif;
+    font-family: "gambado-sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 3vw;
@@ -84,11 +86,22 @@
     font-size: 1vw;
     letter-spacing: 1px;
 }
-/*INTRO END*/
 
+#resume-btn{
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    background: var(--color-secondary);
+    font-size: var(--space-s-300);
+    padding: var(--space-s-100);
+    border-radius: var(--border-radius);
+}
 
+/*-----------------------*/
+/*SKILLS*/
 
-#buttons-wrapper{
+.skills-wrapper{
     width: 100%;
     font-family: "lores-12", sans-serif;
     font-weight: 900;
@@ -104,56 +117,14 @@
     margin-bottom: 5vw;
 
 }
-#buttons-wrapper>li>img{
-    width: 4vw;
-    height:4vw;
-    object-fit: contain;
-}
-
-#buttons{
-    font-family: "indivisible", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    display: flex;
+.skills-wrapper>li>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    text-shadow: none;
 }
-
-#buttons > a{
-    text-decoration: none;
-    background: #E8EBEA;
-    color: #565a75;
-    padding: 1rem;
-    border-radius: .3rem;
-    font-size: 1.5vw;
-}
-
-#buttons > a:hover{
-    background: #565a75;
-    color: #f69197;
-}
-.recent-projects {
-    font-family: "Russo One", sans-serif;
-    font-style: normal;
-    display: grid;
-    grid-template-columns: repeat(10,auto);
-    gap: 1vw;
-    margin-top: 1.5vh;
-    overflow-x: scroll;
-    overflow-Y:hidden ;
-    padding: 2rem;
-    margin-bottom: 5vw;
-}
-
-.thumbnail-description{
-    font-size: 1vw;
-    font-family: "JetBrains Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
+/*-----------------------*/
+/*RECENT-PROJECTS*/
 
 .home-container{
     display:inline-block ;
@@ -169,55 +140,20 @@
     padding: 1rem 3rem ;
 }
 
-.home-thumbnail{
-    position: relative;
-    display: inline-block;
-    width: 30vw;
-    height: 50vh;
-    background-size: contain;
-    text-align: center;
-    text-decoration: none;
-    color: #E8EBEA;
-    transition: ease-in 0.3s;
-
-}
-.home-thumbnail:hover{
-    -webkit-box-shadow: 0px 0px 39px -6px rgba(162,179,178,1);
-    -moz-box-shadow: 0px 0px 39px -6px rgba(162,179,178,1);
-    box-shadow: 0px 0px 39px -6px rgba(162,179,178,1);
-}
-
-.home-thumbnail>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.thumbnail-text-wrapper {
-    width: 100%;
-    object-fit: contain;
-    position: absolute;
-    bottom: 0;
-    text-align: left;
-    padding: 5vh 3vh;
-    font-size: 1.2vw;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(15, 15, 27, 1) 60%);
-}
-#thumbnail-text-wrapper>h3{
-    font-family: "lores-12", sans-serif;
-    font-weight: 900;
+.recent-projects {
+    font-family: "Russo One", sans-serif;
     font-style: normal;
-}
-.hidden{
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    gap: 1vw;
+    margin-top: 1.5vh;
+    overflow-x: scroll;
+    overflow-Y:hidden ;
+    padding: 2rem;
+    margin-bottom: 5vw;
 }
 
-.home-description{
-    font-weight: normal;
-    font-size: 1vw;
-    padding: .5rem;
 
-}
 #socials{
    display: flex;
     justify-content: left;
@@ -331,9 +267,18 @@
         font-size: 2vw;
 
     }
-    #buttons-wrapper{
+    .skills-wrapper{
         font-size: 7vw;
         gap: 2vw 5vw;
+        grid-template-columns: repeat(6,7vw);
+    }
+
+    .thumbnail-text-wrapper{
+        font-size: 2.5vw;
+    }
+
+    .thumbnail-description{
+        font-size: 2vw;
     }
 
 
@@ -341,6 +286,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .skills-wrapper{
+        font-size: 9vw;
+        gap: 3vw 6vw;
+        grid-template-columns: repeat(6,9vw);
+    }
     #intro{
         margin-top: 4rem;
         min-height: 50vh;
@@ -367,6 +318,9 @@
     #title{
         font-size: 3vw;
         text-wrap: normal;
+    }
+    .about-me{
+        font-size: 2.5vw;
     }
 
 }

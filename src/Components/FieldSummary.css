@@ -1,0 +1,100 @@
+#fs-wrapper{
+    color: var(--gray-300);
+    background-color: #FFF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-l-900);
+
+
+}
+
+#fs-header{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-m-400);
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+#fs-container{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l-800);
+}
+
+#project-thumbnail-container{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    gap: var(--space-s-200);
+    width: 100%;
+    height: auto;
+
+}
+
+.project-thumbnail{
+    text-decoration: none;
+    color: #0f0f1b;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s-200);
+
+}
+
+.project-thumbnail>img{
+    height: 16rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+.icons{
+    width: 100%;
+    font-size: var(--space-m-600);
+    gap: var(--space-s-200);
+    display: flex;
+    color: #37414D;
+}
+
+.thumbnail-description{
+}
+
+.project-thumbnail:hover{
+
+}
+
+.thumbnail-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s-100);
+}
+
+.thumbnail-text-wrapper>h3{
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+}
+
+.thumbnail-text-wrapper>div{
+    font-family: "Doppio One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#see-more{
+    font-family: "Russo One", sans-serif;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--space-s-100);
+}
+
+.hidden{
+    display: none;
+}

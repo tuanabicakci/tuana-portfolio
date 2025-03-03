@@ -1,0 +1,94 @@
+/* Carousel container styling */
+#carousel-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-l-900);
+    font-size: var(--space-s-300);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    width: 100%;
+}
+
+#carousel-container {
+    position: relative;
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+/* Main carousel image */
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Buttons for navigating slides */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Thumbnails container */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Styling for each thumbnail */
+.thumbnail-container {
+    cursor: pointer;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.7; /* Inactive state */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.outlined-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 1; /* Active state */
+    transform: scale(1.1); /* Slightly larger to indicate active image */
+    border: 2px solid #fff; /* Outline for active image */
+}

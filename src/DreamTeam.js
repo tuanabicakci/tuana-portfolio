@@ -30,256 +30,43 @@ import DT6 from "./Images/DT6.png";
 import DT7 from "./Images/DT7.png";
 import DT8 from "./Images/DT8.png";
 import DT9 from "./Images/DT9.png";
+import substancePainterIcon from "./Images/substance-3d-painter.svg"
+import wwiseIcon from "./Images/wwise-icon.png"
 import {Carousel} from "react-responsive-carousel";
+import ProjectBanner from "./Components/ProjectBanner";
+import ProjectDescription from "./Components/ProjectDescription";
+import ModelShowcase from "./Components/ModelShowcase"
 
 function DreamTeam(props) {
     return (
-        <div className="page" id={"prisma"}>
-            <img src={dtbanner} alt=""/>
-            <br/>
-            <span style={{color: "#FDFFB4  "}} className={"titles"}>DREAM TEAM(UBISOFT GAMELAB 2024)</span>
-            <b>JANUARY 2024 - APRIL 2024</b>
-            <br/>
-            <br/>
-            <div>
-                Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt
-                it and reach its core. Together, you assume the roles of elite Dream Agents, venturing deep into the
-                sleeper's subconscious to fend off nefarious nightmares. United in purpose, you must synchronize your
-                strategies and unique abilities to maintain the dream’s sanctity. The fate of the dream world depends on it!
-            </div>
-            <br/>
-            <div className={"two-pictures"}>
-                <div>
-                    <b style={{color: "#FDFFB4 "}}>Credits</b>
-                    <ul>
-                        <li><b>Tuana Bicakci:</b> Concept Artist, 3D Generalist, Environment Artist, <br/>Character Artist</li>
-                        <li><a style={{color: "#24C8DC"}} href={"https://shinykiwi.dev/"}><b>Kira
-                            Fountain:</b></a> Gameplay Programmer, Technical Artist, 3D Artist
-                        </li>
-                        <li><a style={{color: "#24C8DC"}} href={""}><b>Ally Steinberg:</b></a> Game Designer, UI Designer/Programmer,
-                            <br/>Weapon Programmer
-                        </li>
-                        <li><a style={{color: "#24C8DC"}} href={"https://github.com/ZaidMinhas"}><b>Zaid Minhas:</b></a> AI Programmer, Network Programmer
-                        </li>
-                        <li><a style={{color: "#24C8DC"}} href={""}><b>Craig Kogan:</b></a> Game Designer, UI Designer/Programmer,
-                            <br/>Weapon Programmer
-                        </li>
-                        <li><a style={{color: "#24C8DC"}} href={""}><b>Sarah Mucci:</b></a> UI Programmer, Network Programmer
-                        </li>
-                        <li><a style={{color: "#24C8DC"}} href={""}><b>Jake Meleras:</b></a> Sound Designer, Composer
-                        </li>
-
-                    </ul>
-                </div>
-                <div>
-                    <b style={{color: "#FDFFB4 "}}>Tools</b>
-                    <ul>
-                        <li>Unity/C#</li>
-                        <li>Blender</li>
-                        <li>Substance Painter</li>
-                        <li>Wwise</li>
-                        <li>Procreate</li>
-                        <li>Mixamo</li>
-                        <li>Figma</li>
-                    </ul>
-                </div>
-            </div>
-            <br/>
-            <YoutubeEmbed embedId={"vb92z58KZeE"}/>
-            <br/>
-            <br/>
-            <br/>
-            <div className={"two-pictures"}>
-                <div>
-                    <b>Character Design</b>
-                    <br/>
-                    Upon establishing our inspirations for the game, I began working on designing the characters and deciding
-                    the color palette. Our characters were dream agents controlling dark and light energy.
-                    The first idea that came to my mind was a cat for the dark energy player and a girl for the
-                    light energy player.
-                    <br/>
-                    However, our faculty mentor Popa advised us not to use a child character as it can seem uncanny.
-                    Therefore, I scrapped the child character and continued working on the cat. I wanted to have a
-                    spooky but bright and fun color palette. Consequently, I settled on dark purples for the primary
-                    colors while using bright pink, green, and yellow for accent colors upon many iterations.
-
-                </div>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={sketch} alt=""/>
-                    <div style={{textAlign: "center", fontSize: "1rem"}}>Initial Sketch</div>
-                </div>
-            </div>
-            <img style={{
-                width: "100%",
-                margin: "1rem"
-            }} src={iterations} alt=""/>
-            <img style={{
-                width: "100%",
-                margin: "1rem"
-            }} src={cpalette} alt=""/>
-            <div style={{textAlign: "center", fontSize: "1rem"}}>Color Palette</div>
-            <br/><br/>
-            For the second player, I decided to make it a dog to play into the black cat and golden retriever dynamic.
-            However, before that, I decided to model the cat player since I would change the head if the other player
-            were to be a dog. After I modeled it, I tried to animate it using Mixamo, although there were a lot of issues with the model.
-           <br/><br/>
-            <div className={"two-pictures"}>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={initialModel} alt=""/>
-                    <div style={{textAlign: "center", fontSize: "1rem"}}>Initial Model</div>
-                </div>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={mixamo} alt=""/>
-                    <div style={{textAlign: "center", fontSize: "1rem"}}>Model with Mixamo animations</div>
-                </div>
-            </div>
-            <br/><br/>
-            Even though the model was simple due to lousy modeling on my part and Mixamo’s automated rigging system the animations looked highly janky. We had two options: Redesign to make a simpler model or rig and animate manually. Due to time constraints we decided the former would be best. Consequently, I redesigned the character and designed the dog character as well.
-           <br/><br/>
-            <img style={{
-                width: "100%",
-                margin: "1rem"
-            }} src={dogca} alt=""/>
-            <div className={"two-pictures"}>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={dogf} alt=""/>
-
-                </div>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={dogb} alt=""/>
-                </div>
-            </div><img style={{
-            width: "100%",
-            margin: "1rem"
-        }} src={catca} alt=""/>
-            <div className={"two-pictures"}>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={catf} alt=""/>
-
-                </div>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={catb} alt=""/>
-                </div>
-            </div>
-            <br/><br/>
-            Because I had to simplify the characters regarding detail in 3D I had to make up for it with their details in 2D. Thus, I ensured they had unique suits with cool designs and patterns on their front and back.
-            <br/><br/>
-            <b>Weapon Design</b>
-            For the weapon designs, because the game is supposed to be E10+, I tried to keep them toy-like. My main inspirations were water guns and Nerf guns. The color palettes and symbols on the weapons match their corresponding characters. Our other 3D Artist Kira Fountain modelled the weapons and I textured them.
-            <div className={"two-pictures"}>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={blasterca} alt=""/>
-
-                </div>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={blaster} alt=""/>
-                </div>
-            </div>
-            <div className={"two-pictures"}>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={flamethrowerca} alt=""/>
-
-                </div>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={flamethrower} alt=""/>
-                </div>
-            </div>
-            <div className={"two-pictures"}>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={hammerca} alt=""/>
-
-                </div>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={hammer} alt=""/>
-                </div>
-            </div>
-            <div className={"two-pictures"}>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={grenadeca} alt=""/>
-
-                </div>
-                <div>
-                    <img style={{
-                        width: "28vw",
-                        margin: "1rem"
-                    }} src={grenade} alt=""/>
-                </div>
-            </div>
-            <br/><br/>
-            <b>Environment Design</b>
-            For the environment I envisioned an abandoned yet mystical dwelling surrounded by lush vegetation and natural elements, adorned with vintage furniture.
-            <Carousel className={"carousel"}>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT1}/>
-                </div>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT2}/>
-
-                </div>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT3}/>
-                </div>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT4}/>
-                </div>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT5}/>
-                </div>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT6}/>
-                </div>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT7}/>
-                </div>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT8}/>
-                </div>
-                <div className={"popUp-images-container"} >
-                    <img className={"popup-images"} src={DT9}/>
-                </div>
-            </Carousel>
+        <div>
+            <ProjectBanner
+            image={DT5}
+            name={"DREAM TEAM - UBISOFT GAMELAB"}
+            date={"JANUARY 2024 - APRIL 2024"}
+            link={"https://github.com/DragonGawain/gamelab"}
+            icons={["devicon-unity-plain",
+                "devicon-csharp-line",
+                "devicon-blender-original",
+                "devicon-figma-plain",
+                substancePainterIcon,
+            wwiseIcon]}
+            />
+            <ProjectDescription
+            description={"Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt it and reach its core. Together, you assume the roles of elite Dream Agents, venturing deep into the sleeper's subconscious to fend off nefarious nightmares. United in purpose, you must synchronize your strategies and unique abilities to maintain the dream’s sanctity. The fate of the dream world depends on it! \n\n"+
+            "This is a 3D online coop game where you must work together to defeat enemies and defend territory by combining weapons. It is an action-based fantasy game made for PC, with controller support. This is Concordia-A's submission for the 2024 Ubisoft Game Lab Competition. The conception was based around the theme “Dream” as given by the jury at the start of the competition."}
+            teamMembers={[
+                {name:"Tuana Bıçakcı",link:"https://tuanabicakci.dev/",role:"Concept Artist, 3D Generalist, Environment Artist,Character Artist"},
+                {name:"Kira Fountain",link:"https://shinykiwi.dev/",role:"Gameplay Programmer, Technical Artist, 3D Artist"},
+                {name:"Zaid Minhas",link:"https://github.com/ZaidMinhas",role:"AI Programmer, Network Programmer"},
+                {name:"Ally Steinberg",link:"",role:"Game Designer, UI Designer/Programmer,Weapon Programmer"},
+                {name:"Craig Kogan",link:"",role:"Game Designer, UI Designer/Programmer, Weapon Programmer"},
+                {name:"Sarah Mucci",link:"",role:"UI Programmer, Network Programmer"}
+            ]}
+            />
+            <ModelShowcase
+            images={[DT1,DT2]}
+            />
         </div>
 
 

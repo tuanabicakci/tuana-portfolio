@@ -1,7 +1,7 @@
 import React from 'react';
 import YoutubeEmbed from "./Components/YoutubeEmbed";
 import {Carousel} from "react-responsive-carousel";
-import banner from "./Images/freddyscafe.png"
+import freddysCafeBanner from "./Images/freddyscafe.png"
 import conceptArt from "./Images/conceptartArtboard 1.png"
 import camera1 from "./Images/view.png";
 import camera2 from "./Images/camera-setup.png";
@@ -20,11 +20,23 @@ import grinder from "./Images/grinder.png";
 import measure from "./Images/measure.png";
 import PL from "./Images/LVLPL.png";
 import LVL from "./Images/level layout.png";
+import DT5 from "./Images/DT5.png";
+import substancePainterIcon from "./Images/substance-3d-painter.svg";
+import wwiseIcon from "./Images/wwise-icon.png";
+import ProjectBanner from "./Components/ProjectBanner";
 
 function FreddysCafe(props) {
     return (
-        <div className="page" id={"prisma"}>
-            <img src={banner} alt=""/>
+        <div>
+            <ProjectBanner
+                image={freddysCafeBanner}
+                name={"FREDDY'S CAFE"}
+                date={"NOVEMBER 2023"}
+                link={"https://tuanabicakci.itch.io/freddys-cafe"}
+                icons={["devicon-unrealengine-original",
+                    "devicon-blender-original",
+                    substancePainterIcon,]}
+            />
             <br/>
             <span style={{color: "#E394B6  "}} className={"titles"}>FREDDY'S CAFE</span>
             <b>November 2023</b>

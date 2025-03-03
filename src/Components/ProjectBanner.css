@@ -1,0 +1,109 @@
+#background{
+    background-size: cover;   /* Ensure the image covers the entire div */
+    background-position: center;  /* Position the image in the center */
+    width: 100%;
+    height: 500px;  /* Set a fixed height or adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-l-900);
+    color: #ffffff;
+}
+
+#overlay{
+    position: absolute; /* Position the overlay absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Cover the entire div */
+    background: rgba(0, 0, 0, 0.5); /* Black semi-transparent background */
+    z-index: 1; /* Ensure the overlay appears above the background but below the text */
+    height: 500px;
+}
+
+#hero-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: var(--space-s-100);
+}
+
+#hero-container h2 {
+    font-family: "gambado-sans", sans-serif ;
+    font-weight: normal;
+    font-size: var(--space-m-500);
+}
+
+#hero-container span {
+    font-family: "JetBrains Mono", monospace;
+    font-size: var(--space-s-300);
+}
+
+#hero-container a{
+    color: #fff;
+    padding: var(--space-s-100);
+    border-radius: var(--border-radius);
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: flex-start;
+    background : var(--color-secondary);
+    text-decoration: none;
+    font-family: "Russo One", sans-serif;
+    transition: background-color var(--bg-transition);
+
+}
+
+#hero-container a:hover{
+    background: var(--color-secondary-variant);
+    transition: background-color var(--bg-transition);
+
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, var(--space-m-500));
+    align-items: center;
+    text-align: center;
+    gap: var(--space-s-300);
+    height: var(--space-m-500);
+    width: 100%;
+
+}
+
+
+
+.icons > svg,img,i{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1024px){
+    #background{
+        padding: var(--space-m-500);
+    }
+}
+
+@media screen and (max-width: 768px){
+    #hero-container h2{
+        font-size: var(--space-m-400);
+    }
+
+    #hero-container span{
+        font-size: var(--space-s-200);
+    }
+
+    .icons{
+        height: var(--space-s-300);
+        grid-template-columns: repeat(auto-fit,var(--space-m-400));
+        font-size: var(--space-m-400);
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #background{
+        padding: var(--space-s-300);
+    }
+}

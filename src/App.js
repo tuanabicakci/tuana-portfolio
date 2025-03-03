@@ -15,6 +15,8 @@ import Other from "./Other";
 import FeltAlone from "./FeltAlone";
 import Footer from "./Components/Footer"
 import DreamTeam from "./DreamTeam";
+import StarlitCatch from "./StarlitCatch"
+import AcademicWeapon from "./AcademicWeapon";
 function App() {
   return (
       <Router>
@@ -29,6 +31,8 @@ function App() {
                     <Route path={"/miracle-daycare"} element={<MiracleDaycare/>}/>
                     <Route path={"/felt-alone"} element={<FeltAlone/>}/>
                     <Route path={"/dream-team"} element={<DreamTeam/>}/>
+                    <Route path={"/starlit-catch"} element={<StarlitCatch/>}/>
+                    <Route path={"/academic-weapon"} element={<AcademicWeapon/>}/>
               </Routes>
           <Footer/>
       </Router>
