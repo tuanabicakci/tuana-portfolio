@@ -111,6 +111,22 @@ export const GameDesign = [
 
 export const WebDesign=[
     {
+        name:"My Portfolio(2022-ongoing)",
+        photo: PORT,
+        skills:["React.js","Node.js","JavaScript","HTML","CSS"],
+        summary: "My portfolio is coded and designed by me!",
+        link:"",
+        tag:"recent"
+    },
+    {
+        name:"Montreal Neighbourhood Livability Index",
+        photo:"",
+        skills: ["Python", "Streamlit","HTML","CSS"],
+        summary: " interactive tool helps newcomers to Montreal choose the best neighborhood by analyzing key factors like safety, economic opportunities, and social inclusion, all powered by AI-driven data analytics.",
+        link: "",
+        tag:"recent"
+    },
+    {
         name:"Errors In Thinking(2022)",
         photo:errors,
         summary:"This website aims to help you identify, challenge, and minimize your errors in thinking while " +
@@ -125,7 +141,7 @@ export const WebDesign=[
             "\n" +
             "\nFinal Project for CART 211 : Creative Computing and Network Culture",
         web:"https://hybrid.concordia.ca/t_bicakc/finalproject/",
-        tag:"recent"
+        tag:""
 
     },
     {
@@ -136,14 +152,6 @@ export const WebDesign=[
         description: "This website aims to inform users how to properly assemble a desktop PC. It features instructions " +
             "on how to install each part properly as well as how to do it safely. Website Content written by Benjamin Nera, Programmed & Designed by Tuana Bicakci",
         web:" https://instructions-8b8a8.web.app/",
-        tag:"recent"
-    },
-    {
-        name:"My Portfolio(2023)",
-        photo: PORT,
-        skills:["React.js","JavaScript","HTML","CSS"],
-        description: "My portfolio is coded and designed by me!",
-        link:"",
         tag:"recent"
     }
 

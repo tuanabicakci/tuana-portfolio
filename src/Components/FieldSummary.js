@@ -3,9 +3,9 @@ import "./FieldSummary.css"
 import {WebDesign} from "./Work";
 import {Link} from "react-router-dom";
 
-const FieldSummary = ({ heading, mainIcon,icons, children }) => {
+const FieldSummary = ({ heading, mainIcon,icons, children, showRecent,bgColor }) => {
     return (
-        <div id="fs-wrapper">
+        <div id="fs-wrapper" style={{backgroundColor:bgColor}}>
             <div id={"fs-container"} className="block">
                 <div id="fs-header">
                     <div>
@@ -21,7 +21,7 @@ const FieldSummary = ({ heading, mainIcon,icons, children }) => {
                 <div id="project-thumbnail-container">
                     {children.map((item, i) => (
                     <Link to={item.link} key={i}
-                          className={item.tag === "recent" ? "project-thumbnail" : "hidden"}
+                          className={showRecent===true?(item.tag === "recent" ? "project-thumbnail" : "hidden"):"project-thumbnail"}
                      >
                         <img src={item.photo} alt=""/>
                         <div className="thumbnail-text-wrapper">

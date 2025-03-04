@@ -76,7 +76,8 @@ function Home() {
                  "devicon-nodejs-plain-wordmark",
                     "devicon-mongodb-plain-wordmark"
                 ]}
-                children={WebDesign}/>
+                children={WebDesign}
+                showRecent={true}/>
             <FieldSummary
                 mainIcon={""}
                 heading="GAME DEVELOPMENT"
@@ -86,7 +87,9 @@ function Home() {
                     "devicon-blender-original",
                     substancePainterIcon
                 ]}
-                children={GameDesign}/>
+                children={GameDesign}
+                showRecent={true}
+                bgColor={"rgba(250,168,246,0.2)"}/>
             <h2 className={"section-titles"}>ABOUT ME</h2>
             <hr className={'line'}/>
             <div className="about-me-container">
