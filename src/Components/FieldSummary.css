@@ -18,8 +18,9 @@
     gap: var(--space-m-400);
     font-family: "JetBrains Mono", monospace;
     font-weight: bold;
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
+
 
 #fs-container{
     display: flex;
@@ -88,10 +89,9 @@
 
 #see-more{
     font-family: "Russo One", sans-serif;
-    text-align: left;
+    text-align: right;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     gap: var(--space-s-100);
 }
 

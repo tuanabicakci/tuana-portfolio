@@ -8,9 +8,8 @@ const FieldSummary = ({ heading, mainIcon,icons, children, showRecent,bgColor })
         <div id="fs-wrapper" style={{backgroundColor:bgColor}}>
             <div id={"fs-container"} className="block">
                 <div id="fs-header">
-                    <div>
-                        <i className={mainIcon}></i>
-                        <h2>{heading}</h2>
+                    <div id="fs-title">
+                        <h2><i className={mainIcon}></i>{heading}</h2>
                     </div>
                     <div className="icons">
                         {icons.map((icon, index) => (
@@ -31,7 +30,7 @@ const FieldSummary = ({ heading, mainIcon,icons, children, showRecent,bgColor })
                     </Link>
                     ))}
                 </div>
-                <div id="see-more">See More <i className="fa-solid fa-arrow-right"></i></div>
+                <a id="see-more"><span>See More <i className="fa-solid fa-arrow-right"></i></span></a>
             </div>
 
         </div>

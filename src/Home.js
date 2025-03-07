@@ -1,9 +1,10 @@
 import "./Home.css";
 import {GameDesign, WebDesign} from "./Components/Work";
+import {Socials} from "./Components/Socials";
 import {Link} from "react-router-dom";
 import Tuana from "./Images/IMG_0734.JPG";
 import video from "./Images/videoplayback.mp4"
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import DT1 from "./Images/DT1.png";
 import DT2 from "./Images/DT2.png";
 import DT3 from "./Images/DT3.png";
@@ -50,11 +51,17 @@ function Home() {
                     className={`background-div`}
                     style={{ backgroundImage: `linear-gradient(0deg, rgba(15,15,27,1) 0%, rgba(0,212,255,0) 100%)` }}/>
                 <div className="content">
-                    <h2 id={"name"}>TUANA BIÇAKCI</h2>
-                    <h3 id={"title"}>DEVELOPER & 3D GENERALIST</h3>
-                    <a id={"resume-btn"} href={""}>MY RESUME</a>
                     <div>
-
+                        <h2 id={"name"}>TUANA BIÇAKCI</h2>
+                        <h3 id={"title"}>DEVELOPER & 3D GENERALIST</h3>
+                        <a id={"resume-btn"} href={""}>MY RESUME</a>
+                    </div>
+                    <div className={"socials"}>
+                        {Socials.map((item, i) => (
+                            <a key={i} href={item.link}>
+                                <i className={item.icon}></i>
+                            </a>
+                        ))}
                     </div>
                 </div>
             </div>
@@ -62,7 +69,7 @@ function Home() {
 
             </div>
             <FieldSummary
-                mainIcon={""}
+                mainIcon={"fa-solid fa-code"}
                 heading="SOFTWARE DEVELOPMENT"
                 icons={["devicon-java-plain",
                 "devicon-javascript-plain",
@@ -89,7 +96,7 @@ function Home() {
                 ]}
                 children={GameDesign}
                 showRecent={true}
-                bgColor={"rgba(250,168,246,0.2)"}/>
+                bgColor={"rgba(250,168,246,0.15)"}/>
             <h2 className={"section-titles"}>ABOUT ME</h2>
             <hr className={'line'}/>
             <div className="about-me-container">
