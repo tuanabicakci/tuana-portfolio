@@ -51,7 +51,7 @@ function Home() {
                     className={`background-div`}
                     style={{ backgroundImage: `linear-gradient(0deg, rgba(15,15,27,1) 0%, rgba(0,212,255,0) 100%)` }}/>
                 <div className="content">
-                    <div>
+                    <div className={"resume"}>
                         <h2 id={"name"}>TUANA BIÇAKCI</h2>
                         <h3 id={"title"}>DEVELOPER & 3D GENERALIST</h3>
                         <a id={"resume-btn"} href={""}>MY RESUME</a>

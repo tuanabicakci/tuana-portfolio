@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Socials.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FieldSummary.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FieldSummary.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FieldSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FieldSummary.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
     </list>
@@ -167,7 +164,8 @@
       <workItem from="1739995095028" duration="3412000" />
       <workItem from="1740715436376" duration="11000" />
       <workItem from="1741032255896" duration="2402000" />
-      <workItem from="1741058614378" duration="6600000" />
+      <workItem from="1741058614378" duration="6897000" />
+      <workItem from="1741785237844" duration="771000" />
     </task>
     <servers />
   </component>
@@ -211,7 +209,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Components/FieldSummary.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
