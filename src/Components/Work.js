@@ -50,11 +50,12 @@ import AST from "../Images/AST.png"
 import dtBanner from "../Images/dtbanner.png"
 import academicWeaponThumbnail from "../Images/academic-weapon-banner.png"
 import starlitCatchThumbnail from "../Images/Starlit_Catch/starlit-catch-banner.jpg"
+import mtlRankedThumbnail from"../Images/MTLranked/map-screenshot.png"
 export const GameDesign = [
     {
         name: "Starlit Catch(2024)",
         photo:starlitCatchThumbnail,
-        description: "Relax in your cottage and enjoy a peaceful fishing adventure.",
+        summary: "Relax in your cottage and enjoy a peaceful fishing adventure.",
         link: "/starlit-catch",
         tag:"recent"
 
@@ -62,7 +63,7 @@ export const GameDesign = [
     {
         name: "Academic Weapon(2024)",
         photo:academicWeaponThumbnail ,
-        description: "Outsmart your classmates, dodge the teacher, and survive the exam with your disappearing powers!",
+        summary: "Outsmart your classmates, dodge the teacher, and survive the exam with your disappearing powers!",
         link: "/academic-weapon",
         tag:"recent"
 
@@ -70,14 +71,14 @@ export const GameDesign = [
     {
         name: "Dream Team(Ubisoft Gamelab 2024)",
         photo: dtBanner,
-        description: "Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt it and reach its core.",
+        summary: "Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt it and reach its core.",
         link: "/dream-team",
         tag:"recent"
     },
     {
         name: "Miracle Daycare",
         photo: MD,
-        description:"Discover a trail of sinister secrets inside boxes.",
+        summary:"Discover a trail of sinister secrets inside boxes.",
         link: "/miracle-daycare",
 
     },
@@ -85,7 +86,7 @@ export const GameDesign = [
     {
         name: "Prisma(2023)",
         photo: Prisma,
-        description: "Dive into the chromatic realm of Prisma, solving puzzles, unveiling hidden paths, and activating " +
+        summary: "Dive into the chromatic realm of Prisma, solving puzzles, unveiling hidden paths, and activating " +
             "prism statues for a vivid escape!",
         link: "/prisma" ,
 
@@ -94,13 +95,13 @@ export const GameDesign = [
     {
         name: "Freddy's Cafe(2023)",
         photo: freddysCafe,
-        description: "Make a cup of Turkish coffee here at cozy Freddys Cafe!",
+        summary: "Make a cup of Turkish coffee here at cozy Freddys Cafe!",
         link: "/freddys-cafe",
 
     },
     {name: "Felt Alone, So I went For a Walk(2022)",
         photo: feltAlone,
-        description: "Embark on a soul-soothing journey through a forest, unraveling memories and embracing solitude ",
+        summary: "Embark on a soul-soothing journey through a forest, unraveling memories and embracing solitude ",
         link: "/felt-alone",
     },
 
@@ -111,7 +112,7 @@ export const GameDesign = [
 
 export const WebDesign=[
     {
-        name:"My Portfolio(2022-ongoing)",
+        name:"My Portfolio (2022 - ongoing)",
         photo: PORT,
         skills:["React.js","Node.js","JavaScript","HTML","CSS"],
         summary: "My portfolio is coded and designed by me!",
@@ -119,10 +120,10 @@ export const WebDesign=[
         tag:"recent"
     },
     {
-        name:"Montreal Neighbourhood Livability Index",
-        photo:"",
+        name:"Montreal Neighbourhood Livability Index (2025)",
+        photo:mtlRankedThumbnail,
         skills: ["Python", "Streamlit","HTML","CSS"],
-        summary: " interactive tool helps newcomers to Montreal choose the best neighborhood by analyzing key factors like safety, economic opportunities, and social inclusion, all powered by AI-driven data analytics.",
+        summary: "An interactive tool helps newcomers to Montreal choose the best neighborhood by analyzing key factors like safety, economic opportunities, and social inclusion, all powered by AI-driven data analytics.",
         link: "",
         tag:"recent"
     },
@@ -145,12 +146,12 @@ export const WebDesign=[
 
     },
     {
-        name:"How to Build A PC(2022)",
+        name:"How to Build A PC (2022)",
         photo: pc,
         a:[pc,PC1,PC2],
         skills:["React.js","JavaScript","HTML","CSS"],
-        description: "This website aims to inform users how to properly assemble a desktop PC. It features instructions " +
-            "on how to install each part properly as well as how to do it safely. Website Content written by Benjamin Nera, Programmed & Designed by Tuana Bicakci",
+        summary: "This website aims to inform users how to properly assemble a desktop PC. It features instructions " +
+            "on how to install each part properly as well as how to do it safely.",
         web:" https://instructions-8b8a8.web.app/",
         tag:"recent"
     }
@@ -232,7 +233,8 @@ export const ThreeD=[
         photo:MR6,
         a:[MR1,MR2,MR3,MR4,MR5,MR6],
         skills:["Blender", "Substance Painter"],
-        description:"Modeled by Stephane Rabattu, Texturized/Painted by Tuana Bicakci"
+        description:"Modeled by Stephane Rabattu, Texturized/Painted by Tuana Bicakci",
+        tag:"recent"
 
     },
     {
@@ -241,6 +243,7 @@ export const ThreeD=[
         a:[ELF3,ELF1,ELF2,ELF4],
         skills:["Blender", "Substance Painter"],
         description:"Sculpted by Tuana Bicakci",
+        tag:"recent"
 
     },
 ]

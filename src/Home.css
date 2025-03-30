@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: var(--color-primary);
 }
 .content {
     position: relative;
@@ -95,10 +96,15 @@
     font-style: normal;
     text-decoration: none;
     color: white;
-    background: var(--color-secondary);
+    background-color: var(--color-quaternary);
     font-size: var(--space-s-300);
     padding: var(--space-s-100);
     border-radius: var(--border-radius);
+    transition: background-color 0.3s ease-in-out;
+}
+
+#resume-btn:hover{
+    background-color:var(--color-quaternary-variant);
 }
 
 .resume{

@@ -1,5 +1,5 @@
 import "./Home.css";
-import {GameDesign, WebDesign} from "./Components/Work";
+import {GameDesign, WebDesign,ThreeD} from "./Components/Work";
 import {Socials} from "./Components/Socials";
 import {Link} from "react-router-dom";
 import Tuana from "./Images/IMG_0734.JPG";
@@ -80,13 +80,17 @@ function Home() {
                 "devicon-figma-plain",
                 "devicon-react-original",
                 "devicon-nextjs-original-wordmark",
-                 "devicon-nodejs-plain-wordmark",
-                    "devicon-mongodb-plain-wordmark"
+                "devicon-nodejs-plain-wordmark",
+                "devicon-mongodb-plain-wordmark",
+                "devicon-python-plain",
+                "devicon-streamlit-plain-wordmark",
+                "devicon-c-plain-wordmark"
                 ]}
                 children={WebDesign}
-                showRecent={true}/>
+                showRecent={true}
+                isAccent={false}/>
             <FieldSummary
-                mainIcon={""}
+                mainIcon={"fa-solid fa-gamepad"}
                 heading="GAME DEVELOPMENT"
                 icons={["devicon-unrealengine-original",
                     "devicon-unity-plain",
@@ -96,7 +100,26 @@ function Home() {
                 ]}
                 children={GameDesign}
                 showRecent={true}
-                bgColor={"rgba(250,168,246,0.15)"}/>
+                isAccent={true}/>
+            <FieldSummary
+                mainIcon={"fa-solid fa-code"}
+                heading="3D ART"
+                icons={["devicon-java-plain",
+                    "devicon-javascript-plain",
+                    "devicon-typescript-plain",
+                    "devicon-css3-plain",
+                    "devicon-html5-plain",
+                    "devicon-tailwindcss-plain-wordmark",
+                    "devicon-figma-plain",
+                    "devicon-react-original",
+                    "devicon-nextjs-original-wordmark",
+                    "devicon-nodejs-plain-wordmark",
+                    "devicon-mongodb-plain-wordmark"
+
+                ]}
+                children={ThreeD}
+                showRecent={true}
+                isAccent={false}/>
             <h2 className={"section-titles"}>ABOUT ME</h2>
             <hr className={'line'}/>
             <div className="about-me-container">

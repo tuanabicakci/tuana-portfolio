@@ -10,6 +10,8 @@ import ProjectDescription from "./Components/ProjectDescription";
 import substancePainterIcon from "./Images/substance-3d-painter.svg";
 import clipStudioIcon from "./Images/clip-studio-icon.svg";
 import ModelShowcase from "./Components/ModelShowcase";
+import YoutubeEmbed from "./Components/YoutubeEmbed";
+import React from "react";
 
 function StarlitCatch(){
     return(
@@ -26,6 +28,7 @@ function StarlitCatch(){
                     clipStudioIcon
                    ]}
             />
+            <YoutubeEmbed embedId={"wK1vN-3PRHo"}/>
             <ProjectDescription
                 description={(
             <>

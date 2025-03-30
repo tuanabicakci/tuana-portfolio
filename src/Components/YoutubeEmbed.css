@@ -3,6 +3,10 @@
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .video-responsive iframe {
@@ -10,5 +14,13 @@
     top: 0;
     height: 100%;
     width: 100%;
+    padding: var(--space-l-900);
     position: absolute;
+}
+.video-wrapper{
+    color: var(--gray-300);
+    background-color: #ffffff;
+    width: 100%;
+    padding: var(--space-l-900);
+
 }
