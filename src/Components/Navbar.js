@@ -1,33 +1,38 @@
-import {Link} from "react-router-dom";
-import  "./Navbar.css";
-import {FaBars, FaTimes} from "react-icons/fa";
-import {useRef} from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import { FaBars } from "react-icons/fa";
+import { useState, useEffect, useRef } from "react";
 
-function NavBar(){
-    const navRef = useRef();
-    const showNavbar=()=>{
-        navRef.current.classList.toggle("responsive-nav")
-    }
-    const divRef = useRef(null);
+function NavBar() {
+    const [scrolled, setScrolled] = useState(false); // To track if scrolled
+    // Handle scroll to change navbar background color
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) { // You can adjust the value as per your needs
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
 
-    const scrollToDiv = () => {
-        divRef.current.scrollIntoView({ behavior: 'smooth' });
-    };
+        window.addEventListener("scroll", handleScroll);
 
-    return(
-        <header className={"navbar-wrapper"}>
-            <nav className={"navbar"} ref={navRef}>
-                <Link to={'/'} style={{color:"#5F737B"}}>HOME</Link>
-                <Link to={'/code'} style={{color:"#A2B3B2"}}>CODE</Link>
-                <Link to={'/art'} style={{color:"#A53551"}}>ART</Link>
-                <Link style={{color:"#E18F89"}}>ABOUT ME</Link>
-                {/*<Link style={{color:"#E1C0A9"}}>CONTACTS & LINKS</Link>*/}
+        // Clean up the event listener on component unmount
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    return (
+        <header className={`navbar-wrapper ${scrolled ? 'scrolled' : ''}`}>
+            <nav className="navbar">
+                <Link to="/">HOME</Link>
+                <Link to="/code" >SOFTWARE</Link>
+                <Link to={"/games"}>GAMES</Link>
+                <Link to="/art" >ART</Link>
+                <Link to="/about-me" >ABOUT ME</Link>
             </nav>
-            <button className={"nav-btn"} onClick={showNavbar}>
-                <FaBars/>
-            </button>
         </header>
-
     );
 }
 

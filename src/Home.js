@@ -2,7 +2,7 @@ import "./Home.css";
 import {GameDesign, WebDesign,ThreeD} from "./Components/Work";
 import {Socials} from "./Components/Socials";
 import {Link} from "react-router-dom";
-import Tuana from "./Images/IMG_0734.JPG";
+import Tuana from "./Images/about-me-pic.jpeg";
 import video from "./Images/videoplayback.mp4"
 import React, {useEffect, useState} from "react";
 import DT1 from "./Images/DT1.png";
@@ -18,6 +18,7 @@ import S2 from "./Images/screenshot2.png"
 import resume from "./PDFs/TuanaBicakci_CV05.pdf"
 import FieldSummary from "./Components/FieldSummary";
 import substancePainterIcon from "./Images/substance-3d-painter.svg";
+
 
 const images = [
     DT1,DT2,DT3,DT5,red,S2,DT6,DT7,DT8,DT9
@@ -49,12 +50,12 @@ function Home() {
                 />
                 <div
                     className={`background-div`}
-                    style={{ backgroundImage: `linear-gradient(0deg, rgba(15,15,27,1) 0%, rgba(0,212,255,0) 100%)` }}/>
+                    style={{ backgroundImage: `linear-gradient(180deg, rgba(15,15,27,1) 0%, rgba(15,15,27,0) 50%, rgba(15,15,27,1) 100%)` }}/>
                 <div className="content">
                     <div className={"resume"}>
                         <h2 id={"name"}>TUANA BIÇAKCI</h2>
                         <h3 id={"title"}>DEVELOPER & 3D GENERALIST</h3>
-                        <a id={"resume-btn"} href={""}>MY RESUME</a>
+                        <a class={"resume-btn"} href={""}>MY RESUME</a>
                     </div>
                     <div className={"socials"}>
                         {Socials.map((item, i) => (
@@ -104,49 +105,31 @@ function Home() {
             <FieldSummary
                 mainIcon={"fa-solid fa-code"}
                 heading="3D ART"
-                icons={["devicon-java-plain",
-                    "devicon-javascript-plain",
-                    "devicon-typescript-plain",
-                    "devicon-css3-plain",
-                    "devicon-html5-plain",
-                    "devicon-tailwindcss-plain-wordmark",
-                    "devicon-figma-plain",
-                    "devicon-react-original",
-                    "devicon-nextjs-original-wordmark",
-                    "devicon-nodejs-plain-wordmark",
-                    "devicon-mongodb-plain-wordmark"
-
+                icons={["devicon-blender-original",
+                    substancePainterIcon,
                 ]}
                 children={ThreeD}
                 showRecent={true}
                 isAccent={false}/>
-            <h2 className={"section-titles"}>ABOUT ME</h2>
-            <hr className={'line'}/>
-            <div className="about-me-container">
-                <div className="about-me">
+
+            <div id="about-me-container" >
+                <div id="about-me" className="block">
                     <img  id="profile-pic" src={Tuana} alt=""/>
-                    <br/><br/>
-                    I'm a Bachelor of Computer Science and Computation Arts student at Concordia University.
-                    Through coursework and projects, I've mastered Object-Oriented Programming, Data Structures,
-                    3D Production, and Game Design. Engaging in game jams like Concordia Game Jam, Gamerella, and Ubisoft Gamelab,
-                    I've gained proficiency in Unreal Engine 5, Unity, C#, Blender, and Substance Painter.
-                    <br/><br/>
-                    My portfolio, featuring projects like "Errors In Thinking" and "Web-Based PC Assembly Guide,"
-                    highlights my Front-end Development skills with HTML, CSS, JavaScript, React.js, and TypeScript.
-                    Actively contributing to projects like Dream Team, PRISMA, Freddy's Cafe, I've demonstrated prowess as a Programmer, Level Designer, and Artist.
-                    <br/><br/>
-                    Currently interning as a Digital Marketing Intern at dormakaba, I'm sharpening my Front-end
-                    Development and Website Maintenance abilities with WordPress, Elementor, and Contentful.
-                    Additionally, I've recently joined the team of the horror game project, WaxHeart, as a
-                    3D Environment/Texture Artist, further enriching my portfolio with immersive game environments.
-                    <br/><br/>
-                    <a href={resume}>
-                        <button id={'cv-button'}>DOWNLOAD MY CV</button>
-                    </a>
+                    <div>
+                        <h2>ABOUT ME</h2>
+                        <p>
+                            I am a 3D environment artist and software developer based in Montreal, specializing in game and web development. My work focuses on crafting digital spaces that provoke real-life emotions and reflections. I believe environments tell stories—how objects are placed influences how players interact with the world, just as we shape and are shaped by our surroundings.
+                            <br/><br/>
+                            I have worked on multiple game projects, including The Lemon Game, Academic Weapon, and Starlit Catch, often collaborating with Kira Fountain. I have participated in Ubisoft Game Lab and game jams, earning a grant from Behaviour Interactive.
+                            <br/><br/>
+                            Beyond games, I co-founded imiGoose, an AI-driven immigration platform, and competed in the McGill Dobson Bootcamp and Cup. I have interned at Genetec and Dormakaba Americas, refining my expertise in UI/UX and software solutions.
+                            <br/><br/>
+                            Currently pursuing a Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences
+                        </p>
+                        <a className={"resume-btn"} href={""}>MY RESUME</a>
+                    </div>
                 </div>
             </div>
-            <br/><br/>
-            <br/><br/>
         </div>
     );
 }

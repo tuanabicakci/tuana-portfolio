@@ -1,15 +1,28 @@
-#footer{
-    margin-bottom: 3rem;
-    padding: 0 3rem ;
-    font-family: "Russo One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3rem;
-    color: #E8EBEA;
+#footer-wrapper{
+    background: var(--color-quaternary);
+    color: var(--color-secondary);
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+
+}
+
+#footer{
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    padding: var(--space-s-300);
+    font-size: var(--space-s-300);
+    margin: auto;
+    width: 100%;
 }
 
 #socials>a>i{

@@ -127,6 +127,7 @@
 }
 #see-more>span:hover{
     background-color:var(--color-tertiary-variant);
+    cursor: pointer;
 }
 
 .hidden{

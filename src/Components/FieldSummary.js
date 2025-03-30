@@ -13,7 +13,13 @@ const FieldSummary = ({ heading, mainIcon,icons, children, showRecent,isAccent }
                     </div>
                     <div className="icons" style={{color: isAccent===true?"var(--color-primary)":"var(--color-secondary)"}}>
                         {icons.map((icon, index) => (
-                            <i key={index} className={icon}/>
+                            // Check if the icon is a local image path
+                            icon.endsWith('.png') || icon.endsWith('.jpg') || icon.endsWith('.jpeg') || icon.endsWith('.svg') ? (
+                                <img key={index} src={icon} alt={`icon-${index}`} />
+                            ) : (
+                                // If it's not an image path, assume it's a class for a font-awesome or other icon
+                                <i key={index} className={icon} />
+                            )
                         ))}
                     </div>
                 </div>
@@ -25,7 +31,7 @@ const FieldSummary = ({ heading, mainIcon,icons, children, showRecent,isAccent }
                         <img src={item.photo} alt=""/>
                         <div className="thumbnail-text-wrapper">
                             <h3>{item.name}</h3>
-                            <div className={"thumbnail-description"}style={{color: isAccent===true?"var(--color-primary)":"var(--color-secondary)"}}>{item.summary}</div>
+                            <div className={"thumbnail-description"}  style={{color: isAccent===true?"var(--color-primary)":"var(--color-secondary)"}}>{item.summary}</div>
                         </div>
                     </Link>
                     ))}

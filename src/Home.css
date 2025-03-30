@@ -91,7 +91,7 @@
     letter-spacing: 1px;
 }
 
-#resume-btn{
+.resume-btn{
     font-family: "Russo One", sans-serif;
     font-style: normal;
     text-decoration: none;
@@ -103,7 +103,7 @@
     transition: background-color 0.3s ease-in-out;
 }
 
-#resume-btn:hover{
+.resume-btn:hover{
     background-color:var(--color-quaternary-variant);
 }
 
@@ -184,85 +184,45 @@
     margin-bottom: 5vw;
 }
 
-
-#socials{
-   display: flex;
-    justify-content: left;
-    gap: 1rem;
-    align-items: center;
-
-}
-#socials > a{
-    text-decoration: none;
-    color:  rgb(86,90,117);
-    border-radius: .3rem;
-}
-#footer{
-    margin-bottom: 3rem;
-    font-size: 4vh;
-    padding: 0 3rem ;
-}
-.about-me-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.about-me{
-    width: 50vw;
-    background: white;
-    color: black;
-    font-family: "JetBrains Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    padding: 3rem;
-    font-size: .9vw;
+#about-me-container{
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: var(--space-l-900);
+}
+#about-me{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: var(--space-l-800);
+    align-items: center;
+    font-family: "Doppio One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
+}
+
+#about-me>div{
+    display: flex;
+    flex-grow: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: var(--space-m-400);
+}
+#about-me>div>h2{
+    font-family: "gambado-sans", sans-serif;
+    font-weight: bold;
+    color: var(--color-tertiary);
 }
 
 #profile-pic{
-    width: 25%;
-    object-fit: contain;
-    border-radius: 100%;
-}
-#video{
+    width: 100%;
     object-fit: cover;
-    width: 100vw;
-}
-
-.line{
-    width:50vw;
-    margin:0 auto;
-    margin-bottom: 1vw;
-}
-
-.section-titles{
-    font-family: "Russo One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fafbf6;
-    margin-bottom: 0.5rem;
-    margin-top: 7rem;
-}
-
-#cv-button{
-    font-family: "Russo One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    border: none;
-    color: #fafbf6;
-    background: #5F737B;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-#cv-button:hover{
-    cursor: pointer;
-    background: #A53551;
+    border-radius: var(--border-radius);
 }
 @media only screen and (max-width: 1024px) {
     #intro{
@@ -293,9 +253,9 @@
     .line{
         width:80vw;
     }
-    .about-me{
-        width: 80vw;
-        font-size: 2vw;
+    #about-me{
+       display: flex;
+        flex-direction: column;
 
     }
     .skills-wrapper{
