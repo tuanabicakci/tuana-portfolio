@@ -230,13 +230,7 @@
         flex-direction: column;
 
     }
-    #recent-projects {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
     #home-thumbnail{
         width: 80vw;
         height: 30vh;

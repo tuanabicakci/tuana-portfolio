@@ -143,6 +143,8 @@
         flex-direction: column;
         gap: var(--space-m-500);
     }
-    .icons{
+    #fs-title>h2{
+        font-size: var(--space-s-200);
     }
 }
+

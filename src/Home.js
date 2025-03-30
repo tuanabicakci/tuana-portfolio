@@ -66,9 +66,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="outer-div">
-
-            </div>
             <FieldSummary
                 mainIcon={"fa-solid fa-code"}
                 heading="SOFTWARE DEVELOPMENT"
