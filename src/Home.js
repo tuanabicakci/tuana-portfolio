@@ -120,7 +120,8 @@ function Home() {
                         <p>
                             I am a 3D environment artist and software developer based in Montreal, specializing in game and web development. My work focuses on crafting digital spaces that provoke real-life emotions and reflections. I believe environments tell stories—how objects are placed influences how players interact with the world, just as we shape and are shaped by our surroundings.
                             <br/><br/>
-                            I have worked on multiple game projects, including The Lemon Game, Academic Weapon, and Starlit Catch, often collaborating with Kira Fountain. I have participated in Ubisoft Game Lab and game jams, earning a grant from Behaviour Interactive.
+                            I have worked on multiple game projects, including The Lemon Game, Academic Weapon, and Starlit Catch, often collaborating with <a
+                            href="https://shinykiwi.dev/">Kira Fountain</a>. I have participated in Ubisoft Game Lab and game jams, earning a grant from Behaviour Interactive.
                             <br/><br/>
                             Beyond games, I co-founded imiGoose, an AI-driven immigration platform, and competed in the McGill Dobson Bootcamp and Cup. I have interned at Genetec and Dormakaba Americas, refining my expertise in UI/UX and software solutions.
                             <br/><br/>

@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FieldSummary.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FieldSummary.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FieldSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FieldSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +165,7 @@
       <workItem from="1741032255896" duration="2402000" />
       <workItem from="1741058614378" duration="6897000" />
       <workItem from="1741785237844" duration="771000" />
-      <workItem from="1743267067878" duration="15768000" />
+      <workItem from="1743267067878" duration="16119000" />
     </task>
     <servers />
   </component>
