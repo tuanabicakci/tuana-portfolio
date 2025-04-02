@@ -11,7 +11,7 @@ const ProjectBanner = ({ image, name,date, link,icons }) => {
                 <br/>
                 <a href={link} target={"_blank"}>PLAY</a>
                 <br/>
-                <div className="icons">
+                <div className="fs-icons">
                     {icons.map((icon, index) => (
                         // Check if the icon is a local image path
                         icon.endsWith('.png') || icon.endsWith('.jpg') || icon.endsWith('.jpeg') || icon.endsWith('.svg') ? (

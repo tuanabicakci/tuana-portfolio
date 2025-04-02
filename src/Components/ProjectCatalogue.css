@@ -1,0 +1,22 @@
+#pc-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-m-400);
+    font-family: "gambado-sans", sans-serif;
+    font-weight: bold;
+    color: var(--color-tertiary);
+    text-align: center;
+}
+
+.pc-icons{
+    width: 100%;
+    height: 100%;
+    font-size: var(--space-m-600);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,var(--space-m-600));
+    gap:var(--space-s-100);
+    color: #fff;
+    justify-content: center;
+}

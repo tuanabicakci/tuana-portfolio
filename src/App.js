@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Home.js"
 import Art from "./Art";
 import Code from "./Code";
+import Games from "./Games"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
@@ -26,6 +27,7 @@ function App() {
                   <Route exact path="/" element={<Home/>}/>
                   <Route path={"/art"} element={<Art/>}/>
                   <Route path={"/code"} element={<Code/>}/>
+                  <Route path={"/games"} element={<Games/>}/>
                     <Route path={"/prisma"} element={<Prisma/>}/>
                     <Route path={"/freddys-cafe"} element={<FreddysCafe/>}/>
                     <Route path={"/miracle-daycare"} element={<MiracleDaycare/>}/>

@@ -28,7 +28,7 @@ function NavBar() {
             <nav className="navbar">
                 <Link to="/">HOME</Link>
                 <Link to="/code" >SOFTWARE</Link>
-                <Link to={"/games"}>GAMES</Link>
+                <Link to="/games">GAMES</Link>
                 <Link to="/art" >ART</Link>
                 <Link to="/about-me" >ABOUT ME</Link>
             </nav>

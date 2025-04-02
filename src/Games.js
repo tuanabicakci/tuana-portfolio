@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 import substancePainterIcon from "./Images/substance-3d-painter.svg";
 import ProjectCatalogue from "./Components/ProjectCatalogue";
 
-function Code() {
+function Games() {
     return (
         <div>
             <ProjectCatalogue
@@ -40,4 +40,4 @@ function Code() {
         </div>
     );
 }
-export default Code;
+export default Games;
