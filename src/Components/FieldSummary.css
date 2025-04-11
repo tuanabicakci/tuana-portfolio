@@ -104,7 +104,7 @@
 
 #see-more{
     font-family: "gambado-sans", sans-serif;
-    font-size: var(--space-s-200);
+    font-size: var(--font-m-400);
     text-align: right;
     display: flex;
     justify-content: flex-end;
@@ -135,16 +135,28 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    #fs-container{
-        gap: var(--space-m-400);
+    .thumbnail-text-wrapper>h3{
+        font-size: var(--font-m-600);
     }
-    #project-thumbnail-container {
-        display:flex;
+    .thumbnail-text-wrapper>div{
+        font-size: var(--font-m-500);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #project-thumbnail-container{
+        display: flex;
         flex-direction: column;
-        gap: var(--space-m-500);
     }
-    #fs-title>h2{
-        font-size: var(--space-s-200);
+}
+
+@media only screen and (max-width: 480px) {
+    #fs-wrapper{
+        padding: var(--space-s-300);
+    }
+    .fs-icons{
+        grid-template-columns: repeat(auto-fit, var(--space-m-400));
+        gap: var(--space-s-300);
     }
 }
 

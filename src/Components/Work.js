@@ -49,7 +49,7 @@ import SH from "../Images/SH.png"
 import AST from "../Images/AST.png"
 import dtBanner from "../Images/dtbanner.png"
 import academicWeaponThumbnail from "../Images/academic-weapon-banner.png"
-import starlitCatchThumbnail from "../Images/Starlit_Catch/starlit-catch-banner.jpg"
+import starlitCatchThumbnail from "../Images/Starlit_Catch/starlit-catch-slide_1.png"
 import mtlRankedThumbnail from"../Images/MTLranked/map-screenshot.png"
 export const GameDesign = [
     {
@@ -233,7 +233,7 @@ export const ThreeD=[
         photo:MR6,
         a:[MR1,MR2,MR3,MR4,MR5,MR6],
         skills:["Blender", "Substance Painter"],
-        description:"Modeled by Stephane Rabattu, Texturized/Painted by Tuana Bicakci",
+        summary:"Modeled by Stephane Rabattu, Texturized/Painted by Tuana Bicakci inspired from the game Borderlands by Gearbox Entertaintment",
         tag:"recent"
 
     },
@@ -242,7 +242,7 @@ export const ThreeD=[
         photo:ELF4,
         a:[ELF3,ELF1,ELF2,ELF4],
         skills:["Blender", "Substance Painter"],
-        description:"Sculpted by Tuana Bicakci",
+        summary:"Sculpted by Tuana Bicakci",
         tag:"recent"
 
     },

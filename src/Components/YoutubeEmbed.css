@@ -14,13 +14,17 @@
     top: 0;
     height: 100%;
     width: 100%;
-    padding: var(--space-l-900);
+    padding: var(--space-l-700);
     position: absolute;
 }
 .video-wrapper{
-    color: var(--gray-300);
-    background-color: #ffffff;
     width: 100%;
-    padding: var(--space-l-900);
+
+}
+
+@media screen and (max-width: 480px){
+    .video-responsive{
+        padding-bottom: 100%;
+    }
 
 }

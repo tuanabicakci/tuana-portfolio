@@ -14,29 +14,20 @@ function Games() {
     return (
         <div>
             <ProjectCatalogue
-                mainIcon={"fa-solid fa-code"}
-                heading="SOFTWARE DEVELOPMENT"
-                icons={["devicon-java-plain",
-                    "devicon-javascript-plain",
-                    "devicon-typescript-plain",
-                    "devicon-css3-plain",
-                    "devicon-html5-plain",
-                    "devicon-tailwindcss-plain-wordmark",
-                    "devicon-figma-plain",
-                    "devicon-react-original",
-                    "devicon-nextjs-original-wordmark",
-                    "devicon-nodejs-plain-wordmark",
-                    "devicon-mongodb-plain-wordmark",
-                    "devicon-python-plain",
-                    "devicon-streamlit-plain-wordmark",
-                    "devicon-c-plain-wordmark"
+                mainIcon={"fa-solid fa-gamepad"}
+                heading="GAME DEVELOPMENT"
+                icons={["devicon-unrealengine-original",
+                    "devicon-unity-plain",
+                    "devicon-csharp-line",
+                    "devicon-blender-original",
+                    substancePainterIcon
                 ]}
-                children={WebDesign}
+                children={GameDesign}
                 showRecent={true}
                 isAccent={false}
-                social={"GitHub"}
-                socialLink={"https://github.com/tuanabicakci"}
-                socialIcon={"devicon-github-original"}/>
+                social={"Itch.io"}
+                socialLink={"https://tuanabicakci.itch.io/"}
+                socialIcon={"fa-brands fa-itch-io"}/>
         </div>
     );
 }
