@@ -14,7 +14,17 @@
 #description-container {
     display: flex;
     flex-direction: column;
-    gap: var(--space-s-100);
+    gap: var(--space-m-600);
+}
+
+#description-container>div>ul{
+    padding-left: var(--space-s-300);
+}
+
+#description-container>div>h3{
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media screen and (max-width: 1024px){

@@ -6,14 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FieldSummary.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FieldSummary.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectBanner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectBanner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Art.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Art.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ProjectDescription.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectDescription.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProjectDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectDescription.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/YoutubeEmbed.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/YoutubeEmbed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Games.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/YoutubeEmbed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/YoutubeEmbed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StarlitCatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StarlitCatch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +176,7 @@
       <workItem from="1743267067878" duration="17467000" />
       <workItem from="1743353262723" duration="211000" />
       <workItem from="1743562806814" duration="1815000" />
-      <workItem from="1744330045706" duration="3494000" />
+      <workItem from="1744330045706" duration="7041000" />
     </task>
     <servers />
   </component>
@@ -198,29 +198,15 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Art.js</url>
-          <line>78</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Art.js</url>
-          <line>102</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Art.js</url>
-          <line>104</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Art.js</url>
-          <line>87</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Components/FieldSummary.js</url>
           <line>8</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Home.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

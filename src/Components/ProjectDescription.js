@@ -6,16 +6,19 @@ const ProjectDescription=({description,teamMembers})=>{
         <div id={"description-wrapper"}>
             <div className={"block"} id={"description-container"}>
                 <div>{description}</div>
-                <h3>TEAM</h3>
-                <ul>
-                    {teamMembers.map((teamMember, index) => (
-                        <li key={index}>
-                            <a href={teamMember.link} target={"_blank"}>
-                                {teamMember.name}
-                            </a> : {teamMember.role}
-                        </li>
-                    ))}
-                </ul>
+                <div>
+                    <h3>TEAM</h3>
+                    <ul>
+                        {teamMembers.map((teamMember, index) => (
+                            <li key={index}>
+                                <a href={teamMember.link} target={"_blank"}>
+                                    {teamMember.name}
+                                </a> : {teamMember.role}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
             </div>
         </div>
     )

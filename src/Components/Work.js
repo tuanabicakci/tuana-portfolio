@@ -163,20 +163,20 @@ export const GraphicDesign=[
         name:"Astarion(2023)",
         photo:AST,
         skills:["Procreate"],
-        description:"Fanart of Astarion from Baldur's Gate 3"
+        summary:"Fanart of Astarion from Baldur's Gate 3"
     },
     {
         name:"Shadowheart(2023)",
         photo:SH,
         skills:["Procreate"],
-        description:"Fanart of Shadowheart from Baldur's Gate 3"
+        summary:"Fanart of Shadowheart from Baldur's Gate 3"
     },
     {
         name:"A Fever You Can't Sweat Out(2023)",
         photo:ALBF,
         a:[ALBF,ALBB],
         skills:["Illustrator","PhotoShop","Procreate"],
-        description:"Final submission for CART 214: My reinterpretation on Panic! At the Disco's first album, 'A Fever You Can't Sweat Out.'",
+        summary:"Final submission for CART 214: My reinterpretation on Panic! At the Disco's first album, 'A Fever You Can't Sweat Out.'",
 
     },
     {
@@ -184,7 +184,7 @@ export const GraphicDesign=[
         photo:SNM3,
         a:[SNM3,SNM1,SNM2],
         skills:["Illustrator","PhotoShop","Procreate"],
-        description:"Midterm submission for CART 214: A thematic exploration on media \ncensorship through the creation " +
+        summary:"Midterm submission for CART 214: A thematic exploration on media \ncensorship through the creation " +
             "of three distinct posters,each employing \ndiverse grids while preserving essential elements. ",
 
     },
@@ -193,7 +193,7 @@ export const GraphicDesign=[
         photo:CGD1,
         a:[CGD1,CGD,CGD2,CGD3,RDA,STK],
         skills:["Procreate"],
-        description:"As the lead artist, I proudly designed the mascot, R.DIA, for the Concordia Game Dev Club. Unveiling its debut during\n" +
+        summary:"As the lead artist, I proudly designed the mascot, R.DIA, for the Concordia Game Dev Club. Unveiling its debut during\n" +
             "the CGD Game Jam, I depicted R.DIA poised on the moon, gazing at constellations formed like beloved classic " +
             "\ngame characters, a captivating homage to our vibrant community's shared passion." +
             "\nIllustrations & Stickers by Tuana Bicakci, Posters designed by Carleen Looney ",
@@ -204,7 +204,7 @@ export const GraphicDesign=[
         photo:GGJC,
         a:[GGJC,GGJ],
         skills:["Procreate"],
-        description:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
+        summary:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
             "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
             "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
 
@@ -213,7 +213,7 @@ export const GraphicDesign=[
         name:"Road To Montreal(2022)",
         photo:MTL,
         skills:["Procreate"],
-        description:"Pursuing my long-held dream of studying abroad required thoughtful consideration \n" +
+        summary:"Pursuing my long-held dream of studying abroad required thoughtful consideration \n" +
             "and, while the decision to relocate to Montreal was challenging, it was ultimately the right one. \n" +
             "Reflecting on this significant journey, I encapsulated my experience by making this gif.",
 
@@ -221,7 +221,7 @@ export const GraphicDesign=[
         name:"Tuana(2022)",
         photo:TUI,
         skills:["Procreate"],
-        description:"Drawing inspiration from a personally curated color palette featuring my favorite hues, \nI drew a self-portrait with careful consideration and creative intent.",
+        summary:"Drawing inspiration from a personally curated color palette featuring my favorite hues, \nI drew a self-portrait with careful consideration and creative intent.",
 
     },
 

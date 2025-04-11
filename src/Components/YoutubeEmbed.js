@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./YoutubeEmbed.css";
 
 const YoutubeEmbed = ({ embedId }) => (
-    <div className="video-wrapper">
+    <div id="video-wrapper" className={"block"}>
         <div className="video-responsive">
             <iframe
                 width="853"

@@ -76,10 +76,12 @@
 
   min-height: 100vh;
   overflow: hidden;
+  font-variant-ligatures:none;
 }
 
 .block{
   max-width: 1200px;
   padding: var(--space-m-500) 0;
+  margin: auto;
 }
 

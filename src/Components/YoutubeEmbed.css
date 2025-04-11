@@ -1,6 +1,6 @@
 .video-responsive {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    padding-bottom: 50%;
     position: relative;
     height: 0;
     display: flex;
@@ -12,14 +12,27 @@
 .video-responsive iframe {
     left: 0;
     top: 0;
+    margin: auto;
     height: 100%;
     width: 100%;
-    padding: var(--space-l-700);
     position: absolute;
 }
-.video-wrapper{
-    width: 100%;
 
+
+
+@media screen and (max-width: 1200px){
+    #video-wrapper{
+        padding: var(--space-l-900);
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #video-wrapper{
+        padding: var(--space-s-300);
+    }
+    .video-responsive{
+        padding-bottom: 60%;
+    }
 }
 
 @media screen and (max-width: 480px){
