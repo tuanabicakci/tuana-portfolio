@@ -47,11 +47,35 @@ import Cali from "../PDFs/CART215-Calinferno (1).pdf"
 import CAL from "../Images/cali.png"
 import SH from "../Images/SH.png"
 import AST from "../Images/AST.png"
-import dtBanner from "../Images/dtbanner.png"
-import academicWeaponThumbnail from "../Images/academic-weapon-banner.png"
+import dreamTeamThumbnail from "../Images/DT5.png"
+import academicWeaponThumbnail from "../Images/Academic_Weapon/academic-weapon-slide_2.png"
 import starlitCatchThumbnail from "../Images/Starlit_Catch/starlit-catch-slide_1.png"
 import mtlRankedThumbnail from"../Images/MTLranked/map-screenshot.png"
 export const GameDesign = [
+    {
+        name: "The Situation(2025)",
+        photo:starlitCatchThumbnail,
+        summary: "Eerie 3D narrative game about hidden identities.",
+        link: "/the-situation",
+        tag:"recent"
+
+    },
+    {
+        name: "The Lemon Game(2025)",
+        photo:starlitCatchThumbnail,
+        summary: "When life gives you lemons...then what?",
+        link: "/lemon-game",
+        tag:"recent"
+
+    },
+    {
+        name: "Sleepy Haven Hotel(2024)",
+        photo:starlitCatchThumbnail,
+        summary: "Eerie 3D narrative game about hidden identities.",
+        link: "/sleepy-haven",
+        tag:""
+
+    },
     {
         name: "Starlit Catch(2024)",
         photo:starlitCatchThumbnail,
@@ -65,22 +89,15 @@ export const GameDesign = [
         photo:academicWeaponThumbnail ,
         summary: "Outsmart your classmates, dodge the teacher, and survive the exam with your disappearing powers!",
         link: "/academic-weapon",
-        tag:"recent"
+        tag:""
 
     },
     {
         name: "Dream Team(Ubisoft Gamelab 2024)",
-        photo: dtBanner,
+        photo: dreamTeamThumbnail,
         summary: "Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt it and reach its core.",
         link: "/dream-team",
-        tag:"recent"
-    },
-    {
-        name: "Miracle Daycare",
-        photo: MD,
-        summary:"Discover a trail of sinister secrets inside boxes.",
-        link: "/miracle-daycare",
-
+        tag:""
     },
 
     {

@@ -6,6 +6,7 @@ import academicWeaponSlide_3 from "./Images/Academic_Weapon/academic-weapon-slid
 import academicWeaponSlide_4 from "./Images/Academic_Weapon/academic-weapon-slide_4.png"
 import ProjectDescription from "./Components/ProjectDescription";
 import ModelShowcase from "./Components/ModelShowcase";
+import ItchEmbed from "./Components/ItchEmbed";
 
 function AcademicWeapon(){
     return(
@@ -42,6 +43,7 @@ function AcademicWeapon(){
                 academicWeaponSlide_3,
                 academicWeaponSlide_4]}
             />
+            <ItchEmbed src={"https://itch.io/embed/2989846?bg_color=114438&amp;fg_color=f7ecc5&amp;link_color=63c64d&amp;border_color=cfba95"} title={"Academic Weapon"} />
         </div>
     )
 }

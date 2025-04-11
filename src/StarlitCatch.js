@@ -11,6 +11,7 @@ import substancePainterIcon from "./Images/substance-3d-painter.svg";
 import clipStudioIcon from "./Images/clip-studio-icon.svg";
 import ModelShowcase from "./Components/ModelShowcase";
 import YoutubeEmbed from "./Components/YoutubeEmbed";
+import ItchEmbed from "./Components/ItchEmbed";
 import React from "react";
 
 function StarlitCatch(){
@@ -55,10 +56,7 @@ function StarlitCatch(){
                 starlitCatchSlide_6,
                 starlitCatchSlide_7]}
             />
-            <iframe frameBorder="0"
-                    src="https://itch.io/embed/3132157?bg_color=2912ff&amp;fg_color=ffffff&amp;link_color=fac55a&amp;border_color=000000"
-                    width="100%" height="167"><a href="https://tuanabicakci.itch.io/starlit-catch">Starlit Catch by Tuana
-                Bıçakcı, Zaid The Programmer, Kira Fountain</a></iframe>
+            <ItchEmbed src={"https://itch.io/embed/3132157?bg_color=0048ba&fg_color=f7ecc5&link_color=ffb32a&border_color=373163"} title={"Starlit Catch"} />
 
         </div>
     )

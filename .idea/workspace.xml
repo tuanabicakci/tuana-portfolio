@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/ItchEmbed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ItchEmbed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FieldSummary.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FieldSummary.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AcademicWeapon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AcademicWeapon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ModelShowcase.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ModelShowcase.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectDescription.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectDescription.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ModelShowcase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ModelShowcase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DreamTeam.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DreamTeam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prisma.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prisma.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StarlitCatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StarlitCatch.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -170,7 +176,7 @@
       <workItem from="1743267067878" duration="17467000" />
       <workItem from="1743353262723" duration="211000" />
       <workItem from="1743562806814" duration="1815000" />
-      <workItem from="1744330045706" duration="8678000" />
+      <workItem from="1744330045706" duration="12952000" />
     </task>
     <servers />
   </component>

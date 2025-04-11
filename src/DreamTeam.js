@@ -52,6 +52,7 @@ function DreamTeam(props) {
                 substancePainterIcon,
             wwiseIcon]}
             />
+            <YoutubeEmbed embedId={"vb92z58KZeE"}/>
             <ProjectDescription
             description={"Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt it and reach its core. Together, you assume the roles of elite Dream Agents, venturing deep into the sleeper's subconscious to fend off nefarious nightmares. United in purpose, you must synchronize your strategies and unique abilities to maintain the dream’s sanctity. The fate of the dream world depends on it! \n\n"+
             "This is a 3D online coop game where you must work together to defeat enemies and defend territory by combining weapons. It is an action-based fantasy game made for PC, with controller support. This is Concordia-A's submission for the 2024 Ubisoft Game Lab Competition. The conception was based around the theme “Dream” as given by the jury at the start of the competition."}

@@ -29,10 +29,10 @@ const ModelShowcase = ({ images = [] }) => {
 
                 {/* Carousel Navigation */}
                 <button onClick={prevSlide} className="carousel-button prev-button">
-                    &lt; Prev
+                    <i className="fa-solid fa-arrow-left"/>
                 </button>
                 <button onClick={nextSlide} className="carousel-button next-button">
-                    Next &gt;
+                    <i className="fa-solid fa-arrow-right"></i>
                 </button>
             </div>
 
