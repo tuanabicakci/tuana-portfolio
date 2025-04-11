@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: var(--space-l-900);
+    padding: 0 var(--space-l-900);
     font-size: var(--space-s-300);
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -16,6 +16,12 @@
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
+}
+
+#carousel-container>h3{
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Main carousel image */
@@ -64,14 +70,28 @@
 /* Thumbnails container */
 .images {
     display: flex;
-    justify-content: center;
+    max-width: 100%;
+    justify-content: flex-start;
     gap: 10px;
     margin-top: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
 }
 
-/* Styling for each thumbnail */
+.images::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.images {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
 .thumbnail-container {
-    cursor: pointer;
+    flex: 0 0 auto; /* Prevents shrinking and ensures horizontal scroll */
+    scroll-snap-align: center;
 }
 
 .image {
@@ -92,3 +112,57 @@
     transform: scale(1.1); /* Slightly larger to indicate active image */
     border: 2px solid #fff; /* Outline for active image */
 }
+
+@media screen and (max-width: 1024px){
+    #carousel-wrapper{
+        padding: 0 var(--space-s-300);
+    }
+}
+
+/* ...existing styles remain unchanged... */
+
+/* Responsive improvements */
+@media screen and (max-width: 768px) {
+    #carousel-wrapper {
+        padding: 0 var(--space-s-100);
+        font-size: var(--space-s-200);
+    }
+
+    #carousel-container > h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .carousel-button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .images {
+        margin-top: 15px;
+    }
+
+    .image,
+    .outlined-image {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-button {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .image,
+    .outlined-image {
+        width: 45px;
+        height: 45px;
+    }
+
+    #carousel-container > h3 {
+        font-size: 1rem;
+    }
+}
+
