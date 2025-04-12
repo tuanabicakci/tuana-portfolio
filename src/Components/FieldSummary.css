@@ -49,6 +49,7 @@
     color: #fff;
     position: relative;
     height: fit-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: var(--space-s-200);
@@ -82,6 +83,7 @@
 .thumbnail-text-wrapper{
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: var(--space-s-100);
 }
 
@@ -158,6 +160,11 @@
         grid-template-columns: repeat(auto-fit, var(--space-m-400));
         gap: var(--space-s-300);
     }
+    #fs-title>h2 {
+        flex-direction: column;
+    }
 
 }
+
+
 

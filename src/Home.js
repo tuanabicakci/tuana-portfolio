@@ -100,8 +100,8 @@ function Home() {
                 showRecent={true}
                 isAccent={true}/>
             <FieldSummary
-                mainIcon={"fa-solid fa-code"}
-                heading="3D ART"
+                mainIcon={"fa-solid fa-cube"}
+                heading="3D MODELING"
                 icons={["devicon-blender-original",
                     substancePainterIcon,
                 ]}
@@ -115,14 +115,15 @@ function Home() {
                     <div>
                         <h2>ABOUT ME</h2>
                         <p>
-                            I am a 3D environment artist and software developer based in Montreal, specializing in game and web development. My work focuses on crafting digital spaces that provoke real-life emotions and reflections. I believe environments tell stories—how objects are placed influences how players interact with the world, just as we shape and are shaped by our surroundings.
+                            I am a multidisciplinary 3D environment artist and software developer based in Montreal, specializing in game and web development. My work focuses on crafting digital spaces that provoke real-life emotions and reflections. I believe environments tell stories—how objects are placed influences how players interact with the world, just as we shape and are shaped by our surroundings.
                             <br/><br/>
-                            I have worked on multiple game projects, including The Lemon Game, Academic Weapon, and Starlit Catch, often collaborating with <a
-                            href="https://shinykiwi.dev/">Kira Fountain</a>. I have participated in Ubisoft Game Lab and game jams, earning a grant from Behaviour Interactive.
+                            Over the years, I’ve worked on several indie and experimental game projects like The Lemon Game, Academic Weapon, and Starlit Catch, often collaborating with <a
+                            href="https://shinykiwi.dev/">Kira Fountain</a>. I’ve also participated in the Ubisoft Game Lab and taken part in many game jams, earning a grant from Behaviour Interactive for the work I did throughout my undergrad.
                             <br/><br/>
-                            Beyond games, I co-founded imiGoose, an AI-driven immigration platform, and competed in the McGill Dobson Bootcamp and Cup. I have interned at Genetec and Dormakaba Americas, refining my expertise in UI/UX and software solutions.
+                            Beyond games, I’m the co-founder and developer of imiGoose, an AI-powered immigration platform, and competed in the McGill Dobson Bootcamp and Cup which is designed to support early-stage startups. I have interned at Genetec and dormakaba Americas, refining my expertise in UI/UX and software solutions.
                             <br/><br/>
-                            Currently pursuing a Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences
+                            Having completed a Double Major in Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences
+                            
                         </p>
                         <a className={"resume-btn"} href={""}>MY RESUME</a>
                     </div>

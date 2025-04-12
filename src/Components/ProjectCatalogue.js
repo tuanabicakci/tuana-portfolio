@@ -10,7 +10,7 @@ const ProjectCatalogue = ({ heading, mainIcon,icons, children, showRecent,isAcce
                 <div id="pc-header">
                     <div id="fs-title">
                         <h2><i className={mainIcon}/>{heading}</h2>
-                        <p>Check out my <a href={socialLink}><i className={socialIcon}/> {social}</a> for more!</p>
+                        <p  style={{color: isAccent===true?"var(--color-primary)":"var(--color-secondary)"}}>Check out my <a href={socialLink}><i className={socialIcon}/>_{social}</a> for more!</p>
                     </div>
                     <div className="pc-icons" style={{color: isAccent===true?"var(--color-primary)":"var(--color-secondary)"}}>
                         {icons.map((icon, index) => (

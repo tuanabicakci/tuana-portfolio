@@ -30,7 +30,7 @@ function NavBar() {
                 <Link to="/code" >SOFTWARE</Link>
                 <Link to="/games">GAMES</Link>
                 <Link to="/art" >ART</Link>
-                <Link to="/about-me" >ABOUT ME</Link>
+                {/*<Link to="/about-me" >ABOUT ME</Link>*/}
             </nav>
         </header>
     );

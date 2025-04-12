@@ -9,6 +9,7 @@ import {GraphicDesign, Music, ThreeD, VideoEdit, WebDesign} from "./Components/W
 import YoutubeEmbed from "./Components/YoutubeEmbed";
 import ProjectCatalogue from "./Components/ProjectCatalogue";
 import substancePainterIcon from "./Images/substance-3d-painter.svg";
+import procreateIcon from "./Images/procreate_icon.png";
 
 
 export default function Art() {
@@ -17,8 +18,8 @@ export default function Art() {
     return (
         <div>
             <ProjectCatalogue
-                mainIcon={"fa-solid fa-code"}
-                heading="3D"
+                mainIcon={"fa-solid fa-cube"}
+                heading="3D MODELING"
                 icons={["devicon-blender-original",
                     substancePainterIcon,
                 ]}
@@ -26,20 +27,20 @@ export default function Art() {
                 showRecent={true}
                 isAccent={false}
                 social={"ArtStation"}
-                socialLink={"https://github.com/tuanabicakci"}
-                socialIcon={"devicon-github-original"}/>
+                socialLink={"https://www.artstation.com/tuanabicakci"}
+                socialIcon={"fa-brands fa-artstation"}/>
             <ProjectCatalogue
                 mainIcon={"fa-solid fa-code"}
                 heading="ILLUSTRATION"
-                icons={["devicon-blender-original",
-                    substancePainterIcon,
+                icons={["devicon-photoshop-plain",
+                    procreateIcon,
                 ]}
                 children={GraphicDesign}
                 showRecent={true}
                 isAccent={true}
                 social={"ArtStation"}
-                socialLink={"https://github.com/tuanabicakci"}
-                socialIcon={"devicon-github-original"}/>
+                socialLink={"https://www.artstation.com/tuanabicakci"}
+                socialIcon={"fa-brands fa-artstation"}/>
 
         </div>
 

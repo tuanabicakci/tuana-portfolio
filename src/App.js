@@ -18,6 +18,9 @@ import Footer from "./Components/Footer"
 import DreamTeam from "./DreamTeam";
 import StarlitCatch from "./StarlitCatch"
 import AcademicWeapon from "./AcademicWeapon";
+import TheSituation from "./TheSituation";
+import LemonGame from "./LemonGame";
+import SleepyHaven from "./SleepyHaven";
 function App() {
   return (
       <Router>
@@ -35,6 +38,11 @@ function App() {
                     <Route path={"/dream-team"} element={<DreamTeam/>}/>
                     <Route path={"/starlit-catch"} element={<StarlitCatch/>}/>
                     <Route path={"/academic-weapon"} element={<AcademicWeapon/>}/>
+                    <Route path={"/the-situation"} element={<TheSituation/>}/>
+                    <Route path={"/lemon-game"} element={<LemonGame/>}/>
+                    <Route path={"/sleepy-haven"} element={<SleepyHaven/>}/>
+
+
               </Routes>
           <Footer/>
       </Router>

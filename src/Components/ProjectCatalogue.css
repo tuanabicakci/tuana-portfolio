@@ -20,3 +20,20 @@
     color: #fff;
     justify-content: center;
 }
+
+#fs-title>p{
+    font-family:"Doppio One", sans-serif;
+    color: var(--color-secondary);
+    margin-top: var(--space-s-100);
+    font-size: var(--font-m-500);
+
+
+}
+
+#fs-title>p>a{
+    color: var(--color-link);
+    display:inline-flex;
+    white-space: nowrap;
+    align-items: baseline;
+
+}

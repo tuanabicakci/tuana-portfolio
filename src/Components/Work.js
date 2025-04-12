@@ -51,18 +51,21 @@ import dreamTeamThumbnail from "../Images/DT5.png"
 import academicWeaponThumbnail from "../Images/Academic_Weapon/academic-weapon-slide_2.png"
 import starlitCatchThumbnail from "../Images/Starlit_Catch/starlit-catch-slide_1.png"
 import mtlRankedThumbnail from"../Images/MTLranked/map-screenshot.png"
+import thesituationThumbnail from "../Images/The_Situation/the-situation-slide-2.png"
+import lemonGameThumbnail from "../Images/The_Lemon_Game/lemon-game-slide-1.png"
+import sleepyHavenThumbnail from "../Images/Sleepy_Haven/sleepy-haven-slide-1.png"
 export const GameDesign = [
     {
         name: "The Situation(2025)",
-        photo:starlitCatchThumbnail,
+        photo: thesituationThumbnail,
         summary: "Eerie 3D narrative game about hidden identities.",
         link: "/the-situation",
         tag:"recent"
 
     },
     {
-        name: "The Lemon Game(2025)",
-        photo:starlitCatchThumbnail,
+        name: "Lemon Game(2025)",
+        photo:lemonGameThumbnail,
         summary: "When life gives you lemons...then what?",
         link: "/lemon-game",
         tag:"recent"
@@ -70,7 +73,7 @@ export const GameDesign = [
     },
     {
         name: "Sleepy Haven Hotel(2024)",
-        photo:starlitCatchThumbnail,
+        photo:sleepyHavenThumbnail,
         summary: "Eerie 3D narrative game about hidden identities.",
         link: "/sleepy-haven",
         tag:""
@@ -109,6 +112,13 @@ export const GameDesign = [
 
     },
 
+
+
+
+
+]
+{/*
+
     {
         name: "Freddy's Cafe(2023)",
         photo: freddysCafe,
@@ -120,12 +130,7 @@ export const GameDesign = [
         photo: feltAlone,
         summary: "Embark on a soul-soothing journey through a forest, unraveling memories and embracing solitude ",
         link: "/felt-alone",
-    },
-
-
-
-
-]
+    },*/}
 
 export const WebDesign=[
     {
@@ -193,7 +198,7 @@ export const GraphicDesign=[
         photo:ALBF,
         a:[ALBF,ALBB],
         skills:["Illustrator","PhotoShop","Procreate"],
-        summary:"Final submission for CART 214: My reinterpretation on Panic! At the Disco's first album, 'A Fever You Can't Sweat Out.'",
+        summary:"My reinterpretation on Panic! At the Disco's first album, 'A Fever You Can't Sweat Out.'",
 
     },
     {
@@ -201,8 +206,7 @@ export const GraphicDesign=[
         photo:SNM3,
         a:[SNM3,SNM1,SNM2],
         skills:["Illustrator","PhotoShop","Procreate"],
-        summary:"Midterm submission for CART 214: A thematic exploration on media \ncensorship through the creation " +
-            "of three distinct posters,each employing \ndiverse grids while preserving essential elements. ",
+        summary:"A thematic exploration on media censorship through the creation of three distinct posters. ",
 
     },
     {
@@ -210,10 +214,7 @@ export const GraphicDesign=[
         photo:CGD1,
         a:[CGD1,CGD,CGD2,CGD3,RDA,STK],
         skills:["Procreate"],
-        summary:"As the lead artist, I proudly designed the mascot, R.DIA, for the Concordia Game Dev Club. Unveiling its debut during\n" +
-            "the CGD Game Jam, I depicted R.DIA poised on the moon, gazing at constellations formed like beloved classic " +
-            "\ngame characters, a captivating homage to our vibrant community's shared passion." +
-            "\nIllustrations & Stickers by Tuana Bicakci, Posters designed by Carleen Looney ",
+        summary:"R.DIA, for the Concordia Game Dev Club. Unveiling its debut during the CGD Game Jam."
 
     },
     {
@@ -221,18 +222,14 @@ export const GraphicDesign=[
         photo:GGJC,
         a:[GGJC,GGJ],
         skills:["Procreate"],
-        summary:"As VP Creative, I brought classic video game characters together hanging out together base shaped like the club's logo in an illustration \n" +
-            "for the Global Game Jam hosted by the Concordia Game Dev Club.\n" +
-            "Illustrated by Tuana Bicakci, Poster designed by Kira Fountain ",
+        summary:"I brought classic video game characters together hanging out together base shaped like the Concordia Game Dev Club's logo in an illustration."
 
     },
     {
         name:"Road To Montreal(2022)",
         photo:MTL,
         skills:["Procreate"],
-        summary:"Pursuing my long-held dream of studying abroad required thoughtful consideration \n" +
-            "and, while the decision to relocate to Montreal was challenging, it was ultimately the right one. \n" +
-            "Reflecting on this significant journey, I encapsulated my experience by making this gif.",
+        summary:"Pursuing my long-held dream of studying abroad required thoughtful consideration \n"
 
     },{
         name:"Tuana(2022)",
