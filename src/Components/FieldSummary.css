@@ -111,6 +111,8 @@
     display: flex;
     justify-content: flex-end;
     gap: var(--space-s-100);
+    text-decoration: none;
+    color: var(--color-secondary);
 }
 
 

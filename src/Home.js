@@ -15,9 +15,9 @@ import DT8 from "./Images/DT8.png";
 import DT9 from "./Images/DT9.png";
 import red from "./Images/red-bg.png"
 import S2 from "./Images/screenshot2.png"
-import resume from "./PDFs/TuanaBicakci_CV05.pdf"
 import FieldSummary from "./Components/FieldSummary";
 import substancePainterIcon from "./Images/substance-3d-painter.svg";
+import resume from "./PDFs/T_Bicakc_Final_VideoGames_Resume.pdf"
 
 
 const images = [
@@ -55,7 +55,7 @@ function Home() {
                     <div className={"resume"}>
                         <h2 id={"name"}>TUANA BIÇAKCI</h2>
                         <h3 id={"title"}>DEVELOPER & 3D GENERALIST</h3>
-                        <a class={"resume-btn"} href={""}>MY RESUME</a>
+                        <a class={"resume-btn"} href={resume}>MY RESUME</a>
                     </div>
                     <div className={"socials"}>
                         {Socials.map((item, i) => (
@@ -86,7 +86,8 @@ function Home() {
                 ]}
                 children={WebDesign}
                 showRecent={true}
-                isAccent={false}/>
+                isAccent={false}
+                link={"/code"}/>
             <FieldSummary
                 mainIcon={"fa-solid fa-gamepad"}
                 heading="GAME DEVELOPMENT"
@@ -98,7 +99,8 @@ function Home() {
                 ]}
                 children={GameDesign}
                 showRecent={true}
-                isAccent={true}/>
+                isAccent={true}
+                link={"games"}/>
             <FieldSummary
                 mainIcon={"fa-solid fa-cube"}
                 heading="3D MODELING"
@@ -107,7 +109,8 @@ function Home() {
                 ]}
                 children={ThreeD}
                 showRecent={true}
-                isAccent={false}/>
+                isAccent={false}
+                link={"art"}/>
 
             <div id="about-me-container" >
                 <div id="about-me" className="block">
@@ -125,7 +128,7 @@ function Home() {
                             Having completed a Double Major in Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences
                             
                         </p>
-                        <a className={"resume-btn"} href={""}>MY RESUME</a>
+                        <a className={"resume-btn"} href={resume}>MY RESUME</a>
                     </div>
                 </div>
             </div>

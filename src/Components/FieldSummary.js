@@ -3,7 +3,7 @@ import "./FieldSummary.css"
 import {WebDesign} from "./Work";
 import {Link} from "react-router-dom";
 
-const FieldSummary = ({ heading, mainIcon,icons, children, showRecent,isAccent }) => {
+const FieldSummary = ({ heading, mainIcon,icons, children, showRecent,isAccent, link }) => {
     return (
         <div id="fs-wrapper" style={{backgroundColor: isAccent===true?"var(--color-secondary)":"var(--color-primary)"}}>
             <div id={"fs-container"} className="block">
@@ -36,7 +36,7 @@ const FieldSummary = ({ heading, mainIcon,icons, children, showRecent,isAccent }
                     </Link>
                     ))}
                 </div>
-                <a id="see-more"><span>SEE MORE <i className="fa-solid fa-arrow-right"></i></span></a>
+                <Link id="see-more" to={link}><span>SEE MORE <i className="fa-solid fa-arrow-right"></i></span></Link>
             </div>
 
         </div>
