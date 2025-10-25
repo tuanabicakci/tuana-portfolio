@@ -5,16 +5,15 @@ import {Link} from "react-router-dom";
 import Tuana from "./Images/about-me-pic.jpeg";
 import video from "./Images/videoplayback.mp4"
 import React, {useEffect, useState} from "react";
-import DT1 from "./Images/DT1.png";
-import DT2 from "./Images/DT2.png";
-import DT3 from "./Images/DT3.png";
-import DT5 from "./Images/DT5.png";
-import DT6 from "./Images/DT6.png";
-import DT7 from "./Images/DT7.png";
-import DT8 from "./Images/DT8.png";
-import DT9 from "./Images/DT9.png";
-import red from "./Images/red-bg.png"
-import S2 from "./Images/screenshot2.png"
+import dreamTeamThumbnail from "./Images/DT5.png"
+import academicWeaponThumbnail from "./Images/Academic_Weapon/academic-weapon-slide_2.png"
+import starlitCatchThumbnail from "./Images/Starlit_Catch/starlit-catch-slide_1.png"
+import mtlRankedThumbnail from"./Images/MTLranked/map-screenshot.png"
+import thesituationThumbnail from "./Images/The_Situation/the-situation-slide-2.png"
+import lemonGameThumbnail from "./Images/The_Lemon_Game/lemon-game-slide-1.png"
+import sleepyHavenThumbnail from "./Images/Sleepy_Haven/sleepy-haven-slide-1.png"
+import debugCityThumbnail from "./Images/DebugCity/debugcity_1.png"
+import academicweaponThumbnail from "./Images/AcademicMaster/academicmaster_2.png"
 import FieldSummary from "./Components/FieldSummary";
 import ProjectCatalogue from "./Components/ProjectCatalogue";
 import substancePainterIcon from "./Images/substance-3d-painter.svg";
@@ -24,7 +23,8 @@ import resume from "./PDFs/Tuana_Bicakci_Resume.pdf"
 
 
 const images = [
-    DT1,DT2,DT3,DT5,red,S2,DT6,DT7,DT8,DT9
+    dreamTeamThumbnail,academicWeaponThumbnail,starlitCatchThumbnail,mtlRankedThumbnail,thesituationThumbnail,
+    lemonGameThumbnail,sleepyHavenThumbnail,debugCityThumbnail,academicweaponThumbnail
 ];
 
 

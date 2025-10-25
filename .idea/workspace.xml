@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AcademicMaster.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DebugCity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +83,11 @@
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/PDFs" />
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src" />
       <recent name="C:\Users\bicak\Desktop\tuana-portfolio\src\Images" />
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src\PDFs" />
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src\Images" />
-      <recent name="C:\Users\bicak\WebstormProjects\portfolio\src\Images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -188,7 +184,7 @@
       <workItem from="1744952612913" duration="465000" />
       <workItem from="1761241392387" duration="1804000" />
       <workItem from="1761257140414" duration="3905000" />
-      <workItem from="1761343957734" duration="3600000" />
+      <workItem from="1761343957734" duration="4718000" />
     </task>
     <servers />
   </component>
@@ -216,7 +212,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Home.js</url>
-          <line>20</line>
+          <line>19</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
