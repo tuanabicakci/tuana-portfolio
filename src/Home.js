@@ -8,7 +8,6 @@ import React, {useEffect, useState} from "react";
 import dreamTeamThumbnail from "./Images/DT5.png"
 import academicWeaponThumbnail from "./Images/Academic_Weapon/academic-weapon-slide_2.png"
 import starlitCatchThumbnail from "./Images/Starlit_Catch/starlit-catch-slide_1.png"
-import mtlRankedThumbnail from"./Images/MTLranked/map-screenshot.png"
 import thesituationThumbnail from "./Images/The_Situation/the-situation-slide-2.png"
 import lemonGameThumbnail from "./Images/The_Lemon_Game/lemon-game-slide-1.png"
 import sleepyHavenThumbnail from "./Images/Sleepy_Haven/sleepy-haven-slide-1.png"
@@ -23,7 +22,7 @@ import resume from "./PDFs/Tuana_Bicakci_Resume.pdf"
 
 
 const images = [
-    dreamTeamThumbnail,academicWeaponThumbnail,starlitCatchThumbnail,mtlRankedThumbnail,thesituationThumbnail,
+    dreamTeamThumbnail,academicWeaponThumbnail,starlitCatchThumbnail,thesituationThumbnail,
     lemonGameThumbnail,sleepyHavenThumbnail,debugCityThumbnail,academicweaponThumbnail
 ];
 
