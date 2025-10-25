@@ -12,7 +12,6 @@ import ScrollToTop from "./ScrollToTop";
 import Prisma from "./Prisma";
 import FreddysCafe from "./FreddysCafe";
 import MiracleDaycare from "./MiracleDaycare";
-import Other from "./Other";
 import FeltAlone from "./FeltAlone";
 import Footer from "./Components/Footer"
 import DreamTeam from "./DreamTeam";
@@ -21,10 +20,11 @@ import AcademicWeapon from "./AcademicWeapon";
 import TheSituation from "./TheSituation";
 import LemonGame from "./LemonGame";
 import SleepyHaven from "./SleepyHaven";
+import DebugCity from "./DebugCity";
+import AcademicMaster from "./AcademicMaster";
 function App() {
   return (
       <Router>
-          <Navbar/>
           <ScrollToTop/>
               <Routes>
                   <Route exact path="/" element={<Home/>}/>
@@ -41,7 +41,8 @@ function App() {
                     <Route path={"/the-situation"} element={<TheSituation/>}/>
                     <Route path={"/lemon-game"} element={<LemonGame/>}/>
                     <Route path={"/sleepy-haven"} element={<SleepyHaven/>}/>
-
+                    <Route path={"/debug-city"} element={<DebugCity/>}/>
+                    <Route path={"/academic-master"} element={<AcademicMaster/>}/>
 
               </Routes>
           <Footer/>

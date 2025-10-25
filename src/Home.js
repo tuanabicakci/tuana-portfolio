@@ -16,8 +16,11 @@ import DT9 from "./Images/DT9.png";
 import red from "./Images/red-bg.png"
 import S2 from "./Images/screenshot2.png"
 import FieldSummary from "./Components/FieldSummary";
+import ProjectCatalogue from "./Components/ProjectCatalogue";
 import substancePainterIcon from "./Images/substance-3d-painter.svg";
-import resume from "./PDFs/T_Bicakc_Final_VideoGames_Resume.pdf"
+import resume from "./PDFs/Tuana_Bicakci_Resume.pdf"
+
+
 
 
 const images = [
@@ -54,7 +57,7 @@ function Home() {
                 <div className="content">
                     <div className={"resume"}>
                         <h2 id={"name"}>TUANA BIÇAKCI</h2>
-                        <h3 id={"title"}>DEVELOPER & 3D GENERALIST</h3>
+                        <h3 id={"title"}>DEVELOPER & 3D ENVIRONMENT ARTIST</h3>
                         <a class={"resume-btn"} href={resume}>MY RESUME</a>
                     </div>
                     <div className={"socials"}>
@@ -66,52 +69,23 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <FieldSummary
-                mainIcon={"fa-solid fa-code"}
-                heading="SOFTWARE DEVELOPMENT"
-                icons={["devicon-java-plain",
-                "devicon-javascript-plain",
-                "devicon-typescript-plain",
-                "devicon-css3-plain",
-                "devicon-html5-plain",
-                "devicon-tailwindcss-plain-wordmark",
-                "devicon-figma-plain",
-                "devicon-react-original",
-                "devicon-nextjs-original-wordmark",
-                "devicon-nodejs-plain-wordmark",
-                "devicon-mongodb-plain-wordmark",
-                "devicon-python-plain",
-                "devicon-streamlit-plain-wordmark",
-                "devicon-c-plain-wordmark"
-                ]}
-                children={WebDesign}
-                showRecent={true}
-                isAccent={false}
-                link={"/code"}/>
-            <FieldSummary
-                mainIcon={"fa-solid fa-gamepad"}
-                heading="GAME DEVELOPMENT"
-                icons={["devicon-unrealengine-original",
-                    "devicon-unity-plain",
-                    "devicon-csharp-line",
-                    "devicon-blender-original",
-                    substancePainterIcon
-                ]}
-                children={GameDesign}
-                showRecent={true}
-                isAccent={true}
-                link={"games"}/>
-            <FieldSummary
-                mainIcon={"fa-solid fa-cube"}
-                heading="3D MODELING"
-                icons={["devicon-blender-original",
-                    substancePainterIcon,
-                ]}
-                children={ThreeD}
-                showRecent={true}
-                isAccent={false}
-                link={"art"}/>
-
+            <div>
+                <ProjectCatalogue
+                    mainIcon={"fa-solid fa-gamepad"}
+                    heading="GAME DEVELOPMENT"
+                    icons={["devicon-unrealengine-original",
+                        "devicon-unity-plain",
+                        "devicon-csharp-line",
+                        "devicon-blender-original",
+                        substancePainterIcon
+                    ]}
+                    children={GameDesign}
+                    showRecent={true}
+                    isAccent={false}
+                    social={"Itch.io"}
+                    socialLink={"https://tuanabicakci.itch.io/"}
+                    socialIcon={"fa-brands fa-itch-io"}/>
+            </div>
             <div id="about-me-container" >
                 <div id="about-me" className="block">
                     <img  id="profile-pic" src={Tuana} alt=""/>
@@ -122,8 +96,6 @@ function Home() {
                             <br/><br/>
                             Over the years, I’ve worked on several indie and experimental game projects like The Lemon Game, Academic Weapon, and Starlit Catch, often collaborating with <a
                             href="https://shinykiwi.dev/">Kira Fountain</a>. I’ve also participated in the Ubisoft Game Lab and taken part in many game jams, earning a grant from Behaviour Interactive for the work I did throughout my undergrad.
-                            <br/><br/>
-                            Beyond games, I’m the co-founder and developer of imiGoose, an AI-powered immigration platform, and competed in the McGill Dobson Bootcamp and Cup which is designed to support early-stage startups. I have interned at Genetec and dormakaba Americas, refining my expertise in UI/UX and software solutions.
                             <br/><br/>
                             Having completed a Double Major in Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences
                             

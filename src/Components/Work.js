@@ -35,15 +35,10 @@ import RDA from "../Images/RD.A.png"
 import PC1 from "../Images/PC1.png";
 import PC2 from "../Images/PC2.png";
 import PORT from "../Images/PORT.png"
-import engl255 from "../PDFs/engl255.pdf"
 import fnaf from "../Images/freddy.jpg"
 import cart210 from "../Images/cart210.png"
-import pdf210 from "../PDFs/cart210.pdf"
-import ffar250 from "../PDFs/Restoring Astera.pdf"
 import RA from "../Images/RA.png"
-import cart215 from "../PDFs/cart215.pdf"
 import LL from "../Images/LL.png"
-import Cali from "../PDFs/CART215-Calinferno (1).pdf"
 import CAL from "../Images/cali.png"
 import SH from "../Images/SH.png"
 import AST from "../Images/AST.png"
@@ -54,7 +49,25 @@ import mtlRankedThumbnail from"../Images/MTLranked/map-screenshot.png"
 import thesituationThumbnail from "../Images/The_Situation/the-situation-slide-2.png"
 import lemonGameThumbnail from "../Images/The_Lemon_Game/lemon-game-slide-1.png"
 import sleepyHavenThumbnail from "../Images/Sleepy_Haven/sleepy-haven-slide-1.png"
+import debugCityThumbnail from "../Images/DebugCity/debugcity_1.png"
+import academicweaponThumbnail from "../Images/AcademicMaster/academicmaster_2.png"
 export const GameDesign = [
+    {
+        name: "Academic Master",
+        photo: academicweaponThumbnail,
+        summary: "A game teaching teachers how to teach",
+        link: "/academic-master",
+        tag:"recent"
+
+    },
+    {
+        name: "Debug City(Ubisoft Gamelab 2025)",
+        photo: debugCityThumbnail,
+        summary: "Dive into the digital world of Debug City, where Chip and Jupi, two inseparable friends, get sucked into a computer overrun by malicious viruses. ",
+        link: "/debug-city",
+        tag:"recent"
+
+    },
     {
         name: "The Situation(2025)",
         photo: thesituationThumbnail,
@@ -266,47 +279,3 @@ export const ThreeD=[
 
 
 
-export const UnpublishedWork=[
-    {
-        name:"Time and Space in Five Nights at Freddys(2023)",
-        photo: fnaf,
-        skills:["Game Design Research","Narrative Design Research"],
-        description:"In this essay, the goal is to discuss FNAF’s narrative style and game design. Using Wei et al. " +
-            "(2010) ’s ideas we will characterize FNAF's mysterious, ambiguous, non-linear narrative style with the concept of \"fuzzy temporality\" and analyze how Cawthon utilizes time and space to enhance his story and gives the player an immersive experience. With this analysis, we can understand how its unique narrative and gameplay elements of FNAF make it a fan favorite, as well as a hit in the gaming world.",
-        pdf:engl255,
-
-    },
-    {
-        name:"Restoring Astera(2023)",
-        photo:RA,
-        skills:["Game Design Research","Narrative Design Research"],
-        description:"This paper delves into the emotional attachment humans develop towards sentimental objects during " +
-            "life transitions, exploring restoration as a means of engaging with an object's history. Drawing inspiration from the Japanese art of Kintsugi and video games like Stardew Valley, the proposed game features a protagonist reconnecting with their roots through restoration, encouraging players to appreciate the history of their sentimental items and memories. Ultimately,highlights the therapeutic potential of interactive storytelling.",
-        pdf:ffar250,
-
-    },
-    {
-        name:"Lords & Leases : Board Game Prototype(2023)",
-        photo:LL,
-        description:"A board game prototype based on the current events on renters' strikes in Montreal. The report lays out the prototype's design intentions, materials, and rules while including an in-depth analysis of its playtest conducted at Concordia University. ",
-        skills:["Game Design Research","Game Prototyping","Playtest Analyzing"],
-        pdf:cart215
-
-    },
-    {
-        name:"Calinferno : Board Game Prototype(2023)",
-        photo: CAL,
-        description:"A card game prototype created with a team based on wildfires. The report lays out the prototype's design intentions, materials, and rules while including an in-depth analysis of its playtest conducted at Concordia University. ",
-        skills:["Game Design Research","Game Prototyping","Playtest Analyzing"],
-        pdf:Cali,
-
-    }, {
-        name:"Beautifully tragic, tragically funny : Depression memes on TikTok(2023)",
-        photo: cart210,
-        skills:["New Media Studies","Media Psychology"],
-        description:"Why do people communicate their feelings with humourized, aestheticized, and sometimes personal online posts? This essay discusses and explores the depression meme subculture on TikTok and justifies the reason behind the emergence of this subculture as well as its potential consequences.",
-        pdf:pdf210,
-
-    },
-
-]
