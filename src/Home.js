@@ -93,10 +93,9 @@ function Home() {
                         <p>
                             I am a multidisciplinary 3D environment artist and software developer based in Montreal, specializing in game and web development. My work focuses on crafting digital spaces that provoke real-life emotions and reflections. I believe environments tell stories—how objects are placed influences how players interact with the world, just as we shape and are shaped by our surroundings.
                             <br/><br/>
-                            Over the years, I’ve worked on several indie and experimental game projects like The Lemon Game, Academic Weapon, and Starlit Catch, often collaborating with <a
-                            href="https://shinykiwi.dev/">Kira Fountain</a>. I’ve also participated in the Ubisoft Game Lab and taken part in many game jams, earning a grant from Behaviour Interactive for the work I did throughout my undergrad.
+                            I am currently working as an Environment Artist on It Has My Face, a first-person roguelite horror game developed by NightByte Games and published by Behaviour Interactive, where I design modular environments for procedurally generated worlds and help shape the game’s stylized low-poly, pixel-art aesthetic. I’ve also participated in the Ubisoft Game Lab and taken part in many game jams, earning a grant from Behaviour Interactive for the work I did throughout my undergrad.
                             <br/><br/>
-                            Having completed a Double Major in Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences
+                            Having almost completed a Double Major in Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences.
                             
                         </p>
                         <a className={"resume-btn"} href={resume}>MY RESUME</a>
