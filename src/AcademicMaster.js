@@ -10,20 +10,20 @@ import YoutubeEmbed from "./Components/YoutubeEmbed";
 import ItchEmbed from "./Components/ItchEmbed";
 import React from "react";
 
-function StarlitCatch(){
-    return(
+function StarlitCatch() {
+    return (
         <div>
             <ProjectBanner
                 image={academicweapon_2}
                 name={"ACADEMIC MASTER(WINNER OF 'BEST THEME')"}
                 date={"MAY 2025"}
-                link={"hhttps://shinykiwi.itch.io/academic-master"}
+                link={"https://shinykiwi.itch.io/academic-master"}
                 icons={["devicon-unity-plain",
                     "devicon-blender-original",
                     substancePainterIcon,
                 ]}
             />
-            <YoutubeEmbed embedId={"aKjj56al998"}/>
+            <YoutubeEmbed embedId={"aKjj56al998"} />
             <ProjectDescription
                 description={(
                     <>
@@ -33,10 +33,10 @@ function StarlitCatch(){
                     </>
                 )}
                 teamMembers={[
-                    {name:"Tuana Bıçakcı",link:"https://tuanabicakci.dev/",role:"3D Generalist, Environment Artist"},
-                    {name:"Kira Fountain",link:"https://shinykiwi.dev/",role:"Programmer, Technical Artist"},
-                    {name:"Zaid Minhas",link:"https://github.com/ZaidMinhas",role:"Programmer"},
-                    {name:"Nicolas Boyer",link:"https://nicolasboyer.itch.io/",role:"Audio Designer, Programmer"},
+                    { name: "Tuana Bıçakcı", link: "https://tuanabicakci.dev/", role: "3D Generalist, Environment Artist" },
+                    { name: "Kira Fountain", link: "https://shinykiwi.dev/", role: "Programmer, Technical Artist" },
+                    { name: "Zaid Minhas", link: "https://github.com/ZaidMinhas", role: "Programmer" },
+                    { name: "Nicolas Boyer", link: "https://nicolasboyer.itch.io/", role: "Audio Designer, Programmer" },
                 ]}
             />
             <ModelShowcase

@@ -7,11 +7,11 @@ import pc from "../Images/pc.png"
 import EIT1 from "../Images/EIT-1.png";
 import EIT2 from "../Images/EIT-2.png";
 import EIT3 from "../Images/EIT-3.png";
-import SNM1 from  "../Images/SNM-1.PNG";
-import SNM2 from  "../Images/SNM-2.PNG";
-import SNM3 from  "../Images/SNM-3.PNG";
+import SNM1 from "../Images/SNM-1.PNG";
+import SNM2 from "../Images/SNM-2.PNG";
+import SNM3 from "../Images/SNM-3.PNG";
 import TUI from "../Images/TUI.png";
-import GGJ from"../Images/GGJ.png";
+import GGJ from "../Images/GGJ.png";
 import MTL from "../Images/MTL.PNG";
 import CGD from "../Images/CGD.png";
 import ALBF from "../Images/ALBF.png";
@@ -45,19 +45,27 @@ import AST from "../Images/AST.png"
 import dreamTeamThumbnail from "../Images/DT5.png"
 import academicWeaponThumbnail from "../Images/Academic_Weapon/academic-weapon-slide_2.png"
 import starlitCatchThumbnail from "../Images/Starlit_Catch/starlit-catch-slide_1.png"
-import mtlRankedThumbnail from"../Images/MTLranked/map-screenshot.png"
+import mtlRankedThumbnail from "../Images/MTLranked/map-screenshot.png"
 import thesituationThumbnail from "../Images/The_Situation/the-situation-slide-2.png"
 import lemonGameThumbnail from "../Images/The_Lemon_Game/lemon-game-slide-1.png"
 import sleepyHavenThumbnail from "../Images/Sleepy_Haven/sleepy-haven-slide-1.png"
 import debugCityThumbnail from "../Images/DebugCity/debugcity_1.png"
 import academicweaponThumbnail from "../Images/AcademicMaster/academicmaster_2.png"
+import line80Thumbnail from "../Images/line80/13.png"
 export const GameDesign = [
     {
-        name: "Academic Master",
+        name: "Line 80(2025)",
+        photo: line80Thumbnail,
+        summary: "A 3D first-person narrative game about office life and ordinary people.",
+        link: "/line-80",
+        tag: "recent"
+    },
+    {
+        name: "Academic Master(2025)",
         photo: academicweaponThumbnail,
         summary: "A game teaching teachers how to teach",
         link: "/academic-master",
-        tag:"recent"
+        tag: "recent"
 
     },
     {
@@ -65,7 +73,7 @@ export const GameDesign = [
         photo: debugCityThumbnail,
         summary: "Dive into the digital world of Debug City, where Chip and Jupi, two inseparable friends, get sucked into a computer overrun by malicious viruses. ",
         link: "/debug-city",
-        tag:"recent"
+        tag: "recent"
 
     },
     {
@@ -73,39 +81,39 @@ export const GameDesign = [
         photo: thesituationThumbnail,
         summary: "Eerie 3D narrative game about hidden identities.",
         link: "/the-situation",
-        tag:"recent"
+        tag: "recent"
 
     },
     {
         name: "Lemon Game(2025)",
-        photo:lemonGameThumbnail,
+        photo: lemonGameThumbnail,
         summary: "When life gives you lemons...then what?",
         link: "/lemon-game",
-        tag:"recent"
+        tag: "recent"
 
     },
     {
         name: "Sleepy Haven Hotel(2024)",
-        photo:sleepyHavenThumbnail,
+        photo: sleepyHavenThumbnail,
         summary: "Eerie 3D narrative game about hidden identities.",
         link: "/sleepy-haven",
-        tag:""
+        tag: ""
 
     },
     {
         name: "Starlit Catch(2024)",
-        photo:starlitCatchThumbnail,
+        photo: starlitCatchThumbnail,
         summary: "Relax in your cottage and enjoy a peaceful fishing adventure.",
         link: "/starlit-catch",
-        tag:"recent"
+        tag: "recent"
 
     },
     {
         name: "Academic Weapon(2024)",
-        photo:academicWeaponThumbnail ,
+        photo: academicWeaponThumbnail,
         summary: "Outsmart your classmates, dodge the teacher, and survive the exam with your disappearing powers!",
         link: "/academic-weapon",
-        tag:""
+        tag: ""
 
     },
     {
@@ -113,7 +121,7 @@ export const GameDesign = [
         photo: dreamTeamThumbnail,
         summary: "Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt it and reach its core.",
         link: "/dream-team",
-        tag:""
+        tag: ""
     },
 
     {
@@ -121,7 +129,7 @@ export const GameDesign = [
         photo: Prisma,
         summary: "Dive into the chromatic realm of Prisma, solving puzzles, unveiling hidden paths, and activating " +
             "prism statues for a vivid escape!",
-        link: "/prisma" ,
+        link: "/prisma",
 
     },
 
@@ -145,132 +153,132 @@ export const GameDesign = [
         link: "/felt-alone",
     },*/}
 
-export const WebDesign=[
+export const WebDesign = [
     {
-        name:"My Portfolio (2022 - ongoing)",
+        name: "My Portfolio (2022 - ongoing)",
         photo: PORT,
-        skills:["React.js","Node.js","JavaScript","HTML","CSS"],
+        skills: ["React.js", "Node.js", "JavaScript", "HTML", "CSS"],
         summary: "My portfolio is coded and designed by me!",
-        link:"",
-        tag:"recent"
+        link: "",
+        tag: "recent"
     },
     {
-        name:"Montreal Neighbourhood Livability Index (2025)",
-        photo:mtlRankedThumbnail,
-        skills: ["Python", "Streamlit","HTML","CSS"],
+        name: "Montreal Neighbourhood Livability Index (2025)",
+        photo: mtlRankedThumbnail,
+        skills: ["Python", "Streamlit", "HTML", "CSS"],
         summary: "An interactive tool helps newcomers to Montreal choose the best neighborhood by analyzing key factors like safety, economic opportunities, and social inclusion, all powered by AI-driven data analytics.",
         link: "",
-        tag:"recent"
+        tag: "recent"
     },
     {
-        name:"Errors In Thinking(2022)",
-        photo:errors,
-        summary:"This website aims to help you identify, challenge, and minimize your errors in thinking while " +
+        name: "Errors In Thinking(2022)",
+        photo: errors,
+        summary: "This website aims to help you identify, challenge, and minimize your errors in thinking while " +
             "listening to music+rain and petting a virtual cat to relax!",
-        a:[EIT1,EIT2,EIT3,errors],
-        skills:["JavaScript","HTML","CSS","ProCreate"],
-        description: "Cognitive distortions, alias errors in thinking, are thoughts we base on our feelings about ourselves and our surroundings. They are irrational beliefs that we reinforce on ourselves as facts.\n\n"+
+        a: [EIT1, EIT2, EIT3, errors],
+        skills: ["JavaScript", "HTML", "CSS", "ProCreate"],
+        description: "Cognitive distortions, alias errors in thinking, are thoughts we base on our feelings about ourselves and our surroundings. They are irrational beliefs that we reinforce on ourselves as facts.\n\n" +
             "It is important to recognize and know the types of cognitive distortions because they can be really damaging to mental health and sabotage daily life." +
             "Therefore, this website aims to help you identify, challenge, and minimize your errors in thinking while listening to music+rain and petting a virtual cat to relax!\n" +
             "\n" +
             "Note: Optimized for desktops only.\n" +
             "\n" +
             "\nFinal Project for CART 211 : Creative Computing and Network Culture",
-        web:"https://hybrid.concordia.ca/t_bicakc/finalproject/",
-        tag:""
+        web: "https://hybrid.concordia.ca/t_bicakc/finalproject/",
+        tag: ""
 
     },
     {
-        name:"How to Build A PC (2022)",
+        name: "How to Build A PC (2022)",
         photo: pc,
-        a:[pc,PC1,PC2],
-        skills:["React.js","JavaScript","HTML","CSS"],
+        a: [pc, PC1, PC2],
+        skills: ["React.js", "JavaScript", "HTML", "CSS"],
         summary: "This website aims to inform users how to properly assemble a desktop PC. It features instructions " +
             "on how to install each part properly as well as how to do it safely.",
-        web:" https://instructions-8b8a8.web.app/",
-        tag:"recent"
+        web: " https://instructions-8b8a8.web.app/",
+        tag: "recent"
     }
 
 ]
 
-export const GraphicDesign=[
+export const GraphicDesign = [
     {
-        name:"Astarion(2023)",
-        photo:AST,
-        skills:["Procreate"],
-        summary:"Fanart of Astarion from Baldur's Gate 3"
+        name: "Astarion(2023)",
+        photo: AST,
+        skills: ["Procreate"],
+        summary: "Fanart of Astarion from Baldur's Gate 3"
     },
     {
-        name:"Shadowheart(2023)",
-        photo:SH,
-        skills:["Procreate"],
-        summary:"Fanart of Shadowheart from Baldur's Gate 3"
+        name: "Shadowheart(2023)",
+        photo: SH,
+        skills: ["Procreate"],
+        summary: "Fanart of Shadowheart from Baldur's Gate 3"
     },
     {
-        name:"A Fever You Can't Sweat Out(2023)",
-        photo:ALBF,
-        a:[ALBF,ALBB],
-        skills:["Illustrator","PhotoShop","Procreate"],
-        summary:"My reinterpretation on Panic! At the Disco's first album, 'A Fever You Can't Sweat Out.'",
+        name: "A Fever You Can't Sweat Out(2023)",
+        photo: ALBF,
+        a: [ALBF, ALBB],
+        skills: ["Illustrator", "PhotoShop", "Procreate"],
+        summary: "My reinterpretation on Panic! At the Disco's first album, 'A Fever You Can't Sweat Out.'",
 
     },
     {
-        name:"Say No To Media Censorship(2023)",
-        photo:SNM3,
-        a:[SNM3,SNM1,SNM2],
-        skills:["Illustrator","PhotoShop","Procreate"],
-        summary:"A thematic exploration on media censorship through the creation of three distinct posters. ",
+        name: "Say No To Media Censorship(2023)",
+        photo: SNM3,
+        a: [SNM3, SNM1, SNM2],
+        skills: ["Illustrator", "PhotoShop", "Procreate"],
+        summary: "A thematic exploration on media censorship through the creation of three distinct posters. ",
 
     },
     {
-        name:"Concordia Game Jam Poster(2023)",
-        photo:CGD1,
-        a:[CGD1,CGD,CGD2,CGD3,RDA,STK],
-        skills:["Procreate"],
-        summary:"R.DIA, for the Concordia Game Dev Club. Unveiling its debut during the CGD Game Jam."
+        name: "Concordia Game Jam Poster(2023)",
+        photo: CGD1,
+        a: [CGD1, CGD, CGD2, CGD3, RDA, STK],
+        skills: ["Procreate"],
+        summary: "R.DIA, for the Concordia Game Dev Club. Unveiling its debut during the CGD Game Jam."
 
     },
     {
-        name:"Global Game Jam Poster(2023)",
-        photo:GGJC,
-        a:[GGJC,GGJ],
-        skills:["Procreate"],
-        summary:"I brought classic video game characters together hanging out together base shaped like the Concordia Game Dev Club's logo in an illustration."
+        name: "Global Game Jam Poster(2023)",
+        photo: GGJC,
+        a: [GGJC, GGJ],
+        skills: ["Procreate"],
+        summary: "I brought classic video game characters together hanging out together base shaped like the Concordia Game Dev Club's logo in an illustration."
 
     },
     {
-        name:"Road To Montreal(2022)",
-        photo:MTL,
-        skills:["Procreate"],
-        summary:"Pursuing my long-held dream of studying abroad required thoughtful consideration \n"
+        name: "Road To Montreal(2022)",
+        photo: MTL,
+        skills: ["Procreate"],
+        summary: "Pursuing my long-held dream of studying abroad required thoughtful consideration \n"
 
-    },{
-        name:"Tuana(2022)",
-        photo:TUI,
-        skills:["Procreate"],
-        summary:"Drawing inspiration from a personally curated color palette featuring my favorite hues, \nI drew a self-portrait with careful consideration and creative intent.",
+    }, {
+        name: "Tuana(2022)",
+        photo: TUI,
+        skills: ["Procreate"],
+        summary: "Drawing inspiration from a personally curated color palette featuring my favorite hues, \nI drew a self-portrait with careful consideration and creative intent.",
 
     },
 
 ]
 
-export const ThreeD=[
+export const ThreeD = [
     {
-        name:"Muzen Radio(2023)",
-        photo:MR6,
-        a:[MR1,MR2,MR3,MR4,MR5,MR6],
-        skills:["Blender", "Substance Painter"],
-        summary:"Modeled by Stephane Rabattu, Texturized/Painted by Tuana Bicakci inspired from the game Borderlands by Gearbox Entertaintment",
-        tag:"recent"
+        name: "Muzen Radio(2023)",
+        photo: MR6,
+        a: [MR1, MR2, MR3, MR4, MR5, MR6],
+        skills: ["Blender", "Substance Painter"],
+        summary: "Modeled by Stephane Rabattu, Texturized/Painted by Tuana Bicakci inspired from the game Borderlands by Gearbox Entertaintment",
+        tag: "recent"
 
     },
     {
-        name:"An Ordinary Elf(2023)",
-        photo:ELF4,
-        a:[ELF3,ELF1,ELF2,ELF4],
-        skills:["Blender", "Substance Painter"],
-        summary:"Sculpted by Tuana Bicakci",
-        tag:"recent"
+        name: "An Ordinary Elf(2023)",
+        photo: ELF4,
+        a: [ELF3, ELF1, ELF2, ELF4],
+        skills: ["Blender", "Substance Painter"],
+        summary: "Sculpted by Tuana Bicakci",
+        tag: "recent"
 
     },
 ]
