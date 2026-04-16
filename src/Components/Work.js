@@ -54,13 +54,6 @@ import academicweaponThumbnail from "../Images/AcademicMaster/academicmaster_2.p
 import line80Thumbnail from "../Images/line80/13.png"
 export const GameDesign = [
     {
-        name: "Line 80(2025)",
-        photo: line80Thumbnail,
-        summary: "A 3D first-person narrative game about office life and ordinary people.",
-        link: "/line-80",
-        tag: ""
-    },
-    {
         name: "Academic Master(2025)",
         photo: academicweaponThumbnail,
         summary: "A game teaching teachers how to teach",
