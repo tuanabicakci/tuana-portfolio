@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/line80/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Line80.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TFWT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProjectDescription.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectDescription.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TFWT.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TFWT.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +187,7 @@
       <workItem from="1761257140414" duration="3905000" />
       <workItem from="1761343957734" duration="5447000" />
       <workItem from="1774459023088" duration="3252000" />
-      <workItem from="1775863815754" duration="2075000" />
+      <workItem from="1775863815754" duration="2676000" />
     </task>
     <servers />
   </component>

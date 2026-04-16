@@ -58,7 +58,7 @@ export const GameDesign = [
         photo: line80Thumbnail,
         summary: "A 3D first-person narrative game about office life and ordinary people.",
         link: "/line-80",
-        tag: "recent"
+        tag: ""
     },
     {
         name: "Academic Master(2025)",
