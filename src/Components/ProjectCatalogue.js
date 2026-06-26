@@ -29,6 +29,9 @@ const ProjectCatalogue = ({ heading, mainIcon, icons, children, showRecent, isAc
                         <Link to={item.link} key={i}
                             className="project-thumbnail"
                         >
+                            {item.award && (
+                                <span className="project-award-badge">{item.award}</span>
+                            )}
                             <img src={item.photo} alt="" />
                             <div className="thumbnail-text-wrapper">
                                 <h3>{item.name}</h3>

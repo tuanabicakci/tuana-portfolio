@@ -37,3 +37,21 @@
     align-items: baseline;
 
 }
+
+/* Award Badge */
+.project-award-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    color: #1a1a00;
+    background: linear-gradient(135deg, #FFD700, #FFC107);
+    padding: 4px 10px;
+    border-radius: 3px;
+    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.35);
+    pointer-events: none;
+    white-space: nowrap;
+}

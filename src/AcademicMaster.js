@@ -29,7 +29,7 @@ function StarlitCatch() {
                     <>
                         You are a science teacher teaching your first class. Interact with students while class in is session to get Focus Points. Buy upgrades for your classroom to increase engagement and comprehension. Beware of the options that might increase burnout and have other negative effects. Use your best judgement and learn from your students!<br />
                         <br />
-                        This game was made for Universite de Montreal Scientific Game 2025 jam within the 24 hours given. The theme for this competition was “Behaviorism and constructivism”, and we worked in a team of 4. All assets and code were made within the duration of the jam.
+                        This game was made for Universite de Montreal Scientific Game 2025 jam within the 24 hours given. The theme for this competition was “Behaviorism and constructivism”, and we worked in a team of 4 and won 1st place! All assets and code were made within the duration of the jam.
                     </>
                 )}
                 teamMembers={[

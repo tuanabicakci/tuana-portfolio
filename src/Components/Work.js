@@ -67,14 +67,16 @@ export const GameDesign = [
         photo: academicweaponThumbnail,
         summary: "A game teaching teachers how to teach",
         link: "/academic-master",
-        tag: "recent"
+        tag: "recent",
+        award: "🏆 Université de Montréal Scientific Game Jam Winner"
     },
     {
         name: "Debug City (Ubisoft Gamelab 2025)",
         photo: debugCityThumbnail,
         summary: "Dive into the digital world of Debug City, where Chip and Jupi, two inseparable friends, get sucked into a computer overrun by malicious viruses. ",
         link: "/debug-city",
-        tag: "recent"
+        tag: "recent",
+        award: "🏆 Ubisoft Gamelab Winner"
     },
     {
         name: "The Situation (2025)",
