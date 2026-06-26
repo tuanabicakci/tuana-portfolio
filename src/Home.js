@@ -7,7 +7,7 @@ import video from "./Images/videoplayback.mp4"
 import React, { useEffect, useState } from "react";
 import dreamTeamThumbnail from "./Images/DT5.png"
 import academicWeaponThumbnail from "./Images/Academic_Weapon/academic-weapon-slide_2.png"
-import starlitCatchThumbnail from "./Images/Starlit_Catch/starlit-catch-slide_1.png"
+import starlitCatchThumbnail from "./Images/Starlit_Catch/starlit-catch-slide_2.png"
 import thesituationThumbnail from "./Images/The_Situation/the-situation-slide-2.png"
 import lemonGameThumbnail from "./Images/The_Lemon_Game/lemon-game-slide-1.png"
 import sleepyHavenThumbnail from "./Images/Sleepy_Haven/sleepy-haven-slide-1.png"
