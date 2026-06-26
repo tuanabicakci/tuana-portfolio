@@ -2,12 +2,12 @@ import "./Home.css";
 import { GameDesign, WebDesign, ThreeD } from "./Components/Work";
 import { Socials } from "./Components/Socials";
 import { Link } from "react-router-dom";
-import Tuana from "./Images/tuana-headshot.JPEG";
+import Tuana from "./Images/about-me-pic.jpeg";
 import video from "./Images/videoplayback.mp4"
 import React, { useEffect, useState } from "react";
 import dreamTeamThumbnail from "./Images/DT5.png"
 import academicWeaponThumbnail from "./Images/Academic_Weapon/academic-weapon-slide_2.png"
-import starlitCatchThumbnail from "./Images/Starlit_Catch/starlit-catch-slide_2.png"
+import starlitCatchThumbnail from "./Images/Starlit_Catch/starlit-catch-slide_1.png"
 import thesituationThumbnail from "./Images/The_Situation/the-situation-slide-2.png"
 import lemonGameThumbnail from "./Images/The_Lemon_Game/lemon-game-slide-1.png"
 import sleepyHavenThumbnail from "./Images/Sleepy_Haven/sleepy-haven-slide-1.png"
@@ -133,10 +133,10 @@ function Home() {
                         <p>
                             I am a multidisciplinary 3D environment artist and software developer based in Montreal, specializing in game and web development. My work focuses on crafting digital spaces that provoke real-life emotions and reflections. I believe environments tell stories—how objects are placed influences how players interact with the world, just as we shape and are shaped by our surroundings.
                             <br /><br />
-                            I recently finished my internship as an Environment Artist on <a href="https://store.steampowered.com/app/2506530/It_Has_My_Face/">It Has My Face</a>, a first-person roguelite horror game developed by <a
-                                href="https://www.ithasmyface.com/">NightByte Games</a> and published by <a href="https://www.bhvr.com/">Behaviour Interactive</a>, where I designed modular environments for procedurally generated worlds and helped shape the game’s stylized low-poly, pixel-art aesthetic. I’ve also participated in the Ubisoft Game Lab and taken part in many game jams, earning a grant from Behaviour Interactive for the work I did throughout my undergrad.
+                            I am recently finished my internship as an Environment Artist on <a href="https://store.steampowered.com/app/2506530/It_Has_My_Face/">It Has My Face</a>, a first-person roguelite horror game developed by <a
+                                href="https://www.ithasmyface.com/">NightByte Games</a> and published by <a href="https://www.bhvr.com/">Behaviour Interactive</a>, where I design modular environments for procedurally generated worlds and help shape the game’s stylized low-poly, pixel-art aesthetic. I’ve also participated in the Ubisoft Game Lab and taken part in many game jams, earning a grant from Behaviour Interactive for the work I did throughout my undergrad.
                             <br /><br />
-                            Having almost completed a Double Major in Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences.
+                            Having completed a Double Major in Computer Science and Computation Arts degree at Concordia University, I continue to explore immersive and interactive digital experiences.
 
                         </p>
                         <a className={"resume-btn"} href={resume}>MY RESUME</a>
