@@ -57,7 +57,7 @@ export const GameDesign = [
      {
         name: "That Forest Wasn't There(2025)",
         photo: thatForest,
-        summary: "A game teaching teachers how to teach",
+        summary: "A walking simulator that explores how digital systems quietly shape our perception of the world.",
         link: "/that-forest-wasnt-there",
         tag: "recent"
 
