@@ -36,6 +36,10 @@
 }
 
 /* ── WRAPPER ── */
+.ihmf-page {
+    background-color: #080808;
+}
+
 #ihmf-wrapper {
     background-color: #080808;
     color: #d8d8d8;
@@ -138,13 +142,21 @@
     margin-top: var(--space-m-400);
 }
 
-.ihmf-image-grid.one-col  { grid-template-columns: 1fr; }
-.ihmf-image-grid.two-col  { grid-template-columns: 1fr 1fr; }
-.ihmf-image-grid.three-col { grid-template-columns: 1fr 1fr 1fr; }
+.ihmf-image-grid.one-col {
+    grid-template-columns: 1fr;
+}
+
+.ihmf-image-grid.two-col {
+    grid-template-columns: 1fr 1fr;
+}
+
+.ihmf-image-grid.three-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 .ihmf-image-grid img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: var(--border-radius);
     display: block;
@@ -179,8 +191,24 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     gap: var(--space-s-200);
-    align-items: center;
+    align-items: stretch;
     margin: var(--space-m-400) 0;
+}
+
+/* Each before/after cell stacks image + caption as a column */
+.ihmf-before-after>div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Image grows to fill whatever height the taller sibling defines */
+.ihmf-before-after>div img {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    display: block;
 }
 
 .ihmf-arrow {
@@ -188,7 +216,8 @@
     color: #B4FF00;
     text-align: center;
     padding: 0 var(--space-s-100);
-    line-height: 1;
+    display: flex;
+    align-items: center;
 }
 
 /* ── SKILLS CARDS ── */
@@ -220,6 +249,7 @@
     .ihmf-section {
         padding: 0 var(--space-s-300);
     }
+
     #ihmf-stats-bar {
         padding: var(--space-m-400) var(--space-s-300);
         gap: var(--space-m-400);
@@ -227,24 +257,67 @@
 }
 
 @media screen and (max-width: 768px) {
+
     .ihmf-image-grid.two-col,
     .ihmf-image-grid.three-col {
         grid-template-columns: 1fr;
     }
+
     .ihmf-before-after {
         grid-template-columns: 1fr;
     }
-    .ihmf-arrow { display: none; }
+
+    .ihmf-arrow {
+        display: none;
+    }
+
     .ihmf-skills-grid {
         grid-template-columns: 1fr;
     }
+
     .ihmf-section h2 {
         font-size: var(--font-l-800);
     }
+
     .ihmf-section p {
         font-size: var(--font-m-500);
     }
+
     #ihmf-stats-bar {
         gap: var(--space-s-300);
     }
+}
+
+/* ── PAGE-SCOPED OVERRIDES (ItHasMyFace only) ── */
+
+/* Black background for the YouTube embed */
+.ihmf-page #video-wrapper {
+    background-color: #000;
+}
+
+/* Dark (but not black) bg for the description strip */
+.ihmf-page #description-wrapper {
+    background-color: #000;
+    color: #ffffff;
+}
+
+/* Neon green for TEAM heading */
+.ihmf-page #description-container h3 {
+    color: #B4FF00;
+}
+
+/* Blue links for team member names */
+.ihmf-page #description-container a {
+    color: var(--color-link);
+}
+
+/* Green PLAY button matching the page accent */
+.ihmf-page #hero-container a {
+    background: #B4FF00;
+    color: #080808;
+}
+
+.ihmf-page #hero-container a:hover {
+    background: #c8ff33;
+    color: #080808;
 }

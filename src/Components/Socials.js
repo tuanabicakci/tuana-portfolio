@@ -19,9 +19,10 @@ export const Socials=[
         icon:"fa-brands fa-itch-io",
         link:"https://tuanabicakci.itch.io/"
     },
+    {/*
     {
         name:"ArtStation",
         icon:"fa-brands fa-artstation",
         link:"https://www.artstation.com/tuanabicakci"
-    },
+    },*/}
 ]

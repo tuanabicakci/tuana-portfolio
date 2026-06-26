@@ -1,16 +1,16 @@
 import React from 'react';
 import "./ProjectBanner.css"
 
-const ProjectBanner = ({ image, name,date, link,icons }) => {
-    return(
-        <div id="background" style={{backgroundImage: `url(${image})`}}>
+const ProjectBanner = ({ image, name, date, link, icons }) => {
+    return (
+        <div id="background" style={{ backgroundImage: `url(${image})` }}>
             <div id="overlay"></div>
             <div className="block" id={"hero-container"}>
                 <h2>{name}</h2>
                 <span>{date}</span>
-                <br/>
+                <br />
                 <a href={link} target={"_blank"}>PLAY</a>
-                <br/>
+                <br />
                 <div className="fs-icons">
                     {icons.map((icon, index) => (
                         // Check if the icon is a local image path

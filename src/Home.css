@@ -184,9 +184,178 @@
     margin-bottom: 5vw;
 }
 
+/* ── FEATURED: IT HAS MY FACE ── */
+#ihmf-featured {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#ihmf-featured-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        105deg,
+        rgba(15, 15, 27, 0.95) 0%,
+        rgba(15, 15, 27, 0.7) 55%,
+        rgba(15, 15, 27, 0.15) 100%
+    );
+}
+
+.ihmf-featured-blend {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background-size: cover;
+    background-position: center;
+}
+
+#ihmf-featured-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s-200);
+    padding-top: var(--space-l-900);
+    padding-bottom: var(--space-l-900);
+}
+
+#ihmf-shipped-badge {
+    font-family: "JetBrains Mono", monospace;
+    font-size: var(--font-s-200);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--color-quaternary);
+    background: rgba(251, 114, 221, 0.08);
+    border: 1px solid var(--color-quaternary);
+    border-radius: 2px;
+    padding: 4px 12px;
+    align-self: flex-start;
+}
+
+#ihmf-featured-title {
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 400;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: var(--color-quaternary);
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-top: var(--space-s-100);
+}
+
+#ihmf-featured-studios {
+    display: flex;
+    align-items: center;
+    gap: var(--space-s-100);
+    margin: var(--space-s-100) 0;
+    flex-wrap: wrap;
+}
+
+.ihmf-studio-logo {
+    height: 44px;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.ihmf-studio-logo:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.ihmf-studio-divider {
+    font-family: "JetBrains Mono", monospace;
+    font-size: var(--font-l-800);
+    color: var(--color-tertiary-variant);
+    opacity: 0.7;
+    margin: 0 8px;
+}
+
+#ihmf-featured-sub {
+    font-family: "JetBrains Mono", monospace;
+    font-size: var(--font-s-300);
+    color: #b4b4b4;
+    letter-spacing: 0.5px;
+    margin: 0 !important;
+}
+
+#ihmf-featured-desc {
+    font-family: "Lato", sans-serif;
+    font-size: var(--font-m-500);
+    color: #fafbf6;
+    line-height: 1.7;
+    margin: 0 !important;
+}
+
+#ihmf-featured-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-s-100);
+    margin-top: var(--space-s-100);
+}
+
+.ihmf-feat-tag {
+    font-family: "JetBrains Mono", monospace;
+    font-size: var(--font-s-200);
+    color: var(--color-tertiary-variant);
+    border: 1px solid rgba(184, 182, 249, 0.35);
+    padding: 3px 10px;
+    border-radius: 2px;
+    opacity: 0.85;
+}
+
+#ihmf-featured-actions {
+    display: flex;
+    gap: var(--space-s-200);
+    flex-wrap: wrap;
+    margin-top: var(--space-s-100);
+}
+
+#ihmf-feat-cta {
+    font-family: "Russo One", sans-serif;
+    text-decoration: none;
+    background: var(--color-tertiary);
+    color: var(--color-primary);
+    padding: var(--space-s-100) var(--space-s-300);
+    border-radius: var(--border-radius);
+    font-size: var(--font-s-300);
+    font-weight: bold;
+    transition: background 0.25s ease;
+}
+
+#ihmf-feat-cta:hover {
+    background: var(--color-tertiary-variant);
+}
+
+#ihmf-feat-steam {
+    font-family: "Russo One", sans-serif;
+    text-decoration: none;
+    background: transparent;
+    color: var(--color-link);
+    border: 1px solid var(--color-link);
+    padding: var(--space-s-100) var(--space-s-300);
+    border-radius: var(--border-radius);
+    font-size: var(--font-s-300);
+    transition: background 0.25s ease, color 0.25s ease;
+}
+
+#ihmf-feat-steam:hover {
+    background: rgba(80, 194, 255, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    #ihmf-featured-overlay {
+        background: rgba(15, 15, 27, 0.95);
+    }
+}
+
 #about-me-container{
-    color: var(--color-secondary);
-    background-color: var(--color-primary);
+    color: var(--color-primary);
+    background-color: #ffffff;
     width: 100%;
     height: auto;
     display: flex;

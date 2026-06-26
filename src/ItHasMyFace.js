@@ -1,41 +1,49 @@
 import React from "react";
 import ProjectBanner from "./Components/ProjectBanner";
 import ProjectDescription from "./Components/ProjectDescription";
+import YoutubeEmbed from "./Components/YoutubeEmbed";
 import ModelShowcase from "./Components/ModelShowcase";
 import "./ItHasMyFace.css";
 
 // ── Add your screenshots to src/Images/It_Has_My_Face/ and import them here ──
 // import banner        from "./Images/It_Has_My_Face/banner.png"
-// import moodboard     from "./Images/It_Has_My_Face/moodboard.png"
-// import canopy        from "./Images/It_Has_My_Face/canopy.png"
-// import metalBeams    from "./Images/It_Has_My_Face/metal-beams.png"
-// import neonSigns     from "./Images/It_Has_My_Face/neon-signs.png"
-// import vendingMachines from "./Images/It_Has_My_Face/vending-machines.png"
-// import fireBarrel    from "./Images/It_Has_My_Face/fire-barrel.png"
-// import generator     from "./Images/It_Has_My_Face/generator.png"
-// import boxes         from "./Images/It_Has_My_Face/boxes.png"
-// import benches       from "./Images/It_Has_My_Face/benches.png"
-// import foodStands    from "./Images/It_Has_My_Face/food-stands.png"
-// import airFilter     from "./Images/It_Has_My_Face/air-filter.png"
-// import neonStreet1   from "./Images/It_Has_My_Face/neon-street-1.png"
-// import neonStreet2   from "./Images/It_Has_My_Face/neon-street-2.png"
-// import infirmary1    from "./Images/It_Has_My_Face/infirmary-1.png"
-// import infirmary2    from "./Images/It_Has_My_Face/infirmary-2.png"
-// import cafeteria1    from "./Images/It_Has_My_Face/cafeteria-1.png"
-// import cafeteria2    from "./Images/It_Has_My_Face/cafeteria-2.png"
-// import bossGreybox   from "./Images/It_Has_My_Face/boss-greybox.png"
-// import bossFinal     from "./Images/It_Has_My_Face/boss-final.png"
-// import bossShot1     from "./Images/It_Has_My_Face/boss-shot-1.png"
-// import bossShot2     from "./Images/It_Has_My_Face/boss-shot-2.png"
-// import bossShot3     from "./Images/It_Has_My_Face/boss-shot-3.png"
-// import bossShot4     from "./Images/It_Has_My_Face/boss-shot-4.png"
-// import remakeBefore1 from "./Images/It_Has_My_Face/remake-before-1.png"
-// import remakeAfter1  from "./Images/It_Has_My_Face/remake-after-1.png"
-// import remakeBefore2 from "./Images/It_Has_My_Face/remake-before-2.png"
-// import remakeAfter2  from "./Images/It_Has_My_Face/remake-after-2.png"
-// import remakeBefore3 from "./Images/It_Has_My_Face/remake-before-3.png"
-// import remakeAfter3  from "./Images/It_Has_My_Face/remake-after-3.png"
-// import showcase1     from "./Images/It_Has_My_Face/showcase-1.png"
+import moodboard from "./Images/ItHasMyFace/moodboard.png"
+import canopy from "./Images/ItHasMyFace/canopy.png"
+import metalBeams from "./Images/ItHasMyFace/Beams-difference.png"
+import neonSigns from "./Images/ItHasMyFace/neonsigns.png"
+import vendingMachines from "./Images/ItHasMyFace/vmachines1.png"
+import fireBarrel from "./Images/ItHasMyFace/BarrelWFire.png"
+import generator from "./Images/ItHasMyFace/generatorinengine.png"
+import boxes from "./Images/ItHasMyFace/boxes.png"
+import benches from "./Images/ItHasMyFace/benches.png"
+import foodStands from "./Images/ItHasMyFace/food-stands.png"
+import airFilter from "./Images/ItHasMyFace/air-filter.png"
+import neonStreet1 from "./Images/ItHasMyFace/neon-street-1.png"
+import neonStreet2 from "./Images/ItHasMyFace/neon-street-2.png"
+import infirmary1 from "./Images/ItHasMyFace/infirmary-1.png"
+import infirmary2 from "./Images/ItHasMyFace/infirmary-2.png"
+import cafeteria1 from "./Images/ItHasMyFace/cafeteria-1.png"
+import cafeteria2 from "./Images/ItHasMyFace/cafeteria-2.png"
+import bossGreybox from "./Images/ItHasMyFace/boss-greybox.png"
+import bossFinal from "./Images/ItHasMyFace/boss-final.png"
+import bossShot1 from "./Images/ItHasMyFace/boss-shot-1.png"
+import bossShot2 from "./Images/ItHasMyFace/boss-shot-2.png"
+import bossShot3 from "./Images/ItHasMyFace/boss-shot-3.png"
+import bossShot4 from "./Images/ItHasMyFace/boss-shot-4.png"
+import bossShot5 from "./Images/ItHasMyFace/boss-shot-5.png"
+import bossShot6 from "./Images/ItHasMyFace/boss-shot-6.png"
+import remakeBefore1 from "./Images/ItHasMyFace/remake-before-1.png"
+import remakeAfter1 from "./Images/ItHasMyFace/remake-after-1.png"
+import remakeBefore2 from "./Images/ItHasMyFace/remake-before-2.png"
+import remakeAfter2 from "./Images/ItHasMyFace/remake-after-2.png"
+import remakeBefore3 from "./Images/ItHasMyFace/remake-before-3.png"
+import remakeAfter3 from "./Images/ItHasMyFace/remake-after-3.png"
+import remakeBefore4 from "./Images/ItHasMyFace/remake-before-4.png"
+import remakeAfter4 from "./Images/ItHasMyFace/remake-after-4.png"
+import remakeBefore5 from "./Images/ItHasMyFace/remake-before-5.png"
+import remakeAfter5 from "./Images/ItHasMyFace/remake-after-5.png"
+import projectBanner from "./Images/ItHasMyFace/IHMF_banner.png";
+//import showcase1     from "./Images/ItHasMyFace/showcase-1.png"
 // ...add more showcase images as needed
 
 const PROPS = [
@@ -48,18 +56,21 @@ const SECTIONS = ["Neon Street", "Infirmary", "Prison-Style Cafeteria"];
 
 function ItHasMyFace() {
     return (
-        <div>
+        <div className="ihmf-page">
             {/* ── BANNER ── */}
             <ProjectBanner
-                image={null /* swap with: banner */}
+                image={bossShot1}
                 name={"IT HAS MY FACE"}
-                date={"SUMMER 2024"}
-                link={"" /* add Steam / itch link here */}
+                date={"NOVEMBER 2025 - APRIL 2026"}
+                link={"https://store.steampowered.com/app/2506530/It_Has_My_Face/"}
                 icons={[
                     "devicon-unity-plain",
                     "devicon-blender-original",
                 ]}
             />
+
+            {/* ── TRAILER ── */}
+            <YoutubeEmbed embedId="8ZlgFKjexuk" />
 
             {/* ── OVERVIEW ── */}
             <ProjectDescription
@@ -77,7 +88,9 @@ function ItHasMyFace() {
                     </>
                 )}
                 teamMembers={[
-                    { name: "Tuana Bıçakcı", link: "https://tuanabicakci.dev/", role: "Environment Artist (Intern)" },
+                    { name: "Salih Ünal", link: "https://wolderado.com/", role: "Founder & Lead Developer" },
+                    { name: "Tuana Bıçakcı", link: "https://tuanabicakci.dev/", role: "Environment Artist" },
+                    { name: "Samet Umut Çolak", link: "https://samethope.itch.io/", role: "Gameplay Programmer" },
                 ]}
             />
 
@@ -92,7 +105,7 @@ function ItHasMyFace() {
                 <div className="ihmf-section">
                     <div className="ihmf-section-inner">
                         <span className="ihmf-task-number">Task 01</span>
-                        <h2>10 New Props</h2>
+                        <h2>10 NEW PROPS</h2>
                         <p>
                             The first deliverable was 10 generic, reusable props designed with procedural
                             randomization and variation in mind. I built a moodboard to gather references and
@@ -106,50 +119,50 @@ function ItHasMyFace() {
 
                         {/* Moodboard */}
                         <div className="ihmf-image-grid one-col">
-                            <div className="ihmf-placeholder">[ moodboard.png ]</div>
+                            <img src={moodboard} />
                             <p className="ihmf-caption">Prop moodboard</p>
                         </div>
 
                         {/* Prop grid */}
                         <div className="ihmf-image-grid three-col" style={{ marginTop: "var(--space-m-400)" }}>
                             <div>
-                                <div className="ihmf-placeholder">[ canopy.png ]</div>
+                                <img src={canopy} alt="" />
                                 <p className="ihmf-caption">Old vs. new canopy</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ metal-beams.png ]</div>
+                                <img src={metalBeams} alt="" />
                                 <p className="ihmf-caption">Old vs. new metal beams</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ neon-signs.png ]</div>
+                                <img src={neonSigns} alt="" />
                                 <p className="ihmf-caption">Neon signs</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ vending-machines.png ]</div>
+                                <img src={vendingMachines} alt="" />
                                 <p className="ihmf-caption">Vending machines</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ fire-barrel.png ]</div>
+                                <img src={fireBarrel} alt="" />
                                 <p className="ihmf-caption">Barrel with fire</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ generator.png ]</div>
+                                <img src={generator} alt="" />
                                 <p className="ihmf-caption">Generator</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ boxes.png ]</div>
+                                <img src={boxes} alt="" />
                                 <p className="ihmf-caption">Old vs. new boxes</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ benches.png ]</div>
+                                <img src={benches} alt="" />
                                 <p className="ihmf-caption">Benches</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ food-stands.png ]</div>
+                                <img src={foodStands} alt="" />
                                 <p className="ihmf-caption">Food stands</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ air-filter.png ]</div>
+                                <img src={airFilter} alt="" />
                                 <p className="ihmf-caption">Air filter</p>
                             </div>
                         </div>
@@ -160,7 +173,7 @@ function ItHasMyFace() {
                 <div className="ihmf-section ihmf-section-alt">
                     <div className="ihmf-section-inner">
                         <span className="ihmf-task-number">Task 02</span>
-                        <h2>New Sections</h2>
+                        <h2>NEW SECTIONS</h2>
                         <p>
                             The second task was designing and building three entirely new game sections. I presented
                             environment ideas via moodboard and the team aligned on the following settings:
@@ -172,28 +185,28 @@ function ItHasMyFace() {
 
                         <div className="ihmf-image-grid two-col">
                             <div>
-                                <div className="ihmf-placeholder">[ neon-street-1.png ]</div>
+                                <img src={neonStreet1} alt="" />
                                 <p className="ihmf-caption">Neon street</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ neon-street-2.png ]</div>
-                                <p className="ihmf-caption">Neon street — alternate angle</p>
+                                <img src={neonStreet2} alt="" />
+                                <p className="ihmf-caption">Neon street</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ infirmary-1.png ]</div>
+                                <img src={infirmary1} alt="" />
                                 <p className="ihmf-caption">Infirmary</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ infirmary-2.png ]</div>
-                                <p className="ihmf-caption">Infirmary — alternate angle</p>
+                                <img src={infirmary2} alt="" />
+                                <p className="ihmf-caption">Infirmary</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ cafeteria-1.png ]</div>
+                                <img src={cafeteria2} alt="" />
                                 <p className="ihmf-caption">Prison-style cafeteria</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ cafeteria-2.png ]</div>
-                                <p className="ihmf-caption">Prison-style cafeteria — alternate angle</p>
+                                <img src={cafeteria1} alt="" />
+                                <p className="ihmf-caption">Prison-style cafeteria</p>
                             </div>
                         </div>
                     </div>
@@ -203,7 +216,7 @@ function ItHasMyFace() {
                 <div className="ihmf-section">
                     <div className="ihmf-section-inner">
                         <span className="ihmf-task-number">Task 03</span>
-                        <h2>Final Boss Arena</h2>
+                        <h2>FINAL BOSS ARENA</h2>
                         <p>
                             I was handed a greybox by my supervisor and tasked with dressing it into a finished
                             environment for the game's last chapter. This required reading the layout intent and
@@ -212,21 +225,23 @@ function ItHasMyFace() {
 
                         <div className="ihmf-before-after">
                             <div>
-                                <div className="ihmf-placeholder">[ boss-greybox.png ]</div>
+                                <img src={bossGreybox} alt="" />
                                 <p className="ihmf-caption">Greybox from supervisor</p>
                             </div>
                             <span className="ihmf-arrow">→</span>
                             <div>
-                                <div className="ihmf-placeholder">[ boss-final.png ]</div>
+                                <img src={bossFinal} alt="" />
                                 <p className="ihmf-caption">Final version</p>
                             </div>
                         </div>
 
                         <div className="ihmf-image-grid two-col">
-                            <div className="ihmf-placeholder">[ boss-shot-1.png ]</div>
-                            <div className="ihmf-placeholder">[ boss-shot-2.png ]</div>
-                            <div className="ihmf-placeholder">[ boss-shot-3.png ]</div>
-                            <div className="ihmf-placeholder">[ boss-shot-4.png ]</div>
+                            <img src={bossShot1} alt="" />
+                            <img src={bossShot2} alt="" />
+                            <img src={bossShot3} alt="" />
+                            <img src={bossShot4} alt="" />
+                            <img src={bossShot5} alt="" />
+                            <img src={bossShot6} alt="" />
                         </div>
                     </div>
                 </div>
@@ -235,7 +250,7 @@ function ItHasMyFace() {
                 <div className="ihmf-section ihmf-section-alt">
                     <div className="ihmf-section-inner">
                         <span className="ihmf-task-number">Task 04</span>
-                        <h2>Remaking Existing Sections</h2>
+                        <h2>REMAKING EXISTING SECTIONS</h2>
                         <p>
                             The final task was to revisit sections already shipped in the game and bring them
                             up to the visual standard of the newer environments.
@@ -243,43 +258,43 @@ function ItHasMyFace() {
 
                         <div className="ihmf-image-grid two-col">
                             <div>
-                                <div className="ihmf-placeholder">[ remake-before-1.png ]</div>
+                                <img src={remakeBefore1} alt="" />
                                 <p className="ihmf-caption">Before</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-after-1.png ]</div>
+                                <img src={remakeAfter1} alt="" />
                                 <p className="ihmf-caption">After</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-before-2.png ]</div>
+                                <img src={remakeBefore2} alt="" />
                                 <p className="ihmf-caption">Before</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-after-2.png ]</div>
+                                <img src={remakeAfter2} alt="" />
                                 <p className="ihmf-caption">After</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-before-3.png ]</div>
+                                <img src={remakeBefore3} alt="" />
                                 <p className="ihmf-caption">Before</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-after-3.png ]</div>
+                                <img src={remakeAfter3} alt="" />
                                 <p className="ihmf-caption">After</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-before-4.png ]</div>
+                                <img src={remakeBefore4} alt="" />
                                 <p className="ihmf-caption">Before</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-after-4.png ]</div>
+                                <img src={remakeAfter4} alt="" />
                                 <p className="ihmf-caption">After</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-before-5.png ]</div>
+                                <img src={remakeBefore5} alt="" />
                                 <p className="ihmf-caption">Before</p>
                             </div>
                             <div>
-                                <div className="ihmf-placeholder">[ remake-after-5.png ]</div>
+                                <img src={remakeAfter5} alt="" />
                                 <p className="ihmf-caption">After</p>
                             </div>
                         </div>
@@ -289,7 +304,7 @@ function ItHasMyFace() {
                 {/* ── SKILLS GAINED ── */}
                 <div className="ihmf-section">
                     <div className="ihmf-section-inner">
-                        <h2>Skills Gained</h2>
+                        <h2>SKILLS GAINED</h2>
 
                         <div className="ihmf-skills-grid">
                             <div className="ihmf-skill-card">
@@ -327,7 +342,7 @@ function ItHasMyFace() {
                 {/* ── TAKEAWAY ── */}
                 <div className="ihmf-section ihmf-section-alt">
                     <div className="ihmf-section-inner ihmf-takeaway">
-                        <h2>Takeaway</h2>
+                        <h2>TAKEAWAY</h2>
                         <p>
                             This was my first professional environment art role — working under a lead developer
                             with real milestones, deadlines, and a codebase I didn't build from scratch. Jumping

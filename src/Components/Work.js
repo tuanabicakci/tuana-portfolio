@@ -53,14 +53,14 @@ import debugCityThumbnail from "../Images/DebugCity/debugcity_1.png"
 import academicweaponThumbnail from "../Images/AcademicMaster/academicmaster_2.png"
 import line80Thumbnail from "../Images/line80/13.png"
 import thatForest from "../Images/Hide_And_Seek/final-17.png"
+import itHasMyFaceThumbnail from "../Images/ItHasMyFace/IHMF_banner.png"
 export const GameDesign = [
-     {
+    {
         name: "That Forest Wasn't There(2025)",
         photo: thatForest,
         summary: "A walking simulator that explores how digital systems quietly shape our perception of the world.",
         link: "/that-forest-wasnt-there",
         tag: "recent"
-
     },
     {
         name: "Academic Master(2025)",
@@ -68,7 +68,6 @@ export const GameDesign = [
         summary: "A game teaching teachers how to teach",
         link: "/academic-master",
         tag: "recent"
-
     },
     {
         name: "Debug City(Ubisoft Gamelab 2025)",
@@ -76,7 +75,6 @@ export const GameDesign = [
         summary: "Dive into the digital world of Debug City, where Chip and Jupi, two inseparable friends, get sucked into a computer overrun by malicious viruses. ",
         link: "/debug-city",
         tag: "recent"
-
     },
     {
         name: "The Situation(2025)",
@@ -84,7 +82,6 @@ export const GameDesign = [
         summary: "Eerie 3D narrative game about hidden identities.",
         link: "/the-situation",
         tag: "recent"
-
     },
     {
         name: "Lemon Game(2025)",
@@ -92,7 +89,6 @@ export const GameDesign = [
         summary: "When life gives you lemons...then what?",
         link: "/lemon-game",
         tag: "recent"
-
     },
     {
         name: "Sleepy Haven Hotel(2024)",
@@ -100,7 +96,6 @@ export const GameDesign = [
         summary: "Eerie 3D narrative game about hidden identities.",
         link: "/sleepy-haven",
         tag: ""
-
     },
     {
         name: "Starlit Catch(2024)",
@@ -108,7 +103,6 @@ export const GameDesign = [
         summary: "Relax in your cottage and enjoy a peaceful fishing adventure.",
         link: "/starlit-catch",
         tag: "recent"
-
     },
     {
         name: "Academic Weapon(2024)",
@@ -116,7 +110,6 @@ export const GameDesign = [
         summary: "Outsmart your classmates, dodge the teacher, and survive the exam with your disappearing powers!",
         link: "/academic-weapon",
         tag: ""
-
     },
     {
         name: "Dream Team(Ubisoft Gamelab 2024)",
@@ -124,14 +117,7 @@ export const GameDesign = [
         summary: "Dream Team reporting for duty! Nightmares have once again infiltrated the dream world to try to corrupt it and reach its core.",
         link: "/dream-team",
         tag: ""
-    },
-    
-
-
-
-
-
-
+    }
 ]
 {/*
       {

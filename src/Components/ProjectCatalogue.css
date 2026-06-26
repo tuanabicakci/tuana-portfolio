@@ -1,4 +1,4 @@
-#pc-header{
+#pc-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,19 +10,19 @@
     text-align: center;
 }
 
-.pc-icons{
+.pc-icons {
     width: 100%;
     height: 100%;
     font-size: var(--space-m-600);
     display: grid;
-    grid-template-columns: repeat(auto-fit,var(--space-m-600));
-    gap:var(--space-s-100);
+    grid-template-columns: repeat(auto-fit, var(--space-m-600));
+    gap: var(--space-s-100);
     color: #fff;
     justify-content: center;
 }
 
-#fs-title>p{
-    font-family:"Doppio One", sans-serif;
+#fs-title>p {
+    font-family: "Doppio One", sans-serif;
     color: var(--color-secondary);
     margin-top: var(--space-s-100);
     font-size: var(--font-m-500);
@@ -30,9 +30,9 @@
 
 }
 
-#fs-title>p>a{
+#fs-title>p>a {
     color: var(--color-link);
-    display:inline-flex;
+    display: inline-flex;
     white-space: nowrap;
     align-items: baseline;
 
