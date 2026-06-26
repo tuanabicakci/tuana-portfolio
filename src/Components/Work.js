@@ -52,7 +52,16 @@ import sleepyHavenThumbnail from "../Images/Sleepy_Haven/sleepy-haven-slide-1.pn
 import debugCityThumbnail from "../Images/DebugCity/debugcity_1.png"
 import academicweaponThumbnail from "../Images/AcademicMaster/academicmaster_2.png"
 import line80Thumbnail from "../Images/line80/13.png"
+import thatForest from "../Images/Hide_And_Seek/final-17.png"
 export const GameDesign = [
+     {
+        name: "That Forest Wasn't There(2025)",
+        photo: thatForest,
+        summary: "A game teaching teachers how to teach",
+        link: "/that-forest-wasnt-there",
+        tag: "recent"
+
+    },
     {
         name: "Academic Master(2025)",
         photo: academicweaponThumbnail,
@@ -116,15 +125,8 @@ export const GameDesign = [
         link: "/dream-team",
         tag: ""
     },
+    
 
-    {
-        name: "Prisma(2023)",
-        photo: Prisma,
-        summary: "Dive into the chromatic realm of Prisma, solving puzzles, unveiling hidden paths, and activating " +
-            "prism statues for a vivid escape!",
-        link: "/prisma",
-
-    },
 
 
 
@@ -132,6 +134,14 @@ export const GameDesign = [
 
 ]
 {/*
+      {
+        name: "Prisma(2023)",
+        photo: Prisma,
+        summary: "Dive into the chromatic realm of Prisma, solving puzzles, unveiling hidden paths, and activating " +
+            "prism statues for a vivid escape!",
+        link: "/prisma",
+
+    },
 
     {
         name: "Freddy's Cafe(2023)",

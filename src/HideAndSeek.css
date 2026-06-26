@@ -1,0 +1,118 @@
+#has-wrapper {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#has-wrapper a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+#has-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.has-section {
+    padding: 0 var(--space-l-900);
+    margin-bottom: var(--space-l-900);
+}
+
+.has-section-inner {
+    max-width: 1200px;
+    margin: auto;
+    padding: var(--space-m-500) 0;
+}
+
+.has-section h2 {
+    font-family: "gambado-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-tertiary);
+    margin-bottom: var(--space-s-300);
+    font-size: var(--font-l-900);
+    letter-spacing: 1px;
+}
+
+.has-section p {
+    font-size: var(--font-m-600);
+    line-height: 1.6;
+    margin-bottom: var(--space-s-200);
+}
+
+.has-section ul {
+    padding-left: var(--space-s-300);
+    margin-top: var(--space-s-100);
+    font-size: var(--font-m-500);
+    line-height: 1.8;
+}
+
+.has-image-grid {
+    display: grid;
+    gap: var(--space-s-200);
+    margin-top: var(--space-m-400);
+}
+
+.has-image-grid.two-col {
+    grid-template-columns: 1fr 1fr;
+}
+
+.has-image-grid.one-col {
+    grid-template-columns: 1fr;
+}
+
+.has-image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+.has-image-placeholder {
+    background-color: #1a1a2e;
+    border: 1px dashed var(--color-tertiary);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-tertiary);
+    font-size: var(--font-s-300);
+    font-family: "JetBrains Mono", monospace;
+    min-height: 300px;
+    opacity: 0.6;
+}
+
+.has-caption {
+    font-size: var(--font-s-300);
+    color: var(--gray-300);
+    font-style: italic;
+    margin-top: var(--space-s-100);
+    text-align: center;
+}
+
+.has-accent {
+    color: var(--color-quaternary);
+    font-style: italic;
+}
+
+@media screen and (max-width: 1024px) {
+    .has-section {
+        padding: 0 var(--space-s-300);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .has-image-grid.two-col {
+        grid-template-columns: 1fr;
+    }
+
+    .has-section h2 {
+        font-size: var(--font-l-800);
+    }
+
+    .has-section p {
+        font-size: var(--font-m-500);
+    }
+}

@@ -34,7 +34,7 @@ function LemonGame(){
                         “When life gives you lemons, make lemonade” is a proverbial phrase used to encourage positivity upon encountering negative situations, as eating a lemon raw can be unpleasant with its sour taste, whereas drinking lemonade can be a more delightful experience. For our game, we took this phrase quite literally. What if a mysterious crate of lemons showed up at your door? What would you do?
                         <br/>
                         <br/>
-                        This game was started during a class teaching "Situational Game Design", in the 4 weeks given. However, we want to continue this game as there is so much more we could add, so consider this a demo of what could be! I worked as a programmer along with my amazing artist Tuana. All assets and code were made by us with the exception of most of the sound effects. This game is actively being updated on our itch.io.
+                        This game was started during a class teaching "Situational Game Design", in the 4 weeks given. However, we want to continue this game as there is so much more we could add, so consider this a demo of what could be! I worked as an along with my brilliant programmer Kira. All assets and code were made by us with the exception of most of the sound effects.
                     </>
                 )}
                 teamMembers={[

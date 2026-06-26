@@ -24,6 +24,8 @@ import DebugCity from "./DebugCity";
 import AcademicMaster from "./AcademicMaster";
 import TFWT from "./TFWT";
 import Line80 from "./Line80";
+import HideAndSeek from "./HideAndSeek.js";
+import ItHasMyFace from "./ItHasMyFace.js";
 function App() {
     return (
         <Router>
@@ -45,8 +47,9 @@ function App() {
                 <Route path={"/sleepy-haven"} element={<SleepyHaven />} />
                 <Route path={"/debug-city"} element={<DebugCity />} />
                 <Route path={"/academic-master"} element={<AcademicMaster />} />
-                <Route path={"/that-forest-wasnt-there"} element={<TFWT />} />
                 <Route path={"/line-80"} element={<Line80 />} />
+                <Route path={"/that-forest-wasnt-there"} element={<HideAndSeek />} />
+                <Route path={"/it-has-my-face"} element={<ItHasMyFace />} />
 
             </Routes>
             <Footer />
