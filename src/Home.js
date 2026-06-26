@@ -2,7 +2,7 @@ import "./Home.css";
 import { GameDesign, WebDesign, ThreeD } from "./Components/Work";
 import { Socials } from "./Components/Socials";
 import { Link } from "react-router-dom";
-import Tuana from "./Images/about-me-pic.jpeg";
+import Tuana from "./Images/tuana-headshot.JPEG";
 import video from "./Images/videoplayback.mp4"
 import React, { useEffect, useState } from "react";
 import dreamTeamThumbnail from "./Images/DT5.png"

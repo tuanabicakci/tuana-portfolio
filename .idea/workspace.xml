@@ -5,51 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="950ba47a-a195-4018-b84f-02e197b67406" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/BarrelWFire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/Beams-difference.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/IHMF_banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/air-filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/benches.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/boss-final.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/boss-shot-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/boss-shot-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/boss-shot-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/boss-shot-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/boss-shot-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/boss-shot-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/boxes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/cafeteria-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/cafeteria-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/canopy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/food-stands.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/generatorinengine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/infirmary-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/infirmary-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/moodboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/neon-street-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/neon-street-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/neonsigns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-after-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-after-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-after-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-after-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-after-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-before-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-before-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-before-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-before-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/remake-before-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ItHasMyFace/vmachines1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/tuana-headshot.JPEG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectBanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectBanner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectCatalogue.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectCatalogue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProjectCatalogue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProjectCatalogue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Socials.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Socials.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItHasMyFace.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItHasMyFace.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItHasMyFace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItHasMyFace.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,11 +85,11 @@
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Images" />
+      <recent name="$PROJECT_DIR$/src/PDFs" />
       <recent name="$PROJECT_DIR$/src/Images/ItHasMyFace" />
       <recent name="$PROJECT_DIR$/src/Images/line80" />
-      <recent name="$PROJECT_DIR$/src/PDFs" />
       <recent name="C:\Users\bicak\WebstormProjects\tuana-portfolio\src" />
-      <recent name="C:\Users\bicak\Desktop\tuana-portfolio\src\Images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -231,7 +189,7 @@
       <workItem from="1761343957734" duration="5447000" />
       <workItem from="1774459023088" duration="3252000" />
       <workItem from="1775863815754" duration="2676000" />
-      <workItem from="1782444388441" duration="7936000" />
+      <workItem from="1782444388441" duration="8869000" />
     </task>
     <servers />
   </component>
@@ -259,7 +217,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Home.js</url>
-          <line>20</line>
+          <line>23</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
